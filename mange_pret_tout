@@ -33,8 +33,8 @@ source .venv/bin/activate
 cd /data2/github-slurp/helpers
 
 #mange "frappe" "erpnext" 18000 "zip"
-mange "tensorflow" "tensorflow" 18000 "zip"
-#mange "odoo" "odoo" 400
+#mange "tensorflow" "tensorflow" 18000 "zip"
+mange "odoo" "odoo" 18000 "zip"
 #mange "OWASP" "Nettacker" 400
 #mange "kubernetes" "kubernetes" 400
 #mange "metabase" "metabase" 400
