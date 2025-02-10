@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Function definition with parameters
+mange() {
+  local namespace="$1"
+  local repo="$2"
+  local rows="$3"
+  local method="${4:-csv}"
+
+  echo "namespace ..: $namespace"
+  echo "repo name ..: $repo"
+  echo "row count ..: $rows"
+  echo "method .....: $method"
+
+  rm -fr "/data2/mvdata/data/${namespace}_${repo}"
+
+  python3 mange_csv.py \
+  --output="/data2/mvdata/data/${namespace}_${repo}" \
+  --rows=$rows \
+  --method="${method}" \
+  --file="/data2/github-slurp/data/${namespace}_${repo}/${repo}_issues.csv"
+
+  python3 mange_csv.py \
+  --output="/data2/mvdata/data/${namespace}_${repo}" \
+  --rows=$rows \
+  --method="${method}" \
+  --file="/data2/github-slurp/data/${namespace}_${repo}/${repo}_pull_requests.csv"
+
+}
+
+cd /data2/github-slurp
+source .venv/bin/activate
+cd /data2/github-slurp/helpers
+
+#mange "frappe" "erpnext" 100
+#mange "tensorflow" "tensorflow" 300
+#mange "odoo" "odoo" 400
+#mange "OWASP" "Nettacker" 400
+#mange "kubernetes" "kubernetes" 400
+#mange "metabase" "metabase" 400
+#mange "apache" "airflow" 400
+# was 1800
+mange "pytorch" "pytorch" 2100 "zip"
+
