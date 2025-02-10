@@ -32,15 +32,14 @@ cd /data2/github-slurp
 source .venv/bin/activate
 cd /data2/github-slurp/helpers
 
-#mange "frappe" "erpnext" 100
+mange "frappe" "erpnext" 18000 "zip"
 #mange "tensorflow" "tensorflow" 300
 #mange "odoo" "odoo" 400
 #mange "OWASP" "Nettacker" 400
 #mange "kubernetes" "kubernetes" 400
 #mange "metabase" "metabase" 400
 #mange "apache" "airflow" 400
-# was 16000
-mange "pytorch" "pytorch" 18000 "zip"
+#mange "pytorch" "pytorch" 18000 "zip"
 
 cd /data2/mvdata
 git add .
