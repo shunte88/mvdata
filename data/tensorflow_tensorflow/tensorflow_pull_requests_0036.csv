@@ -1,0 +1,1414 @@
+id,type,state,state_reason,title,body,author,created_at,assignees,updated_at,closed_at,url,labels,comments_list,comment_thread
+2486902301,pull_request,closed,,[XLA:GPU][MLIR-based emitters] Name bbArgs for xla_gpu.loop.,"[XLA:GPU][MLIR-based emitters] Name bbArgs for xla_gpu.loop.
+
+```
+%xla_loop = xla_gpu.loop (%arg)[%i, %j] -> (%ra, %rb)
+    in #indexing_map iter_args(%iter = %arg1) -> (f32) {
+      ...
+    }
+```
+",copybara-service[bot],2024-08-26 13:38:49+00:00,['pifon2a'],2024-08-26 21:01:41+00:00,2024-08-26 20:46:31+00:00,https://github.com/tensorflow/tensorflow/pull/74522,[],"[{'comment_id': 2311088914, 'issue_id': 2486902301, 'author': 'AleLocci', 'body': 'OK', 'created_at': datetime.datetime(2024, 8, 26, 21, 1, 40, tzinfo=datetime.timezone.utc)}]","AleLocci on (2024-08-26 21:01:40 UTC): OK
+
+"
+2486786379,pull_request,closed,,Integrate LLVM at llvm/llvm-project@65281570afd7,"Integrate LLVM at llvm/llvm-project@65281570afd7
+
+Updates LLVM usage to match
+[65281570afd7](https://github.com/llvm/llvm-project/commit/65281570afd7)
+",copybara-service[bot],2024-08-26 12:47:47+00:00,[],2024-08-26 14:24:06+00:00,2024-08-26 14:24:06+00:00,https://github.com/tensorflow/tensorflow/pull/74520,[],[],
+2486770212,pull_request,closed,,Add lowering for MaterializeOp,"Add lowering for MaterializeOp
+",copybara-service[bot],2024-08-26 12:39:54+00:00,[],2024-08-26 15:06:03+00:00,2024-08-26 15:06:02+00:00,https://github.com/tensorflow/tensorflow/pull/74519,[],[],
+2486636696,pull_request,closed,,[XLA:GPU] Simplify indexing for 102 transpose,"[XLA:GPU] Simplify indexing for 102 transpose
+
+A transpose with a small unchanged most minor dimension is kind of like
+vectorization. So use the vectorization indexing logic.
+",copybara-service[bot],2024-08-26 11:32:07+00:00,['akuegel'],2024-08-26 12:36:33+00:00,2024-08-26 12:36:32+00:00,https://github.com/tensorflow/tensorflow/pull/74517,[],[],
+2486589510,pull_request,closed,,[XLA:GPU][MLIR-based emitters] Add indexing map results bbArgs.,"[XLA:GPU][MLIR-based emitters] Add indexing map results bbArgs.
+",copybara-service[bot],2024-08-26 11:05:53+00:00,['pifon2a'],2024-08-26 13:28:00+00:00,2024-08-26 13:27:59+00:00,https://github.com/tensorflow/tensorflow/pull/74516,[],[],
+2486437404,pull_request,open,,PR #14111: Tuple Outputs in Convolution Algorithm Picker,"PR #14111: Tuple Outputs in Convolution Algorithm Picker
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/14111
+
+Adds support for tuple-shaped outputs in the convolution algorithm picker.
+
+This enables running TestConvAmaxF8 and TestConvReluAmaxF8 in cudnn_fused_conv_rewriter_test.cc.
+Copybara import of the project:
+
+--
+f9c98f1e210df12a00bf050fd8a59bb66913f12e by Philipp Hack <phack@nvidia.com>:
+
+Adds support for tuple outputs in the convolution algorithm picker.
+
+--
+d7225e74e8f4966f963a3c9a73bad220281c88ab by Philipp Hack <phack@nvidia.com>:
+
+Adds support for tuple outputs in the convolution algorithm picker.
+
+Merging this change closes #14111
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/14111 from philipphack:u_conv_algorithm_tuple_xla d7225e74e8f4966f963a3c9a73bad220281c88ab
+",copybara-service[bot],2024-08-26 09:47:40+00:00,[],2024-08-27 06:39:05+00:00,,https://github.com/tensorflow/tensorflow/pull/74515,[],[],
+2486423237,pull_request,closed,,Integrate Triton up to [b2de88f8](https://github.com/openai/triton/commits/b2de88f89c1ff8082c92165535e48dece55da392),"Integrate Triton up to [b2de88f8](https://github.com/openai/triton/commits/b2de88f89c1ff8082c92165535e48dece55da392)
+",copybara-service[bot],2024-08-26 09:41:02+00:00,[],2024-09-05 11:33:48+00:00,2024-09-05 11:33:47+00:00,https://github.com/tensorflow/tensorflow/pull/74514,[],[],
+2486384181,pull_request,closed,,PR #16439: Add optimization barrier as no op,"PR #16439: Add optimization barrier as no op
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16439
+
+For PGLE latency hiding scheduler, optimization barrier should be considered a no-op because it is never really executed.
+Copybara import of the project:
+
+--
+44bab12c6fb0b0c4d60ac62113eae7c959c05536 by Shraiysh Vaishay <svaishay@nvidia.com>:
+
+Add optimization barrier as no op
+
+For PGLE latency hiding scheduler, optimization barrier should be
+considered a no-op because it is never really executed.
+
+Merging this change closes #16439
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16439 from shraiysh:fix_pgle_latency_scheduler 44bab12c6fb0b0c4d60ac62113eae7c959c05536
+",copybara-service[bot],2024-08-26 09:23:21+00:00,[],2024-08-26 10:25:12+00:00,2024-08-26 10:25:11+00:00,https://github.com/tensorflow/tensorflow/pull/74513,[],[],
+2486373663,pull_request,closed,,PR #15798: Allow fusing epilogues whose operands are broadcast of scalar instructions.,"PR #15798: Allow fusing epilogues whose operands are broadcast of scalar instructions.
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/15798
+
+Allow fusing epilogues whose operands are broadcast of scalar instructions. This enables creating fusions for fp8 where the pattern is `mul(dot, scalar_ops)` where scalar ops's shapes are scalar.  This only affects epilogues, the operands of broadcast will still follow the existing fusing rules. Both triton and cuDNN backends support this kind of fusion. 
+
+cc @sergachev 
+Copybara import of the project:
+
+--
+3b56979f88430bbbe43f223ad20d5e79db35c0d4 by Elfie Guo <elfieg@nvidia.com>:
+
+Allow fusing epilogues whose operands are broadcast of scalar instructions.
+
+Merging this change closes #15798
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/15798 from elfiegg:broadcast 3b56979f88430bbbe43f223ad20d5e79db35c0d4
+",copybara-service[bot],2024-08-26 09:18:16+00:00,[],2024-08-27 11:27:11+00:00,2024-08-27 11:27:10+00:00,https://github.com/tensorflow/tensorflow/pull/74512,[],[],
+2486370461,pull_request,closed,,PR #16451: [typo] fix a typo of latency_hiding_scheduler.h,"PR #16451: [typo] fix a typo of latency_hiding_scheduler.h
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16451
+
+
+Copybara import of the project:
+
+--
+9068743a7908349f89fb2ab4ab6b653dc2231a45 by flyingcat <1004815462@qq.com>:
+
+[typo] fix a typo of latency_hiding_scheduler.h
+
+Merging this change closes #16451
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16451 from knightXun:patch-1 9068743a7908349f89fb2ab4ab6b653dc2231a45
+",copybara-service[bot],2024-08-26 09:16:45+00:00,[],2024-08-26 10:05:48+00:00,2024-08-26 10:05:47+00:00,https://github.com/tensorflow/tensorflow/pull/74511,[],[],
+2486333381,pull_request,closed,,Clean up usage of backend_tags,"Clean up usage of backend_tags
+
+1. Use `gpu_any` instead of `gpu` with `requires-gpu-nvidia`-tag. (`gpu` also means AMD, but `gpu_any` means any NVIDIA GPU)
+2. Use explicit list of `gpu_{v|a|h}100` targets instead of `gpu` with `requires-gpu-smXY` tag. (`gpu` with `requires-gpu-sm90` creates tests `_gpu_v100`, `_gpu_a100`, and `_gpu_h100` which all have `requires-gpu-sm90` attached which makes no sense.)
+3. Mark all NVIDIA-specific GPU tests (`_gpu_any`, `_gpu_{p,v,a,h}100`) as `no_rocm` so that we don't need to add this tag manually. We can now enable ROCm on a test by adding the `gpu_amd_any` backend instead and `gpu_any` for NVIDIA.
+
+We should definitely rename `gpu_any` to `gpu_nvidia_any` but this is out of scope of this change.
+",copybara-service[bot],2024-08-26 09:00:28+00:00,[],2024-08-28 10:08:16+00:00,2024-08-28 10:08:14+00:00,https://github.com/tensorflow/tensorflow/pull/74510,[],[],
+2486275140,pull_request,closed,,Internal ROCm change,"Internal ROCm change
+
+This avoids the need for an include of `hip_runtime.h`.
+",copybara-service[bot],2024-08-26 08:32:15+00:00,[],2024-08-27 09:37:10+00:00,2024-08-27 09:37:08+00:00,https://github.com/tensorflow/tensorflow/pull/74509,[],[],
+2486267885,pull_request,open,,Integrate LLVM at llvm/llvm-project@2f4232db0b72,"Integrate LLVM at llvm/llvm-project@2f4232db0b72
+
+Updates LLVM usage to match
+[2f4232db0b72](https://github.com/llvm/llvm-project/commit/2f4232db0b72)
+",copybara-service[bot],2024-08-26 08:28:35+00:00,[],2024-08-26 08:28:35+00:00,,https://github.com/tensorflow/tensorflow/pull/74508,[],[],
+2486214224,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 08:01:30+00:00,[],2024-08-26 08:01:30+00:00,,https://github.com/tensorflow/tensorflow/pull/74507,[],[],
+2486168736,pull_request,open,,Adds missing datatype support for various tflite operations,"- Adds bf16, f16 support for tfl.atan2
+- Adds bf16,f16,int8,int16 for tfl.neg
+- Adds bf16, f16 support for tfl.min, tfl.max
+- Adds bf16, f16 support for tfl.slice
+- Adds bf16, f16 support for tfl.round
+- Adds bf16, f16 support for tfl.reverse
+- Adds bf16, f16 support for tfl.pad
+- Adds bf16, f16 support for tfl.tanh and tfl.logistic
+- Adds bf16, f16 support for tfl.floor",swatheesh-mcw,2024-08-26 07:37:49+00:00,['gbaned'],2025-02-02 18:02:39+00:00,,https://github.com/tensorflow/tensorflow/pull/74506,"[('awaiting review', 'Pull request awaiting review'), ('comp:lite', 'TF Lite related issues'), ('ready to pull', 'PR ready for merge process'), ('size:XL', 'CL Change Size:Extra Large')]","[{'comment_id': 2311665734, 'issue_id': 2486168736, 'author': 'keerthanakadiri', 'body': 'Hi @swatheesh-mcw, Can you please resolve the conflicts? Thank you!', 'created_at': datetime.datetime(2024, 8, 27, 6, 20, 35, tzinfo=datetime.timezone.utc)}, {'comment_id': 2311704682, 'issue_id': 2486168736, 'author': 'amrinfathima-mcw', 'body': '> Hi @swatheesh-mcw, Can you please resolve the conflicts? Thank you!\r\nHi @keerthanakadiri, the merge conflict has been resolved but we also noticed that the `TFLITE_TENSOR_TYPE_ASSOC(Eigen::bfloat16, TensorType_BFLOAT16);` has been added in tensorflow/lite/kernels/test_util.h twice, in lines 1175 and 1171, should we create a new commit from our master addressing this issue?', 'created_at': datetime.datetime(2024, 8, 27, 6, 48, 56, tzinfo=datetime.timezone.utc)}, {'comment_id': 2314793189, 'issue_id': 2486168736, 'author': 'keerthanakadiri', 'body': 'Hi @@swatheesh-mcw , could please assist on this comment\r\n\r\n> > Hi @swatheesh-mcw, Can you please resolve the conflicts? Thank you!\r\n> > Hi @keerthanakadiri, the merge conflict has been resolved but we also noticed that the `TFLITE_TENSOR_TYPE_ASSOC(Eigen::bfloat16, TensorType_BFLOAT16);` has been added in tensorflow/lite/kernels/test_util.h twice, in lines 1175 and 1171, should we create a new commit from our master addressing this issue?\r\n\r\nHi @swatheesh-mcw , Could you please assist with this [comment](https://github.com/tensorflow/tensorflow/pull/74506#issuecomment-2311704682) from @amrinfathima-mcw .Thank you !', 'created_at': datetime.datetime(2024, 8, 28, 9, 21, 53, tzinfo=datetime.timezone.utc)}, {'comment_id': 2314836960, 'issue_id': 2486168736, 'author': 'swatheesh-mcw', 'body': '> Hi @swatheesh-mcw , Could you please assist with this [comment](https://github.com/tensorflow/tensorflow/pull/74506#issuecomment-2311704682) from @amrinfathima-mcw .Thank you !\r\n\r\nHi @keerthanakadiri, we have resolved the merge conflict in **floor_test.cc** file. We also noticed that during merging few of our branches together into our master branch, `TFLITE_TENSOR_TYPE_ASSOC(Eigen::bfloat16, TensorType_BFLOAT16);` line has been added **twice** in line **1171** and **1175** in **tensorflow/lite/kernels/test_util.h** file. Can we resolve this issue by removing one of the lines and create a new commit in the same pull request for your review? Sorry we just noticed it after creating the pull request. Thanks!', 'created_at': datetime.datetime(2024, 8, 28, 9, 41, 23, tzinfo=datetime.timezone.utc)}, {'comment_id': 2367665448, 'issue_id': 2486168736, 'author': 'keerthanakadiri', 'body': 'Hi @talumbau , Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 9, 23, 9, 24, 38, tzinfo=datetime.timezone.utc)}, {'comment_id': 2384869001, 'issue_id': 2486168736, 'author': 'keerthanakadiri', 'body': 'Hi @talumbau , Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 10, 1, 6, 0, 38, tzinfo=datetime.timezone.utc)}, {'comment_id': 2399577205, 'issue_id': 2486168736, 'author': 'keerthanakadiri', 'body': 'Hi @talumbau , Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 10, 8, 11, 23, 48, tzinfo=datetime.timezone.utc)}, {'comment_id': 2431450049, 'issue_id': 2486168736, 'author': 'keerthanakadiri', 'body': 'Hi @talumbau , Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 10, 23, 9, 22, 57, tzinfo=datetime.timezone.utc)}, {'comment_id': 2498794332, 'issue_id': 2486168736, 'author': 'grantjensen', 'body': 'Hi, I am not familiar enough with tflite CPU kernels to provide valuable feedback here.', 'created_at': datetime.datetime(2024, 11, 25, 18, 52, 25, tzinfo=datetime.timezone.utc)}, {'comment_id': 2530562218, 'issue_id': 2486168736, 'author': 'keerthanakadiri', 'body': 'Hi @swatheesh-mcw, Can you please resolve the conflicts? Thank you!', 'created_at': datetime.datetime(2024, 12, 10, 6, 31, 19, tzinfo=datetime.timezone.utc)}, {'comment_id': 2531015219, 'issue_id': 2486168736, 'author': 'swatheesh-mcw', 'body': '> Hi @swatheesh-mcw, Can you please resolve the conflicts? Thank you!\r\n\r\nThe merge conflicts have been resolved.', 'created_at': datetime.datetime(2024, 12, 10, 9, 37, 53, tzinfo=datetime.timezone.utc)}, {'comment_id': 2562183745, 'issue_id': 2486168736, 'author': 'amrinfathima-mcw', 'body': 'Hi @keerthanakadiri , can you please add @vamsimanchala as the reviewer for this PR? Thanks!', 'created_at': datetime.datetime(2024, 12, 26, 5, 49, 20, tzinfo=datetime.timezone.utc)}]","keerthanakadiri on (2024-08-27 06:20:35 UTC): Hi @swatheesh-mcw, Can you please resolve the conflicts? Thank you!
+
+amrinfathima-mcw on (2024-08-27 06:48:56 UTC): Hi @keerthanakadiri, the merge conflict has been resolved but we also noticed that the `TFLITE_TENSOR_TYPE_ASSOC(Eigen::bfloat16, TensorType_BFLOAT16);` has been added in tensorflow/lite/kernels/test_util.h twice, in lines 1175 and 1171, should we create a new commit from our master addressing this issue?
+
+keerthanakadiri on (2024-08-28 09:21:53 UTC): Hi @@swatheesh-mcw , could please assist on this comment
+
+
+Hi @swatheesh-mcw , Could you please assist with this [comment](https://github.com/tensorflow/tensorflow/pull/74506#issuecomment-2311704682) from @amrinfathima-mcw .Thank you !
+
+swatheesh-mcw (Issue Creator) on (2024-08-28 09:41:23 UTC): Hi @keerthanakadiri, we have resolved the merge conflict in **floor_test.cc** file. We also noticed that during merging few of our branches together into our master branch, `TFLITE_TENSOR_TYPE_ASSOC(Eigen::bfloat16, TensorType_BFLOAT16);` line has been added **twice** in line **1171** and **1175** in **tensorflow/lite/kernels/test_util.h** file. Can we resolve this issue by removing one of the lines and create a new commit in the same pull request for your review? Sorry we just noticed it after creating the pull request. Thanks!
+
+keerthanakadiri on (2024-09-23 09:24:38 UTC): Hi @talumbau , Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-10-01 06:00:38 UTC): Hi @talumbau , Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-10-08 11:23:48 UTC): Hi @talumbau , Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-10-23 09:22:57 UTC): Hi @talumbau , Can you please review this PR? Thank you !
+
+grantjensen on (2024-11-25 18:52:25 UTC): Hi, I am not familiar enough with tflite CPU kernels to provide valuable feedback here.
+
+keerthanakadiri on (2024-12-10 06:31:19 UTC): Hi @swatheesh-mcw, Can you please resolve the conflicts? Thank you!
+
+swatheesh-mcw (Issue Creator) on (2024-12-10 09:37:53 UTC): The merge conflicts have been resolved.
+
+amrinfathima-mcw on (2024-12-26 05:49:20 UTC): Hi @keerthanakadiri , can you please add @vamsimanchala as the reviewer for this PR? Thanks!
+
+"
+2486117468,pull_request,closed,,Enhance TensorFlow 2.18.0 Release Notes: API Consistency and Hermetic CUDA Support,"Updated TensorFlow 2.18.0 release notes to highlight key focus areas, including improvements in API consistency and the introduction of hermetic CUDA support. Clarified breaking changes, including the addition of an optional parameter to TfLiteOperatorCreate and the disablement of TensorRT in CUDA builds. Improved documentation for better readability and accuracy.",swalehmwadime,2024-08-26 07:13:27+00:00,['gbaned'],2024-08-27 13:47:25+00:00,2024-08-27 13:47:23+00:00,https://github.com/tensorflow/tensorflow/pull/74505,"[('size:S', 'CL Change Size: Small')]","[{'comment_id': 2309501773, 'issue_id': 2486117468, 'author': 'google-cla[bot]', 'body': ""Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\nView this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74505/checks?check_run_id=29238682850) of the CLA check for more information.\n\nFor the most up to date status, view the checks section at the bottom of the pull request."", 'created_at': datetime.datetime(2024, 8, 26, 7, 13, 31, tzinfo=datetime.timezone.utc)}]","google-cla[bot] on (2024-08-26 07:13:31 UTC): Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).
+
+View this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74505/checks?check_run_id=29238682850) of the CLA check for more information.
+
+For the most up to date status, view the checks section at the bottom of the pull request.
+
+"
+2486104857,pull_request,closed,,Describe SignatureDef.method_name as deprecated and remove examples.,"Describe SignatureDef.method_name as deprecated and remove examples.
+For context, see commit https://github.com/tensorflow/serving/commit/b724ceda57b4fdc9b5bd09da231c7186435cd807
+",copybara-service[bot],2024-08-26 07:06:46+00:00,[],2024-08-26 08:10:51+00:00,2024-08-26 08:10:48+00:00,https://github.com/tensorflow/tensorflow/pull/74504,[],[],
+2486030297,pull_request,closed,,PR #16358: [XLA:GPU] Add cuDNN sliding window attention support,"PR #16358: [XLA:GPU] Add cuDNN sliding window attention support
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16358
+
+* Add support for cuDNN sliding window attention in XLA runner, not supported in pattern matcher.
+* required by Gemma 2 workload.
+Copybara import of the project:
+
+--
+c33778f893fcb2389aeff20b1f08a34dcfa2b6f3 by cjkkkk <ske@nvidia.com>:
+
+add sliding window length
+
+--
+4c19e805fd2abed0b2404378abf2ebfe4684162d by cjkkkk <ske@nvidia.com>:
+
+add unit test
+
+--
+d10644b824d6dadb138966cc206a4f2e9d3ec183 by cjkkkk <ske@nvidia.com>:
+
+fix unit test
+
+--
+a3bb98a23c8809bbbbd15e14e67ec05deb0ea3e6 by cjkkkk <ske@nvidia.com>:
+
+add comments for sliding window length
+
+--
+a46ed09d12bf0a0acdef7357738f0cf6467a86ef by cjkkkk <ske@nvidia.com>:
+
+lift cudnn version for sliding window attn to 9.2
+
+Merging this change closes #16358
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16358 from Cjkkkk:sliding_window_attention a46ed09d12bf0a0acdef7357738f0cf6467a86ef
+",copybara-service[bot],2024-08-26 06:26:18+00:00,[],2024-08-27 14:13:37+00:00,2024-08-27 14:13:35+00:00,https://github.com/tensorflow/tensorflow/pull/74503,[],[],
+2485943705,pull_request,closed,,Changes to the test log proto for TSL changes,"Changes to the test log proto for TSL changes
+",copybara-service[bot],2024-08-26 05:33:05+00:00,[],2024-08-27 21:01:24+00:00,2024-08-27 21:01:23+00:00,https://github.com/tensorflow/tensorflow/pull/74502,[],[],
+2485740956,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:56:21+00:00,[],2024-08-29 05:41:31+00:00,2024-08-29 05:41:30+00:00,https://github.com/tensorflow/tensorflow/pull/74501,[],[],
+2485727169,pull_request,closed,,[xla:cpu] Optimize ThunkExecutor::RunTransitiveReductionAndUpdatePriorities,"[xla:cpu] Optimize ThunkExecutor::RunTransitiveReductionAndUpdatePriorities
+",copybara-service[bot],2024-08-26 02:43:19+00:00,['ezhulenev'],2024-08-26 03:11:06+00:00,2024-08-26 03:11:01+00:00,https://github.com/tensorflow/tensorflow/pull/74500,[],[],
+2485720638,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:38:34+00:00,[],2024-08-26 02:38:34+00:00,,https://github.com/tensorflow/tensorflow/pull/74499,[],[],
+2485715206,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:33:10+00:00,[],2024-08-26 02:33:10+00:00,,https://github.com/tensorflow/tensorflow/pull/74498,[],[],
+2485713949,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:31:52+00:00,[],2024-08-26 02:31:52+00:00,,https://github.com/tensorflow/tensorflow/pull/74497,[],[],
+2485713387,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:31:21+00:00,[],2024-08-30 07:00:45+00:00,2024-08-30 07:00:44+00:00,https://github.com/tensorflow/tensorflow/pull/74496,[],[],
+2485712323,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:30:09+00:00,[],2024-08-26 02:30:09+00:00,,https://github.com/tensorflow/tensorflow/pull/74495,[],[],
+2485711079,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:28:50+00:00,[],2024-08-26 02:28:50+00:00,,https://github.com/tensorflow/tensorflow/pull/74494,[],[],
+2485705554,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:23:21+00:00,[],2024-08-26 02:23:21+00:00,,https://github.com/tensorflow/tensorflow/pull/74493,[],[],
+2485702432,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:20:27+00:00,[],2024-08-26 02:20:27+00:00,,https://github.com/tensorflow/tensorflow/pull/74492,[],[],
+2485701441,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:19:38+00:00,[],2024-08-30 05:48:58+00:00,2024-08-30 05:48:57+00:00,https://github.com/tensorflow/tensorflow/pull/74491,[],[],
+2485700825,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:19:06+00:00,[],2024-08-26 02:19:06+00:00,,https://github.com/tensorflow/tensorflow/pull/74490,[],[],
+2485699701,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:18:12+00:00,[],2024-08-26 02:18:12+00:00,,https://github.com/tensorflow/tensorflow/pull/74489,[],[],
+2485699658,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:18:10+00:00,[],2024-08-27 14:55:08+00:00,,https://github.com/tensorflow/tensorflow/pull/74488,[],[],
+2485699216,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:17:48+00:00,[],2024-08-26 08:41:04+00:00,2024-08-26 08:41:03+00:00,https://github.com/tensorflow/tensorflow/pull/74487,[],[],
+2485698832,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:17:31+00:00,[],2024-08-26 02:17:31+00:00,,https://github.com/tensorflow/tensorflow/pull/74486,[],[],
+2485698314,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:17:06+00:00,[],2024-08-26 08:33:27+00:00,2024-08-26 08:33:27+00:00,https://github.com/tensorflow/tensorflow/pull/74485,[],[],
+2485696546,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:15:50+00:00,[],2024-08-26 02:15:50+00:00,,https://github.com/tensorflow/tensorflow/pull/74484,[],[],
+2485695109,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-26 02:14:50+00:00,[],2024-08-27 07:24:42+00:00,,https://github.com/tensorflow/tensorflow/pull/74483,[],[],
+2485566066,pull_request,closed,,Add support for dynamic batch for convs in direct legalizations.,"Add support for dynamic batch for convs in direct legalizations.
+",copybara-service[bot],2024-08-26 00:23:54+00:00,['LukeBoyer'],2024-08-28 22:30:00+00:00,2024-08-28 22:29:58+00:00,https://github.com/tensorflow/tensorflow/pull/74482,[],[],
+2485565985,pull_request,closed,,Match and fuse broadcasts directly for binary elmentwise ops.,"Match and fuse broadcasts directly for binary elmentwise ops.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/15671 from ROCm:rocm_mlir b955a9219d3602b0ac82c762f1fb93d6e2cd511d
+",copybara-service[bot],2024-08-26 00:23:49+00:00,['LukeBoyer'],2024-08-28 00:04:04+00:00,2024-08-28 00:04:02+00:00,https://github.com/tensorflow/tensorflow/pull/74481,[],[],
+2485564626,pull_request,closed,,Add direct legalizations for constant ops.,"Add direct legalizations for constant ops.
+",copybara-service[bot],2024-08-26 00:22:23+00:00,['LukeBoyer'],2024-09-04 18:13:30+00:00,2024-09-04 18:13:29+00:00,https://github.com/tensorflow/tensorflow/pull/74480,[],[],
+2485563842,pull_request,closed,,Add direct legalization for dynamic iota.,"Add direct legalization for dynamic iota.
+",copybara-service[bot],2024-08-26 00:21:36+00:00,['LukeBoyer'],2024-08-29 21:09:26+00:00,2024-08-29 21:09:25+00:00,https://github.com/tensorflow/tensorflow/pull/74479,[],[],
+2485563207,pull_request,closed,,Add pattern to remove shape assertion custom calls.,"Add pattern to remove shape assertion custom calls.
+",copybara-service[bot],2024-08-26 00:20:58+00:00,['LukeBoyer'],2024-08-30 01:35:00+00:00,2024-08-30 01:34:57+00:00,https://github.com/tensorflow/tensorflow/pull/74478,[],[],
+2485563128,pull_request,closed,,Add direct legalization for real dynamic slice,"Add direct legalization for real dynamic slice
+",copybara-service[bot],2024-08-26 00:20:54+00:00,['LukeBoyer'],2024-08-28 23:45:41+00:00,2024-08-28 23:45:40+00:00,https://github.com/tensorflow/tensorflow/pull/74477,[],[],
+2485186317,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 11:14:08+00:00,[],2024-08-25 11:14:08+00:00,,https://github.com/tensorflow/tensorflow/pull/74476,[],[],
+2485106479,pull_request,closed,,Turn off hlo->tf.,"Turn off hlo->tf.
+",copybara-service[bot],2024-08-25 07:38:40+00:00,['LukeBoyer'],2024-09-10 22:29:17+00:00,2024-09-10 22:29:16+00:00,https://github.com/tensorflow/tensorflow/pull/74474,[],[],
+2485099708,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 07:18:04+00:00,[],2024-08-25 07:18:04+00:00,,https://github.com/tensorflow/tensorflow/pull/74473,[],[],
+2485048762,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:39:54+00:00,[],2024-08-25 04:39:54+00:00,,https://github.com/tensorflow/tensorflow/pull/74472,[],[],
+2485041107,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:26:50+00:00,[],2024-08-29 13:01:42+00:00,2024-08-29 13:01:42+00:00,https://github.com/tensorflow/tensorflow/pull/74471,[],[],
+2485040347,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:25:38+00:00,[],2024-08-25 04:25:38+00:00,,https://github.com/tensorflow/tensorflow/pull/74470,[],[],
+2485033800,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:15:21+00:00,[],2024-08-25 04:15:21+00:00,,https://github.com/tensorflow/tensorflow/pull/74469,[],[],
+2485032689,pull_request,closed,,Automated Code Change,"Automated Code Change
+
+Reverts changelist 613649570
+",copybara-service[bot],2024-08-25 04:12:09+00:00,[],2024-08-27 09:02:09+00:00,2024-08-27 09:02:07+00:00,https://github.com/tensorflow/tensorflow/pull/74468,[],[],
+2485031292,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:06:58+00:00,[],2024-08-25 17:35:23+00:00,2024-08-25 17:35:22+00:00,https://github.com/tensorflow/tensorflow/pull/74467,[],[],
+2485030841,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:05:14+00:00,[],2024-08-25 04:05:14+00:00,,https://github.com/tensorflow/tensorflow/pull/74466,[],[],
+2485030722,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:04:46+00:00,[],2024-08-27 07:31:12+00:00,2024-08-27 07:31:11+00:00,https://github.com/tensorflow/tensorflow/pull/74465,[],[],
+2485029914,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 04:01:33+00:00,[],2024-08-29 05:21:52+00:00,2024-08-29 05:21:52+00:00,https://github.com/tensorflow/tensorflow/pull/74464,[],[],
+2485027424,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 03:49:06+00:00,[],2024-08-27 06:24:22+00:00,,https://github.com/tensorflow/tensorflow/pull/74463,[],[],
+2485006235,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 02:25:51+00:00,[],2024-08-25 02:25:51+00:00,,https://github.com/tensorflow/tensorflow/pull/74462,[],[],
+2485002024,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-25 02:14:58+00:00,[],2024-08-25 02:14:58+00:00,,https://github.com/tensorflow/tensorflow/pull/74461,[],[],
+2484901828,pull_request,closed,,Pin tpu input to premapped buffer for ifrt code paths,"Pin tpu input to premapped buffer for ifrt code paths
+",copybara-service[bot],2024-08-24 22:28:58+00:00,[],2024-08-26 21:55:52+00:00,2024-08-26 21:55:52+00:00,https://github.com/tensorflow/tensorflow/pull/74460,[],[],
+2484434048,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 09:31:20+00:00,[],2024-08-24 09:31:20+00:00,,https://github.com/tensorflow/tensorflow/pull/74458,[],[],
+2484365130,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:36:08+00:00,[],2024-08-24 08:36:08+00:00,,https://github.com/tensorflow/tensorflow/pull/74457,[],[],
+2484364648,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:35:35+00:00,[],2024-08-28 05:25:03+00:00,,https://github.com/tensorflow/tensorflow/pull/74456,[],[],
+2484364133,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:35:00+00:00,[],2024-08-24 10:59:59+00:00,,https://github.com/tensorflow/tensorflow/pull/74455,[],[],
+2484364028,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:34:53+00:00,[],2024-08-24 10:43:58+00:00,,https://github.com/tensorflow/tensorflow/pull/74454,[],[],
+2484363455,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:34:14+00:00,[],2024-08-24 11:20:36+00:00,,https://github.com/tensorflow/tensorflow/pull/74453,[],[],
+2484362289,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:32:52+00:00,[],2024-08-24 10:22:42+00:00,,https://github.com/tensorflow/tensorflow/pull/74452,[],[],
+2484355904,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:25:20+00:00,[],2024-08-28 05:24:09+00:00,2024-08-28 05:24:09+00:00,https://github.com/tensorflow/tensorflow/pull/74451,[],[],
+2484355219,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:24:40+00:00,[],2024-08-24 10:36:14+00:00,,https://github.com/tensorflow/tensorflow/pull/74450,[],[],
+2484352829,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:21:02+00:00,[],2024-08-30 06:24:56+00:00,,https://github.com/tensorflow/tensorflow/pull/74449,[],[],
+2484352247,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 08:20:03+00:00,[],2024-08-24 10:05:46+00:00,,https://github.com/tensorflow/tensorflow/pull/74448,[],[],
+2484333433,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 07:44:58+00:00,[],2024-08-27 07:39:16+00:00,2024-08-27 07:39:15+00:00,https://github.com/tensorflow/tensorflow/pull/74447,[],[],
+2484288050,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 06:30:52+00:00,[],2024-08-24 06:30:52+00:00,,https://github.com/tensorflow/tensorflow/pull/74446,[],[],
+2484283940,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-24 06:22:59+00:00,[],2024-08-24 09:35:49+00:00,,https://github.com/tensorflow/tensorflow/pull/74445,[],[],
+2484271933,pull_request,closed,,Add more unit tests for NcclCliqueKey and NcclCliqueId.,"Add more unit tests for NcclCliqueKey and NcclCliqueId.
+",copybara-service[bot],2024-08-24 06:02:27+00:00,[],2024-08-27 08:33:53+00:00,2024-08-27 08:33:53+00:00,https://github.com/tensorflow/tensorflow/pull/74444,[],[],
+2484103904,pull_request,closed,,Add hermetic NVIDIA driver to CUDA repository rules.,"Add hermetic NVIDIA driver to CUDA repository rules.
+",copybara-service[bot],2024-08-24 01:36:15+00:00,[],2024-09-05 18:28:09+00:00,2024-09-05 18:28:08+00:00,https://github.com/tensorflow/tensorflow/pull/74443,[],[],
+2484036969,pull_request,closed,,Add action which asserts that TSL doesn't depend on XLA,"Add action which asserts that TSL doesn't depend on XLA
+
+This ensures that TSL remains conceptually separate
+",copybara-service[bot],2024-08-23 23:26:14+00:00,['ddunl'],2024-08-26 18:30:35+00:00,2024-08-26 18:30:34+00:00,https://github.com/tensorflow/tensorflow/pull/74441,[],[],
+2484036219,pull_request,open,,Integrate LLVM at llvm/llvm-project@15e915a44f0d,"Integrate LLVM at llvm/llvm-project@15e915a44f0d
+
+Updates LLVM usage to match
+[15e915a44f0d](https://github.com/llvm/llvm-project/commit/15e915a44f0d)
+",copybara-service[bot],2024-08-23 23:24:53+00:00,[],2024-08-23 23:24:53+00:00,,https://github.com/tensorflow/tensorflow/pull/74440,[],[],
+2484017678,pull_request,open,,Integrate LLVM at llvm/llvm-project@15e915a44f0d,"Integrate LLVM at llvm/llvm-project@15e915a44f0d
+
+Updates LLVM usage to match
+[15e915a44f0d](https://github.com/llvm/llvm-project/commit/15e915a44f0d)
+",copybara-service[bot],2024-08-23 23:06:42+00:00,[],2024-08-23 23:06:42+00:00,,https://github.com/tensorflow/tensorflow/pull/74438,[],[],
+2484010344,pull_request,closed,,Fix the fusion of sub to transpose_conv.,"Fix the fusion of sub to transpose_conv.
+
+Previously a sub was incorrectly fused to its preceding TransposeConv op. This change multiplies the operand of Sub by -1 and then places it as the bias of the TransposeConv so that results are numerically correct.
+",copybara-service[bot],2024-08-23 23:02:01+00:00,['majiddadashi'],2024-08-28 02:09:09+00:00,2024-08-28 02:09:08+00:00,https://github.com/tensorflow/tensorflow/pull/74437,[],[],
+2484002248,pull_request,open,,Integrate LLVM at llvm/llvm-project@d86349cf4019,"Integrate LLVM at llvm/llvm-project@d86349cf4019
+
+Updates LLVM usage to match
+[d86349cf4019](https://github.com/llvm/llvm-project/commit/d86349cf4019)
+",copybara-service[bot],2024-08-23 22:53:22+00:00,[],2024-08-23 22:53:22+00:00,,https://github.com/tensorflow/tensorflow/pull/74436,[],[],
+2483988539,pull_request,closed,,Add pfor conversion functions for TopK and TopKV2 ops.,"Add pfor conversion functions for TopK and TopKV2 ops.
+This is required to have efficient handling when these ops are invoked
+within a tf.vectorized_map function.
+",copybara-service[bot],2024-08-23 22:36:20+00:00,[],2024-08-27 06:19:17+00:00,2024-08-27 06:19:14+00:00,https://github.com/tensorflow/tensorflow/pull/74435,[],[],
+2483986416,pull_request,closed,,[XLA:SPMD] Handle the all-reduce with replicated sharding.,"[XLA:SPMD] Handle the all-reduce with replicated sharding.
+
+If an all-reduce has no sharding at the beginning of partitioner, it will be assigned a replicated sharding. It is also possible that all-reduce has a replicated sharding.
+
+For these cases, we will treat it in as an element-wise operations. Namely, we replicate its operands and do the all-reduce.
+",copybara-service[bot],2024-08-23 22:33:47+00:00,[],2024-08-24 04:10:14+00:00,2024-08-24 04:10:10+00:00,https://github.com/tensorflow/tensorflow/pull/74434,[],[],
+2483974923,pull_request,closed,,Integrate StableHLO at openxla/stablehlo@9ef4af15,"Integrate StableHLO at openxla/stablehlo@9ef4af15
+",copybara-service[bot],2024-08-23 22:20:12+00:00,['sdasgup3'],2024-08-26 20:22:26+00:00,2024-08-26 20:22:24+00:00,https://github.com/tensorflow/tensorflow/pull/74433,[],[],
+2483970351,pull_request,closed,,Fix quantization parameters for concat result.,"Fix quantization parameters for concat result.
+
+Note that this fix only applies to TF models containing
+`tf.FakeQuantWithMinMaxVars` ops.
+
+Currently, concat ops with fake quants as inputs don't get their outputs
+properly quantized the `tfl-prepare-tf` pass. Later on in the
+`tfl-prepare-quantize` pass, the concat result is quantized using the scale of
+the first input. This generates incorrect inference results.
+
+This change generates a new fake quant that consumes the output of the concat,
+taking the min and max from across the fake quant inputs. As the result of the
+concat is now properly quantized it avoids the aforementioned eccentric
+behavior.
+",copybara-service[bot],2024-08-23 22:13:51+00:00,['arfaian'],2024-08-29 19:56:24+00:00,2024-08-29 19:56:21+00:00,https://github.com/tensorflow/tensorflow/pull/74432,[],[],
+2483908918,pull_request,open,,Add hermetic NVIDIA driver to CUDA repository rules.,"Add hermetic NVIDIA driver to CUDA repository rules.
+",copybara-service[bot],2024-08-23 21:15:42+00:00,[],2024-09-04 15:24:05+00:00,,https://github.com/tensorflow/tensorflow/pull/74431,[],[],
+2483862830,pull_request,closed,,Merge `exhaustive_unary_f64_test` into `exhaustive_unary_test`,"Merge `exhaustive_unary_f64_test` into `exhaustive_unary_test`
+
+Merges the f64 unary tests into the f32 and smaller ones and adjusts tolerances to pass. This allows sharing of the operation test definitions themselves and enables more tests for f64 than previously specified. f64 tests go from 5397 to 7453.
+
+Merging all of the tests into the same binary led to exeuction time regression because there were too many for the 50 shards to handle. THis introduces a new Bazel template that allows a similar test to binary partitioning as before, but still allows all test definitions to be shared across both partitions.
+",copybara-service[bot],2024-08-23 20:43:43+00:00,[],2024-08-23 22:10:58+00:00,2024-08-23 22:10:57+00:00,https://github.com/tensorflow/tensorflow/pull/74430,[],[],
+2483831659,pull_request,closed,,Internal build change.,"Internal build change.
+",copybara-service[bot],2024-08-23 20:20:13+00:00,['yishuangP'],2024-08-23 21:42:41+00:00,2024-08-23 21:42:40+00:00,https://github.com/tensorflow/tensorflow/pull/74429,[],[],
+2483812643,pull_request,closed,,Support F8E4M3FN and F8E5M2 for Asin XlaOp,"Support F8E4M3FN and F8E5M2 for Asin XlaOp
+
+Adds back in support for `F8E4M3FN` and `F8E5M2`.
+",copybara-service[bot],2024-08-23 20:05:37+00:00,[],2024-08-29 04:51:37+00:00,2024-08-29 04:51:37+00:00,https://github.com/tensorflow/tensorflow/pull/74428,[],[],
+2483802009,pull_request,closed,,Fix issue with EXPECT_NEAR_FAIL_OR_CONTINUE,"Fix issue with EXPECT_NEAR_FAIL_OR_CONTINUE
+
+`continue` does not work on the intended (outer) loop if we wrap in the `do-while` construct to force trailing semicolon. A trailing no-op statement without the semicolon forces the same thing and allows `continue` to work as intended.
+",copybara-service[bot],2024-08-23 19:57:45+00:00,[],2024-08-28 15:28:05+00:00,2024-08-28 15:28:03+00:00,https://github.com/tensorflow/tensorflow/pull/74427,"[('ready to pull', 'PR ready for merge process')]",[],
+2483784715,pull_request,closed,,1. Adjust pre-existing shardings in a device mesh axis-aware manner. This helps generalize the implementation to mesh shapes >2D.,"1. Adjust pre-existing shardings in a device mesh axis-aware manner. This helps generalize the implementation to mesh shapes >2D.
+2. Enable support for mesh shapes >2D.
+",copybara-service[bot],2024-08-23 19:44:43+00:00,[],2024-08-23 22:43:22+00:00,2024-08-23 22:43:21+00:00,https://github.com/tensorflow/tensorflow/pull/74426,[],[],
+2483702062,pull_request,closed,,[xla:cpu] Emit fast Tanh for f64 datatype.,"[xla:cpu] Emit fast Tanh for f64 datatype.
++ Add vectorized tanh unit test and benchmark.
+
+F64 tanh follows the following Eigen implementation by @rmlarsen
+https://gitlab.com/libeigen/eigen/-/merge_requests/1675
+
+Results: 
+2.1-3.7x speedups over the existing implementation (libm call).
+
+Intel Skylake
+name                          old cpu/op   new cpu/op   delta
+BM_TanhF64/128/process_time   2.77µs ± 1%  1.20µs ± 0%  -56.86%  (p=0.008 n=5+5)
+BM_TanhF64/256/process_time   4.88µs ± 1%  1.77µs ± 1%  -63.75%  (p=0.008 n=5+5)
+BM_TanhF64/512/process_time   9.03µs ± 0%  2.90µs ± 1%  -67.89%  (p=0.008 n=5+5)
+BM_TanhF64/1024/process_time  17.5µs ± 1%   5.2µs ± 1%  -70.36%  (p=0.008 n=5+5)
+BM_TanhF64/4096/process_time  71.0µs ± 2%  19.0µs ± 1%  -73.27%  (p=0.008 n=5+5)
+
+AMD Milan
+name                          old cpu/op   new cpu/op   delta
+BM_TanhF64/128/process_time   2.68µs ± 2%  1.23µs ± 1%  -54.05%  (p=0.008 n=5+5)
+BM_TanhF64/256/process_time   4.76µs ± 2%  1.81µs ± 2%  -62.05%  (p=0.008 n=5+5)
+BM_TanhF64/512/process_time   8.90µs ± 1%  2.94µs ± 1%  -66.98%  (p=0.008 n=5+5)
+BM_TanhF64/1024/process_time  17.4µs ± 2%   5.3µs ± 1%  -69.84%  (p=0.008 n=5+5)
+BM_TanhF64/4096/process_time  70.7µs ± 3%  18.9µs ± 1%  -73.24%  (p=0.008 n=5+5)
+",copybara-service[bot],2024-08-23 18:56:16+00:00,['penpornk'],2024-08-23 21:49:07+00:00,2024-08-23 21:49:05+00:00,https://github.com/tensorflow/tensorflow/pull/74425,[],[],
+2483657769,pull_request,closed,,Update information about setting CUDA environment variables.,"Update information about setting CUDA environment variables.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/tensorflow/tensorflow/pull/73875 from ganyu1992:bugfix/event_mgr/op_sched_hang01 a210ae4e6752b008f77b9d0c80cf4ce72060fadf
+",copybara-service[bot],2024-08-23 18:26:29+00:00,[],2024-08-23 20:14:16+00:00,2024-08-23 20:14:15+00:00,https://github.com/tensorflow/tensorflow/pull/74424,[],[],
+2483638926,pull_request,closed,,Fix ResolvePadding to be consistent in the size of the small vector,"Fix ResolvePadding to be consistent in the size of the small vector
+",copybara-service[bot],2024-08-23 18:14:23+00:00,[],2024-11-14 23:34:12+00:00,2024-11-14 23:34:11+00:00,https://github.com/tensorflow/tensorflow/pull/74423,[],[],
+2483638922,pull_request,closed,,[xla:cpu] Do not skip LLVM modules with large constants,"[xla:cpu] Do not skip LLVM modules with large constants
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/14689 from Tixxx:tixxx/unroll_cm b64cb889d8ef1c5afd01676766095de77c5102e3
+",copybara-service[bot],2024-08-23 18:14:23+00:00,['ezhulenev'],2024-08-23 20:35:37+00:00,2024-08-23 20:35:36+00:00,https://github.com/tensorflow/tensorflow/pull/74422,[],[],
+2483587478,pull_request,closed,,Make HloComputation::instruction() and HloComputation::instruction_type(),"Make HloComputation::instruction() and HloComputation::instruction_type()
+public for easier access during debugging.
+",copybara-service[bot],2024-08-23 17:37:46+00:00,[],2024-10-17 19:24:56+00:00,2024-10-17 19:24:56+00:00,https://github.com/tensorflow/tensorflow/pull/74421,[],[],
+2483572608,pull_request,closed,,Fix logic for obtaining major versions of CUDA libraries.,"Fix logic for obtaining major versions of CUDA libraries.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/14689 from Tixxx:tixxx/unroll_cm b64cb889d8ef1c5afd01676766095de77c5102e3
+",copybara-service[bot],2024-08-23 17:28:02+00:00,[],2024-08-23 21:05:56+00:00,2024-08-23 21:05:55+00:00,https://github.com/tensorflow/tensorflow/pull/74420,[],[],
+2483538004,pull_request,closed,,PR #13597: Activation offloading dependency fix: insert a wait,"PR #13597: Activation offloading dependency fix: insert a wait
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/13597
+
+To ensure proper synchronization for the asynchronous copy, this CL makes the other stream wait for the completion of the operation (res_3) in the main stream.
+  %param_1 = f32[1024]{0} parameter(1)
+  %param_0 = f32[1024]{0} parameter(0)
+  %res_3 = f32[1024]{0} fusion(%param_1, %param_0), kind=kInput, calls=mul
+  %copy-start = (f32[1024]{0:S(5)}, f32[1024]{0}, u32[]) copy-start(f32[1024]{0} %res_3)
+Copybara import of the project:
+
+--
+5e41cc490b4ea7daf403ee3902103db2f5b15184 by Jane Liu <janeliu@nvidia.com>:
+
+Activation offloading dependency fix: insert a wait
+
+--
+c6c8b3eddd1cd26ac313ff8c5405d303881682f8 by Jane Liu <janeliu@nvidia.com>:
+
+Assign streams to copy-start instructions and add a Waitfor thunk
+
+--
+9ffa12a2456d74e23963c23cb302af4556c66092 by Jane Liu <janeliu@nvidia.com>:
+
+copy-start always uses a new stream; add Waitfor for both D2H and H2D
+
+Merging this change closes #13597
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/13597 from zhenying-liu:dependency-fix 9ffa12a2456d74e23963c23cb302af4556c66092
+",copybara-service[bot],2024-08-23 17:06:27+00:00,[],2024-08-23 18:06:35+00:00,2024-08-23 18:06:34+00:00,https://github.com/tensorflow/tensorflow/pull/74419,[],[],
+2483445295,pull_request,closed,,[IFRT] Move DeviceList to separate files,"[IFRT] Move DeviceList to separate files
+
+We will change `xla::ifrt::DeviceList` to an interface that can be implemented
+by IFRT runtimes. This change prepares for such upcoming changes with a simple
+refactoring that use dedicated files for `DeviceList`, keeping only the
+`Device` definition in `device.{h,cc}`.
+",copybara-service[bot],2024-08-23 16:05:06+00:00,[],2024-08-23 17:56:52+00:00,2024-08-23 17:56:51+00:00,https://github.com/tensorflow/tensorflow/pull/74418,[],[],
+2483421445,pull_request,closed,,Move python bindings to portable apis that use C-API datatypes.,"Move python bindings to portable apis that use C-API datatypes.
+
+Add `stablehlo.get_version_from_compatibility_requirement` API.
+",copybara-service[bot],2024-08-23 15:50:05+00:00,['GleasonK'],2024-08-23 19:53:28+00:00,2024-08-23 19:53:27+00:00,https://github.com/tensorflow/tensorflow/pull/74417,[],[],
+2483409266,pull_request,closed,,Fix sdy round tripping string escaping,"Fix sdy round tripping string escaping
+
+The issue was that an HLO dump couldn't be parsed because of no escaping (note the quotes on axis names) - `frontend_attributes={xla.sdy.sharding=""#sdy.sharding_per_value<[<@mesh, [{""replica"", ""data""}, {""seq""}, {""model""}]>]>""`
+",copybara-service[bot],2024-08-23 15:42:09+00:00,[],2024-08-28 08:58:05+00:00,2024-08-28 08:58:04+00:00,https://github.com/tensorflow/tensorflow/pull/74416,[],[],
+2483274398,pull_request,closed,,[XLA:GPU] It is a pure mechanical conversion of a lambda function to the member function.,"[XLA:GPU] It is a pure mechanical conversion of a lambda function to the member function.
+",copybara-service[bot],2024-08-23 14:28:17+00:00,[],2024-08-23 19:13:51+00:00,2024-08-23 19:13:50+00:00,https://github.com/tensorflow/tensorflow/pull/74415,[],[],
+2483094889,pull_request,closed,,Use the -fregister-allocation=64 for generic convolutions on Mali Valhall GPUs.,"Use the -fregister-allocation=64 for generic convolutions on Mali Valhall GPUs.
+
+This will allow the GPU to use more registers (but less threads) to improve performance.
+
+The extension describing the flag is https://registry.khronos.org/OpenCL/extensions/arm/cl_arm_scheduling_controls.html
+",copybara-service[bot],2024-08-23 12:57:40+00:00,[],2024-08-27 11:32:57+00:00,2024-08-27 11:32:56+00:00,https://github.com/tensorflow/tensorflow/pull/74413,[],[],
+2483094415,pull_request,closed,,[XLA:GPU] Enable the LLVM verifier for all Triton Support tests.,"[XLA:GPU] Enable the LLVM verifier for all Triton Support tests.
+",copybara-service[bot],2024-08-23 12:57:26+00:00,[],2024-08-23 15:10:39+00:00,2024-08-23 15:10:38+00:00,https://github.com/tensorflow/tensorflow/pull/74412,[],[],
+2483082495,pull_request,closed,,[XLA:GPU][IndexAnalysis] Do not remove unused RTVars during simplification.,"[XLA:GPU][IndexAnalysis] Do not remove unused RTVars during simplification.
+
+When RTVar is produced by HLOConstant, then it gets removed during RTVars optimization. The problem is that if there are two or more RTVars after the constant one, then they are not adjusted by shifting their SymbolIDs. 
+
+It is easier to remove this logic completely and rely on IndexingMap::RemoveUnusedSymbols instead.
+",copybara-service[bot],2024-08-23 12:50:58+00:00,['pifon2a'],2024-08-26 14:45:16+00:00,2024-08-26 14:45:15+00:00,https://github.com/tensorflow/tensorflow/pull/74411,[],[],
+2483013737,pull_request,closed,,Build and run `gpu` tagged tests in the XLA:GPU job,"Build and run `gpu` tagged tests in the XLA:GPU job
+
+We have some tests that are tagged `gpu` but have no `requires-gpu-*`
+tag since they don't need a GPU but depend on CUDA or ROCm.
+
+At the moment these tests don't run anywhere. They are filtered with `-gpu`
+in the XLA:CPU job and the XLA:GPU job only runs tests with at least one
+compatible `requires-gpu-*` tag.
+
+So this change makes the XLA:GPU job run those tests. This is not ideal
+since these tests technically don't require a GPU but will block one. Thanks
+to the hermetic CUDA change we might be able to change that and run those
+tests in the CPU jobs, but this will require some refactoring of the tags.
+
+That's why for now, let's run it in the GPU job.
+",copybara-service[bot],2024-08-23 12:14:13+00:00,[],2024-08-29 08:17:55+00:00,2024-08-29 08:17:54+00:00,https://github.com/tensorflow/tensorflow/pull/74410,[],[],
+2482988700,pull_request,closed,,"Updates the indicator variables to properly handle ""collapsed edges"" (where a node and its successor are merged).","Updates the indicator variables to properly handle ""collapsed edges"" (where a node and its successor are merged).
+",copybara-service[bot],2024-08-23 11:59:46+00:00,[],2024-08-23 16:30:43+00:00,2024-08-23 16:30:42+00:00,https://github.com/tensorflow/tensorflow/pull/74409,[],[],
+2482970965,pull_request,closed,,Fixes to the weight cache provider.,"Fixes to the weight cache provider.
+
+- Add more checks for failures.
+- Fix comment spelling.
+",copybara-service[bot],2024-08-23 11:49:13+00:00,['qukhan'],2024-08-23 21:18:30+00:00,2024-08-23 21:18:29+00:00,https://github.com/tensorflow/tensorflow/pull/74408,[],[],
+2482922619,pull_request,closed,,Rollback of a change that breaks internal tests,"Rollback of a change that breaks internal tests
+
+Reverts ab4a5415fa8e50fd434d691877449e3e9f6a950a
+",copybara-service[bot],2024-08-23 11:19:59+00:00,[],2024-08-23 12:04:23+00:00,2024-08-23 12:04:21+00:00,https://github.com/tensorflow/tensorflow/pull/74407,[],[],
+2482901011,pull_request,open,,The silu activation function is updated with example code and  in  tf.nn_impl.py,"Hi 
+An example code is added into the silu activation function and  input and out put data types also added.",LakshmiKalaKadali,2024-08-23 11:07:11+00:00,['gbaned'],2025-01-31 16:23:09+00:00,,https://github.com/tensorflow/tensorflow/pull/74406,"[('awaiting review', 'Pull request awaiting review'), ('comp:ops', 'OPs related issues'), ('size:S', 'CL Change Size: Small')]","[{'comment_id': 2323988107, 'issue_id': 2482901011, 'author': 'keerthanakadiri', 'body': 'Hi @wangpengmit, Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 9, 2, 7, 16, 46, tzinfo=datetime.timezone.utc)}, {'comment_id': 2354449114, 'issue_id': 2482901011, 'author': 'keerthanakadiri', 'body': 'Hi @wangpengmit, Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 9, 17, 3, 49, 55, tzinfo=datetime.timezone.utc)}, {'comment_id': 2367668777, 'issue_id': 2482901011, 'author': 'keerthanakadiri', 'body': 'Hi @wangpengmit, Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 9, 23, 9, 26, 19, tzinfo=datetime.timezone.utc)}, {'comment_id': 2384869534, 'issue_id': 2482901011, 'author': 'keerthanakadiri', 'body': 'Hi @wangpengmit, Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 10, 1, 6, 1, 4, tzinfo=datetime.timezone.utc)}, {'comment_id': 2399579094, 'issue_id': 2482901011, 'author': 'keerthanakadiri', 'body': 'Hi @wangpengmit, Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 10, 8, 11, 24, 46, tzinfo=datetime.timezone.utc)}, {'comment_id': 2431467267, 'issue_id': 2482901011, 'author': 'keerthanakadiri', 'body': 'Hi @wangpengmit, Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 10, 23, 9, 28, 2, tzinfo=datetime.timezone.utc)}, {'comment_id': 2469833235, 'issue_id': 2482901011, 'author': 'keerthanakadiri', 'body': 'Hi @MichaelHudgins ,Can you please review this PR? Thank you !', 'created_at': datetime.datetime(2024, 11, 12, 8, 0, 4, tzinfo=datetime.timezone.utc)}]","keerthanakadiri on (2024-09-02 07:16:46 UTC): Hi @wangpengmit, Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-09-17 03:49:55 UTC): Hi @wangpengmit, Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-09-23 09:26:19 UTC): Hi @wangpengmit, Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-10-01 06:01:04 UTC): Hi @wangpengmit, Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-10-08 11:24:46 UTC): Hi @wangpengmit, Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-10-23 09:28:02 UTC): Hi @wangpengmit, Can you please review this PR? Thank you !
+
+keerthanakadiri on (2024-11-12 08:00:04 UTC): Hi @MichaelHudgins ,Can you please review this PR? Thank you !
+
+"
+2482846577,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 10:34:36+00:00,[],2024-08-23 10:34:36+00:00,,https://github.com/tensorflow/tensorflow/pull/74404,[],[],
+2482804425,pull_request,closed,,"#sdy If a StringAttr is passed to `getStringAttribute`, return it has is.","#sdy If a StringAttr is passed to `getStringAttribute`, return it has is.
+
+This avoids having a StringAttr whose string is quoted.
+",copybara-service[bot],2024-08-23 10:10:54+00:00,[],2024-08-23 13:20:27+00:00,2024-08-23 13:20:27+00:00,https://github.com/tensorflow/tensorflow/pull/74403,[],[],
+2482750690,pull_request,open,,Integrate LLVM at llvm/llvm-project@96b3166602cb,"Integrate LLVM at llvm/llvm-project@96b3166602cb
+
+Updates LLVM usage to match
+[96b3166602cb](https://github.com/llvm/llvm-project/commit/96b3166602cb)
+",copybara-service[bot],2024-08-23 09:42:57+00:00,[],2024-08-23 12:26:43+00:00,,https://github.com/tensorflow/tensorflow/pull/74402,[],[],
+2482712210,pull_request,open,,Clean up includes in XLA's hlo_test_base.{cc|h},"Clean up includes in XLA's hlo_test_base.{cc|h}
+
+This fixes all includes in hlo_test_base.h (adds missing ones, removes superfluous ones) and fixes up all tests that were relying on transitive includes from hlo_test_base.h. (Spoiler alert: There were a lot!)
+
+Reverts ab4a5415fa8e50fd434d691877449e3e9f6a950a
+",copybara-service[bot],2024-08-23 09:23:06+00:00,[],2024-08-23 12:02:05+00:00,,https://github.com/tensorflow/tensorflow/pull/74401,[],[],
+2482696217,pull_request,closed,,Bump shardy commit,"Bump shardy commit
+",copybara-service[bot],2024-08-23 09:14:41+00:00,[],2024-08-23 11:33:17+00:00,2024-08-23 11:33:17+00:00,https://github.com/tensorflow/tensorflow/pull/74400,[],[],
+2482693843,pull_request,open,,Automated Code Change,"Automated Code Change
+
+Reverts ab4a5415fa8e50fd434d691877449e3e9f6a950a
+",copybara-service[bot],2024-08-23 09:13:24+00:00,[],2024-08-23 12:04:49+00:00,,https://github.com/tensorflow/tensorflow/pull/74399,[],[],
+2482688130,pull_request,open,,Automated Code Change,"Automated Code Change
+
+Reverts ab4a5415fa8e50fd434d691877449e3e9f6a950a
+",copybara-service[bot],2024-08-23 09:10:21+00:00,[],2024-08-23 11:55:58+00:00,,https://github.com/tensorflow/tensorflow/pull/74398,[],[],
+2482679316,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 09:05:41+00:00,[],2024-08-24 04:11:06+00:00,,https://github.com/tensorflow/tensorflow/pull/74397,[],[],
+2482650818,pull_request,closed,,Remove ifdefs from determinism_test,"Remove ifdefs from determinism_test
+
+All checks can easily be done at runtime since nothing depends on non-available
+headers or other things that would warrant and ifdef.
+
+While doing this I also added a const overload of the `backend()` getter to
+`HloTestBase`, so that I can access `backend()` in a `const` member function of the test class.
+",copybara-service[bot],2024-08-23 08:50:30+00:00,[],2024-08-23 10:55:09+00:00,2024-08-23 10:55:09+00:00,https://github.com/tensorflow/tensorflow/pull/74396,[],[],
+2482615440,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 08:30:19+00:00,[],2024-08-23 08:30:19+00:00,,https://github.com/tensorflow/tensorflow/pull/74395,[],[],
+2482596935,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 08:21:49+00:00,[],2024-08-23 08:21:49+00:00,,https://github.com/tensorflow/tensorflow/pull/74394,[],[],
+2482583125,pull_request,closed,,PR #16213: [ROCm] Bump ROCm version to 6.2 and fix gemm_rewriter_test,"PR #16213: [ROCm] Bump ROCm version to 6.2 and fix gemm_rewriter_test
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16213
+
+
+Copybara import of the project:
+
+--
+0dba5ad7949f14dfee5ff61e6e8d6ceee75e9ecf by Harsha HS <Harsha.HavanurShamsundara@amd.com>:
+
+[ROCm] Bump ROCm version to 6.2 and fix gemm_rewriter_test
+
+--
+81bea23a2c4df63d76fafb684381351d2bf39aa2 by Harsha HS <Harsha.HavanurShamsundara@amd.com>:
+
+Fix clang formatting
+
+Merging this change closes #16213
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16213 from ROCm:ci_fix_gemm_rewriter_test_20240819 81bea23a2c4df63d76fafb684381351d2bf39aa2
+",copybara-service[bot],2024-08-23 08:14:29+00:00,[],2024-08-23 19:07:24+00:00,2024-08-23 19:07:21+00:00,https://github.com/tensorflow/tensorflow/pull/74393,[],[],
+2482544925,pull_request,open,,Add kTranspose as supported operation for s4 dot fusions.,"Add kTranspose as supported operation for s4 dot fusions.
+",copybara-service[bot],2024-08-23 07:52:29+00:00,[],2024-08-23 07:52:29+00:00,,https://github.com/tensorflow/tensorflow/pull/74392,[],[],
+2482336182,pull_request,closed,,Properly remove ANGLE-related tests from default patterns.,"Properly remove ANGLE-related tests from default patterns.
+",copybara-service[bot],2024-08-23 05:23:48+00:00,[],2024-08-27 02:42:14+00:00,2024-08-27 02:42:13+00:00,https://github.com/tensorflow/tensorflow/pull/74391,[],[],
+2482203080,pull_request,open,,Add tensorflow TOKEN datatype corresponding to XLA TOKEN datatype.,"Add tensorflow TOKEN datatype corresponding to XLA TOKEN datatype.
+This new type is used for support synchronization in distributed ML training infra.
+",copybara-service[bot],2024-08-23 04:10:05+00:00,[],2024-08-23 04:10:05+00:00,,https://github.com/tensorflow/tensorflow/pull/74390,[],[],
+2482190187,pull_request,closed,,Add a test and corner condition handling for collective_ops_utils CycleType methods.,"Add a test and corner condition handling for collective_ops_utils CycleType methods.
+",copybara-service[bot],2024-08-23 04:00:37+00:00,[],2024-09-05 19:11:27+00:00,2024-09-05 19:11:26+00:00,https://github.com/tensorflow/tensorflow/pull/74389,[],[],
+2482170897,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:37:20+00:00,[],2024-08-23 06:24:05+00:00,2024-08-23 06:24:04+00:00,https://github.com/tensorflow/tensorflow/pull/74388,[],[],
+2482165579,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:30:36+00:00,[],2024-08-23 03:30:36+00:00,,https://github.com/tensorflow/tensorflow/pull/74387,[],[],
+2482164442,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:29:05+00:00,[],2024-08-23 03:29:05+00:00,,https://github.com/tensorflow/tensorflow/pull/74386,[],[],
+2482163620,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:27:58+00:00,[],2024-08-23 03:27:58+00:00,,https://github.com/tensorflow/tensorflow/pull/74385,[],[],
+2482160900,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:24:15+00:00,[],2024-08-23 03:24:15+00:00,,https://github.com/tensorflow/tensorflow/pull/74384,[],[],
+2482160544,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:23:47+00:00,[],2024-08-23 03:23:47+00:00,,https://github.com/tensorflow/tensorflow/pull/74383,[],[],
+2482160289,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:23:25+00:00,[],2024-08-23 03:23:25+00:00,,https://github.com/tensorflow/tensorflow/pull/74382,[],[],
+2482159559,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:22:31+00:00,[],2024-08-23 03:22:31+00:00,,https://github.com/tensorflow/tensorflow/pull/74381,[],[],
+2482158461,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:21:01+00:00,[],2024-08-23 03:21:01+00:00,,https://github.com/tensorflow/tensorflow/pull/74380,[],[],
+2482156618,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:18:39+00:00,[],2024-08-23 03:18:39+00:00,,https://github.com/tensorflow/tensorflow/pull/74379,[],[],
+2482156232,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:18:10+00:00,[],2024-08-23 03:18:10+00:00,,https://github.com/tensorflow/tensorflow/pull/74378,[],[],
+2482156074,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:17:57+00:00,[],2024-08-23 03:17:57+00:00,,https://github.com/tensorflow/tensorflow/pull/74377,[],[],
+2482154559,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:15:54+00:00,[],2024-08-23 03:15:54+00:00,,https://github.com/tensorflow/tensorflow/pull/74376,[],[],
+2482154343,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:15:36+00:00,[],2024-08-23 03:15:36+00:00,,https://github.com/tensorflow/tensorflow/pull/74375,[],[],
+2482152948,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-23 03:13:47+00:00,[],2024-08-23 03:13:47+00:00,,https://github.com/tensorflow/tensorflow/pull/74374,[],[],
+2482103938,pull_request,closed,,[xla:cpu] Annotate custom call arguments and results memory as initialized to suppress msan errors,"[xla:cpu] Annotate custom call arguments and results memory as initialized to suppress msan errors
+
+Arguments and results buffers initialized by jit-compiled program and msan instrumentation does not recognize this memory as initialized.
+",copybara-service[bot],2024-08-23 02:11:58+00:00,['ezhulenev'],2024-08-23 03:04:00+00:00,2024-08-23 03:04:00+00:00,https://github.com/tensorflow/tensorflow/pull/74373,[],[],
+2482097306,pull_request,closed,,PR #14689: [NVIDIA GPU] Fully unroll windowed einsum loops to hide DUS overheads,"PR #14689: [NVIDIA GPU] Fully unroll windowed einsum loops to hide DUS overheads
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/14689
+
+The windowed einsum loops used to be unrolled by a factor of 2 to achieve overlap between 2 gemms. But that leaves some of the dynamic update slices at the end to be exposed.
+This pr fully unrolls the loop so DUSes can be overlapped with independent gemms too.
+To avoid the loop being inlined by while loop simplifier pass, we add the attribute ""skip-simplify-while-loops/trip-count-one=true"" to the fully unrolled loop.
+Also a minor fix to while loop double buffering pass to skip unroll when trip count is 1.
+
+Copybara import of the project:
+
+--
+c86b8873125ed5d65c098d00401c01204b696a9e by TJ Xu <tjx@nvidia.com>:
+
+initial change to add unroller
+Also add alg simp and constant folding as sub-passes before unrolling
+fix a bug in double buffer unroll to skip trip count 1 loops
+
+--
+8ca70a09412fb67ca046f5e9e1d69baadb800bdb by TJ Xu <tjx@nvidia.com>:
+
+Remove change in double buffer pass and move it to a separate pr
+
+--
+54303d10f1361d6b7f54c2107eb1a6bb5b8b601a by TJ Xu <tjx@nvidia.com>:
+
+Addressed pr comments
+
+--
+b64cb889d8ef1c5afd01676766095de77c5102e3 by TJ Xu <tjx@nvidia.com>:
+
+Removed Unroll method and revised some comments in windowed einsum
+handler
+
+Merging this change closes #14689
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/14689 from Tixxx:tixxx/unroll_cm b64cb889d8ef1c5afd01676766095de77c5102e3
+",copybara-service[bot],2024-08-23 02:04:42+00:00,[],2024-08-23 19:20:15+00:00,2024-08-23 19:20:14+00:00,https://github.com/tensorflow/tensorflow/pull/74372,[],[],
+2482077946,pull_request,open,,PR #14689: [NVIDIA GPU] Fully unroll windowed einsum loops to hide DUS overheads,"PR #14689: [NVIDIA GPU] Fully unroll windowed einsum loops to hide DUS overheads
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/14689
+
+The windowed einsum loops used to be unrolled by a factor of 2 to achieve overlap between 2 gemms. But that leaves some of the dynamic update slices at the end to be exposed.
+This pr fully unrolls the loop so DUSes can be overlapped with independent gemms too.
+To avoid the loop being inlined by while loop simplifier pass, we add the attribute ""skip-simplify-while-loops/trip-count-one=true"" to the fully unrolled loop.
+Also a minor fix to while loop double buffering pass to skip unroll when trip count is 1.
+
+Copybara import of the project:
+
+--
+c86b8873125ed5d65c098d00401c01204b696a9e by TJ Xu <tjx@nvidia.com>:
+
+initial change to add unroller
+Also add alg simp and constant folding as sub-passes before unrolling
+fix a bug in double buffer unroll to skip trip count 1 loops
+
+--
+8ca70a09412fb67ca046f5e9e1d69baadb800bdb by TJ Xu <tjx@nvidia.com>:
+
+Remove change in double buffer pass and move it to a separate pr
+
+--
+54303d10f1361d6b7f54c2107eb1a6bb5b8b601a by TJ Xu <tjx@nvidia.com>:
+
+Addressed pr comments
+
+--
+b64cb889d8ef1c5afd01676766095de77c5102e3 by TJ Xu <tjx@nvidia.com>:
+
+Removed Unroll method and revised some comments in windowed einsum
+handler
+
+Merging this change closes #14689
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/14689 from Tixxx:tixxx/unroll_cm b64cb889d8ef1c5afd01676766095de77c5102e3
+",copybara-service[bot],2024-08-23 01:45:04+00:00,[],2024-08-23 02:46:38+00:00,,https://github.com/tensorflow/tensorflow/pull/74371,[],[],
+2482037460,pull_request,open,,Integrate StableHLO at openxla/stablehlo@c8ef9cc3,"Integrate StableHLO at openxla/stablehlo@c8ef9cc3
+",copybara-service[bot],2024-08-23 00:53:06+00:00,['sdasgup3'],2024-08-23 02:17:00+00:00,,https://github.com/tensorflow/tensorflow/pull/74369,[],[],
+2482010694,pull_request,open,,Add a flag to allow accessing buffers from other PJRT devices.,"Add a flag to allow accessing buffers from other PJRT devices.
+",copybara-service[bot],2024-08-23 00:17:43+00:00,['changhuilin'],2024-08-23 00:17:44+00:00,,https://github.com/tensorflow/tensorflow/pull/74368,[],[],
+2482010179,pull_request,open,,Set the device allocator in the PJRT compilation option.,"Set the device allocator in the PJRT compilation option.
+",copybara-service[bot],2024-08-23 00:17:05+00:00,['changhuilin'],2024-08-23 06:13:24+00:00,,https://github.com/tensorflow/tensorflow/pull/74367,[],[],
+2482008262,pull_request,closed,,Remove explicit checking for unknown shapes.,"Remove explicit checking for unknown shapes.
+",copybara-service[bot],2024-08-23 00:14:36+00:00,['lrdxgm'],2024-08-23 18:52:49+00:00,2024-08-23 18:52:48+00:00,https://github.com/tensorflow/tensorflow/pull/74366,[],[],
+2482001675,pull_request,closed,,[XLA:TPU] Rename loop variable `i` to `current_idx` in memory_bound_loop_optimizer when it improves readability (multiple uses of `i` throughout a long loop).,"[XLA:TPU] Rename loop variable `i` to `current_idx` in memory_bound_loop_optimizer when it improves readability (multiple uses of `i` throughout a long loop).
+",copybara-service[bot],2024-08-23 00:06:16+00:00,['subhankarshah'],2024-09-20 03:26:13+00:00,2024-09-20 03:26:12+00:00,https://github.com/tensorflow/tensorflow/pull/74365,[],[],
+2482001101,pull_request,closed,,[XLA:TPU] Make minor code simplification in MSA algorithm.,"[XLA:TPU] Make minor code simplification in MSA algorithm.
+",copybara-service[bot],2024-08-23 00:05:27+00:00,['subhankarshah'],2024-09-20 02:13:33+00:00,2024-09-20 02:13:32+00:00,https://github.com/tensorflow/tensorflow/pull/74364,[],[],
+2481988301,pull_request,closed,,"[XLA:TPU] Update memory bound loop optimizer tests such that the required memory is the available memory, in other words tighten the tests where more than required memory is available.","[XLA:TPU] Update memory bound loop optimizer tests such that the required memory is the available memory, in other words tighten the tests where more than required memory is available.
+- Reduce alternate memory size such that entire memory is used at least once during the loop and assert it.
+- Add assertions on execution times.
+",copybara-service[bot],2024-08-22 23:48:14+00:00,['subhankarshah'],2024-09-16 16:51:58+00:00,2024-09-16 16:51:57+00:00,https://github.com/tensorflow/tensorflow/pull/74363,[],[],
+2481987918,pull_request,closed,,Fix bug where EventMetadata Id spaces were clashing when aggregating TPU device xplanes.,"Fix bug where EventMetadata Id spaces were clashing when aggregating TPU device xplanes.
+",copybara-service[bot],2024-08-22 23:47:47+00:00,[],2024-09-02 09:03:38+00:00,2024-09-02 09:03:37+00:00,https://github.com/tensorflow/tensorflow/pull/74362,[],[],
+2481965894,pull_request,closed,,Move `xla:empty` and aliases to TSL,"Move `xla:empty` and aliases to TSL
+
+This is necessary to ensure that TSL doesn't depend on XLA.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16337 from ROCm:ci_rocblas_disable_workspace 6f42f691423328db292d7c949e1142609aff14a0
+",copybara-service[bot],2024-08-22 23:18:05+00:00,['ddunl'],2024-08-23 01:18:02+00:00,2024-08-23 01:18:01+00:00,https://github.com/tensorflow/tensorflow/pull/74361,[],[],
+2481954749,pull_request,closed,,[xla:cpu] Update IR module hook to dump all compiled LLVM IR parts,"[xla:cpu] Update IR module hook to dump all compiled LLVM IR parts
+",copybara-service[bot],2024-08-22 23:04:56+00:00,['ezhulenev'],2024-08-23 19:45:18+00:00,2024-08-23 19:45:17+00:00,https://github.com/tensorflow/tensorflow/pull/74360,[],[],
+2481954446,pull_request,closed,,Test only changes to fix compatibility between numpy 1.x and 2.x,"Test only changes to fix compatibility between numpy 1.x and 2.x
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16337 from ROCm:ci_rocblas_disable_workspace 6f42f691423328db292d7c949e1142609aff14a0
+",copybara-service[bot],2024-08-22 23:04:36+00:00,[],2024-08-23 00:44:51+00:00,2024-08-23 00:44:51+00:00,https://github.com/tensorflow/tensorflow/pull/74359,[],[],
+2481941600,pull_request,closed,,Use std::numeric_limits instead of ComponentStringifyFormat,"Use std::numeric_limits instead of ComponentStringifyFormat
+
+Adding new supported types for the exhaustive tests requires implemented overloads `ComponentStringifyFormat`, but we can write a single implementation that works for all types using `std::numeric_limits` constants and C-style printf `*.*` format specifiers to provide the widths at runtime.
+",copybara-service[bot],2024-08-22 22:51:08+00:00,[],2024-08-29 21:00:22+00:00,2024-08-29 21:00:21+00:00,https://github.com/tensorflow/tensorflow/pull/74358,[],[],
+2481916424,pull_request,closed,,Fix typo in comment.,"Fix typo in comment.
+
+Reverts dba95d6a678db59f7cadbc976de02016a75e5b0f
+",copybara-service[bot],2024-08-22 22:25:26+00:00,[],2024-08-22 23:14:53+00:00,2024-08-22 23:14:53+00:00,https://github.com/tensorflow/tensorflow/pull/74357,[],[],
+2481911383,pull_request,closed,,[xla:cpu] Compile LLVM module parts in parallel,"[xla:cpu] Compile LLVM module parts in parallel
+",copybara-service[bot],2024-08-22 22:21:25+00:00,['ezhulenev'],2024-08-23 17:28:59+00:00,2024-08-23 17:28:59+00:00,https://github.com/tensorflow/tensorflow/pull/74356,[],[],
+2481903342,pull_request,closed,,PR #16337: [ROCM] disable setting workspace on ROCM,"PR #16337: [ROCM] disable setting workspace on ROCM
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16337
+
+This is a follow-up PR for https://github.com/openxla/xla/pull/16149 which was closed with unmerged commits.
+
+Here I disable setting workspace on ROCM. This feature seems to produce sporadic errors because rocblas_set_workspace uses blocking memory functions (e.g. hipMalloc/hipFree) to manipulate scratch memory (which do not work under stream capture). **Disabled** until we have a clear idea on how to make it working on ROCM.
+
+@xla-rotation: could you have a look please ?
+Copybara import of the project:
+
+--
+6f42f691423328db292d7c949e1142609aff14a0 by Pavel Emeliyanenko <pavel.emeliyanenko@amd.com>:
+
+disable workspace
+
+
+Merging this change closes #16337
+
+Reverts dba95d6a678db59f7cadbc976de02016a75e5b0f
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16337 from ROCm:ci_rocblas_disable_workspace 6f42f691423328db292d7c949e1142609aff14a0
+",copybara-service[bot],2024-08-22 22:15:29+00:00,[],2024-08-22 23:42:32+00:00,2024-08-22 23:42:31+00:00,https://github.com/tensorflow/tensorflow/pull/74355,[],[],
+2481888359,pull_request,open,,"Add a constant-folding test for `tf.Add(unknown size tensor, >256 MiB tensor)`.","Add a constant-folding test for `tf.Add(unknown size tensor, >256 MiB tensor)`.
+
+Reverts dba95d6a678db59f7cadbc976de02016a75e5b0f
+",copybara-service[bot],2024-08-22 22:04:19+00:00,['lrdxgm'],2024-08-22 22:04:20+00:00,,https://github.com/tensorflow/tensorflow/pull/74354,[],[],
+2481885966,pull_request,open,,Remove GatherV2 pattern from legalize_tf_patterns.td,"Remove GatherV2 pattern from legalize_tf_patterns.td
+",copybara-service[bot],2024-08-22 22:02:34+00:00,[],2024-09-18 21:22:11+00:00,,https://github.com/tensorflow/tensorflow/pull/74353,[],[],
+2481878169,pull_request,closed,,[XLA] Silence HloDataflowAnalysis verifier,"[XLA] Silence HloDataflowAnalysis verifier
+
+We currently don't run the verifier outside of debug builds (so never). Currently it seems input/output aliasing of async calls is not being handled properly, so it will trip the verifier. However, there are no know issues being caused by this.
+
+Silence this until further investigation.
+",copybara-service[bot],2024-08-22 21:56:29+00:00,[],2024-08-23 17:23:42+00:00,2024-08-23 17:23:41+00:00,https://github.com/tensorflow/tensorflow/pull/74352,[],[],
+2481761382,pull_request,closed,,Fix (most) lint warnings in import_model.cc.,"Fix (most) lint warnings in import_model.cc.
+",copybara-service[bot],2024-08-22 21:21:10+00:00,[],2024-08-23 18:33:53+00:00,2024-08-23 18:33:52+00:00,https://github.com/tensorflow/tensorflow/pull/74351,[],[],
+2481741867,pull_request,open,,Update CUDA/CUDNN in XLA repo,"Update CUDA/CUDNN in XLA repo
+",copybara-service[bot],2024-08-22 21:12:19+00:00,[],2024-08-22 22:31:36+00:00,,https://github.com/tensorflow/tensorflow/pull/74350,[],[],
+2481733270,pull_request,closed,,PR #16318: Add handling for general dynamic slice fusion while emitting thunks,"PR #16318: Add handling for general dynamic slice fusion while emitting thunks
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16318
+
+In the current implementation of dynamic slice fusion, we rely on constants or very specific loop offset patterns. This is an effort to generalize this by computing the offset values during compilation and using the constant array as source of offset while emitting thunks.
+
+This patch adds support for this in thunks. Next, support for this will be added in the dynamic-slice-fusion-rewriter.
+Copybara import of the project:
+
+--
+936484e11467ed6cf7382a3c5080d1dca6f779a7 by Shraiysh Vaishay <svaishay@nvidia.com>:
+
+Add handling for general dynamic slice fusion while emitting thunks
+
+In the current implementation of dynamic slice fusion, we rely on
+constants or very specific loop offset patterns. This is an effort to
+generalize this by computing the offset values during compilation and
+using the constant array as source of offset while emitting thunks.
+
+This patch adds support for this in thunks. Next, support for this will
+be added in the dynamic-slice-fusion-rewriter.
+
+Merging this change closes #16318
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16318 from shraiysh:general_dynamic_slice_fusion 936484e11467ed6cf7382a3c5080d1dca6f779a7
+",copybara-service[bot],2024-08-22 21:07:06+00:00,[],2024-08-28 01:33:06+00:00,2024-08-28 01:33:05+00:00,https://github.com/tensorflow/tensorflow/pull/74349,[],[],
+2481680862,pull_request,closed,,Enable PJRT compatibility by default.,"Enable PJRT compatibility by default.
+
+This is a no-op for most users, but it will allow us to start using PJRT in JAX without having to set an environment variable.
+",copybara-service[bot],2024-08-22 20:41:57+00:00,['jyingl3'],2024-08-23 23:13:59+00:00,2024-08-23 23:13:58+00:00,https://github.com/tensorflow/tensorflow/pull/74348,[],[],
+2481632143,pull_request,open,,Update CUDA version in XLA and TF builds.,"Update CUDA version in XLA and TF builds.
+",copybara-service[bot],2024-08-22 20:13:42+00:00,[],2024-08-23 21:15:00+00:00,,https://github.com/tensorflow/tensorflow/pull/74347,[],[],
+2481626940,pull_request,closed,,Improve Jax distributed connect errors with possible user remedies.,"Improve Jax distributed connect errors with possible user remedies.
+",copybara-service[bot],2024-08-22 20:10:31+00:00,[],2024-08-22 23:20:08+00:00,2024-08-22 23:20:08+00:00,https://github.com/tensorflow/tensorflow/pull/74346,[],[],
+2481610533,pull_request,open,,Integrate LLVM at llvm/llvm-project@83fc989a227a,"Integrate LLVM at llvm/llvm-project@83fc989a227a
+
+Updates LLVM usage to match
+[83fc989a227a](https://github.com/llvm/llvm-project/commit/83fc989a227a)
+",copybara-service[bot],2024-08-22 20:01:11+00:00,[],2024-08-23 06:42:28+00:00,,https://github.com/tensorflow/tensorflow/pull/74345,[],[],
+2481597306,pull_request,closed,,[xla:cpu] Collect compiled symbols from each LLVM module part,"[xla:cpu] Collect compiled symbols from each LLVM module part
+
++ update TraceMe with more details
+",copybara-service[bot],2024-08-22 19:52:49+00:00,['ezhulenev'],2024-08-23 13:00:40+00:00,2024-08-23 13:00:39+00:00,https://github.com/tensorflow/tensorflow/pull/74344,[],[],
+2481596166,pull_request,closed,,[StableHLO] Add support for dot algorithm lowering in MHLO to HLO lowering.,"[StableHLO] Add support for dot algorithm lowering in MHLO to HLO lowering.
+",copybara-service[bot],2024-08-22 19:52:10+00:00,['GleasonK'],2024-08-27 23:10:33+00:00,2024-08-27 23:10:32+00:00,https://github.com/tensorflow/tensorflow/pull/74343,[],[],
+2481587973,pull_request,closed,,[tsl] Modernize BFCAllocator + fix warnings + fix tsan errors,"[tsl] Modernize BFCAllocator + fix warnings + fix tsan errors
+
++ switch from tsl::mutex to absl::Mutex
++ add locks to correctly synchronize destructor with prior activity to fix tsan errors
+",copybara-service[bot],2024-08-22 19:47:23+00:00,['ezhulenev'],2024-08-22 21:55:32+00:00,2024-08-22 21:55:31+00:00,https://github.com/tensorflow/tensorflow/pull/74341,[],[],
+2481587214,pull_request,closed,,PR #15417: Add while loop config options and support custom-call root instruction in while loop unroll.,"PR #15417: Add while loop config options and support custom-call root instruction in while loop unroll.
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/15417
+
+This PR adds the availability to configure while loop unroll thresholds. Existing defaults are maintained. This PR also adds support for getting trip count of loops that wrap their state in a custom-call.
+Copybara import of the project:
+
+--
+86c7c6e31d8602268314a7e9284b94e20ef21a7c by ptoulme-aws <ptoulme@amazon.com>:
+
+Add while loop config options and support custom-call as root instruction.
+
+Merging this change closes #15417
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/15417 from ptoulme-aws:while_loop_enhancement 4052680f76e4975531a6e33462a550d7a5090492
+",copybara-service[bot],2024-08-22 19:46:58+00:00,[],2024-08-26 10:14:57+00:00,2024-08-26 10:14:56+00:00,https://github.com/tensorflow/tensorflow/pull/74340,[],[],
+2481520664,pull_request,open,,Remove EnableDebugLoggingForScope from exhaustive_binary_f32_f64_test,"Remove EnableDebugLoggingForScope from exhaustive_binary_f32_f64_test
+
+I didn't mean to leave this in the landed code. Doesn't break anything, but slows down the test since it's dumping more data.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16183 from shraiysh:replica_collective_permute_decomposer 203888aa3f370e9c899df2698ba5c60263456d49
+",copybara-service[bot],2024-08-22 19:03:50+00:00,[],2024-08-22 19:03:50+00:00,,https://github.com/tensorflow/tensorflow/pull/74339,[],[],
+2481494715,pull_request,closed,,Calculate the byte sizes accurately in the presence of values with unknown shapes.,"Calculate the byte sizes accurately in the presence of values with unknown shapes.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16337 from ROCm:ci_rocblas_disable_workspace 6f42f691423328db292d7c949e1142609aff14a0
+",copybara-service[bot],2024-08-22 18:48:26+00:00,['lrdxgm'],2024-08-23 00:37:45+00:00,2024-08-23 00:37:45+00:00,https://github.com/tensorflow/tensorflow/pull/74338,[],[],
+2481393032,pull_request,closed,,Fix Triton build with LLVM change 15e915a4.,"Fix Triton build with LLVM change 15e915a4.
+",copybara-service[bot],2024-08-22 17:51:09+00:00,['wecing'],2024-08-22 19:00:15+00:00,2024-08-22 19:00:15+00:00,https://github.com/tensorflow/tensorflow/pull/74337,[],[],
+2481380669,pull_request,closed,,"During import, use a node order such that adjacent ops are on the same device.","During import, use a node order such that adjacent ops are on the same device.
+",copybara-service[bot],2024-08-22 17:43:48+00:00,[],2024-08-22 19:49:57+00:00,2024-08-22 19:49:56+00:00,https://github.com/tensorflow/tensorflow/pull/74336,[],[],
+2481376886,pull_request,open,,Improve tf.io.parse_single_example error message when features are empty,"Improve tf.io.parse_single_example error message when features are empty
+",copybara-service[bot],2024-08-22 17:41:20+00:00,[],2024-08-22 17:41:20+00:00,,https://github.com/tensorflow/tensorflow/pull/74335,[],[],
+2481344972,pull_request,closed,,Add more CUPTI headers for new CUDA versions.,"Add more CUPTI headers for new CUDA versions.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16291 from openxla:cudnn_fe_161 fc63a514cd3885cad5e727670f67195cc68cab54
+",copybara-service[bot],2024-08-22 17:21:04+00:00,[],2024-08-22 21:31:17+00:00,2024-08-22 21:31:17+00:00,https://github.com/tensorflow/tensorflow/pull/74334,[],[],
+2481326574,pull_request,closed,,Remove EnableDebugLoggingForScope from exhaustive_binary_f32_f64_test,"Remove EnableDebugLoggingForScope from exhaustive_binary_f32_f64_test
+
+I didn't mean to leave this in the landed code. Doesn't break anything, but slows down the test since it's dumping more data.
+",copybara-service[bot],2024-08-22 17:09:45+00:00,[],2024-08-22 19:35:37+00:00,2024-08-22 19:35:36+00:00,https://github.com/tensorflow/tensorflow/pull/74333,[],[],
+2481313368,pull_request,closed,,update_readme,Updated the readme about the Tensorflow definition making it more concise and easier to understand,Swastik-Swarup-Dash,2024-08-22 17:02:03+00:00,['gbaned'],2024-08-23 04:25:08+00:00,2024-08-23 04:25:06+00:00,https://github.com/tensorflow/tensorflow/pull/74332,"[('size:XS', 'CL Change Size: Extra Small')]",[],
+2481238563,pull_request,closed,,Disable benchmark_tflite_model_lib_test as the golden model it uses is erroneous.,"Disable benchmark_tflite_model_lib_test as the golden model it uses is erroneous.
+",copybara-service[bot],2024-08-22 16:20:27+00:00,['qukhan'],2024-08-22 16:45:28+00:00,2024-08-22 16:45:25+00:00,https://github.com/tensorflow/tensorflow/pull/74331,[],[],
+2481217386,pull_request,closed,,Add TF wheel API Bazel test for Linux and MacOS platforms.,"Add TF wheel API Bazel test for Linux and MacOS platforms.
+",copybara-service[bot],2024-08-22 16:09:31+00:00,[],2024-10-23 18:48:44+00:00,2024-10-23 18:48:42+00:00,https://github.com/tensorflow/tensorflow/pull/74330,[],[],
+2481201596,pull_request,closed,,[xla:cpu] Clone LLVM module parts into separate LLVM context,"[xla:cpu] Clone LLVM module parts into separate LLVM context
+",copybara-service[bot],2024-08-22 16:01:10+00:00,['ezhulenev'],2024-08-23 02:56:33+00:00,2024-08-23 02:56:33+00:00,https://github.com/tensorflow/tensorflow/pull/74329,[],[],
+2481121037,pull_request,closed,,[xla:ffi] Define traits when binding handler.,"[xla:ffi] Define traits when binding handler.
+",copybara-service[bot],2024-08-22 15:29:56+00:00,[],2024-09-09 18:41:08+00:00,2024-09-09 18:41:07+00:00,https://github.com/tensorflow/tensorflow/pull/74328,[],[],
+2481096607,pull_request,closed,,[xla:cpu] Remove unused globals and function declarations from LLVM modules after split,"[xla:cpu] Remove unused globals and function declarations from LLVM modules after split
+",copybara-service[bot],2024-08-22 15:23:11+00:00,['ezhulenev'],2024-08-23 01:26:05+00:00,2024-08-23 01:26:05+00:00,https://github.com/tensorflow/tensorflow/pull/74327,[],[],
+2481093311,pull_request,closed,,[xla:cpu] Pass TargetMachineBuilder to CompilerFunctor in preparation for parallel compilation,"[xla:cpu] Pass TargetMachineBuilder to CompilerFunctor in preparation for parallel compilation
+
+This is NFC change, simple changing the way of passing TargetMachine via a builder callback. We still use the same instance for all compilations.
+",copybara-service[bot],2024-08-22 15:22:14+00:00,['ezhulenev'],2024-08-23 00:30:34+00:00,2024-08-23 00:30:33+00:00,https://github.com/tensorflow/tensorflow/pull/74326,[],[],
+2481090550,pull_request,open,,Use efficient comparison for Compiler::TargetConfig struct,"Use efficient comparison for Compiler::TargetConfig struct
+",copybara-service[bot],2024-08-22 15:21:16+00:00,[],2024-08-26 13:13:33+00:00,,https://github.com/tensorflow/tensorflow/pull/74325,[],"[{'comment_id': 2304986475, 'issue_id': 2481090550, 'author': 'google-cla[bot]', 'body': ""Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\nView this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74325/checks?check_run_id=29120823688) of the CLA check for more information.\n\nFor the most up to date status, view the checks section at the bottom of the pull request."", 'created_at': datetime.datetime(2024, 8, 22, 15, 21, 22, tzinfo=datetime.timezone.utc)}]","google-cla[bot] on (2024-08-22 15:21:22 UTC): Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).
+
+View this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74325/checks?check_run_id=29120823688) of the CLA check for more information.
+
+For the most up to date status, view the checks section at the bottom of the pull request.
+
+"
+2480939516,pull_request,closed,,[xla:cpu] Add TraceMe annotations to CpuCompiler,"[xla:cpu] Add TraceMe annotations to CpuCompiler
+
+Annotate ""interesting"" scopes with TraceMe
+
+Reverts dba95d6a678db59f7cadbc976de02016a75e5b0f
+",copybara-service[bot],2024-08-22 14:28:35+00:00,['ezhulenev'],2024-08-22 23:51:57+00:00,2024-08-22 23:51:57+00:00,https://github.com/tensorflow/tensorflow/pull/74324,[],[],
+2480931481,pull_request,closed,,PR #16183: Handle CP decomposer when channel ID is not provided,"PR #16183: Handle CP decomposer when channel ID is not provided
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16183
+
+When channel ID is not provided, collective-permute is across replicas. In that case, the collective permute should be split into forward and backward edges, and then combined based on the replica-id. This is similar to how collective-permute across partitions is handled.
+Copybara import of the project:
+
+--
+203888aa3f370e9c899df2698ba5c60263456d49 by Shraiysh Vaishay <svaishay@nvidia.com>:
+
+Handle CP decomposer when channel ID is not provided
+
+When channel ID is not provided, collective-permute is across
+replicas. In that case, the collective permute should be split into
+forward and backward edges, and then combined based on the replica-id.
+This is similar to how collective-permute across partitions is handled.
+
+Merging this change closes #16183
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16183 from shraiysh:replica_collective_permute_decomposer 203888aa3f370e9c899df2698ba5c60263456d49
+",copybara-service[bot],2024-08-22 14:25:06+00:00,[],2024-08-22 19:04:46+00:00,2024-08-22 19:04:45+00:00,https://github.com/tensorflow/tensorflow/pull/74323,[],[],
+2480928895,pull_request,closed,,Update cuDNN to version 9.3.0 in TF's and XLA's CI,"Update cuDNN to version 9.3.0 in TF's and XLA's CI
+
+Due to the amazing hermetic CUDA change this is now just a
+one line change and all tests automatically run as presubmits.
+",copybara-service[bot],2024-08-22 14:23:55+00:00,[],2024-08-23 14:18:10+00:00,2024-08-23 14:18:09+00:00,https://github.com/tensorflow/tensorflow/pull/74322,[],[],
+2480834883,pull_request,closed,,Reverts 81a75ec5486dcf5ce4aaadd45f1dca7d3577dcd8,"Reverts 81a75ec5486dcf5ce4aaadd45f1dca7d3577dcd8
+",copybara-service[bot],2024-08-22 13:44:09+00:00,[],2024-08-22 18:25:06+00:00,2024-08-22 18:25:04+00:00,https://github.com/tensorflow/tensorflow/pull/74320,[],[],
+2480824506,pull_request,closed,,[xla:ffi] Add metadata extension for fetching metadata from handler.,"[xla:ffi] Add metadata extension for fetching metadata from handler.
+
+When an FFI handler is passed a special CallFrame with the ""metadata"" extension, it returns the handler's metadata (using the metadata pointer in the call frame) instead of executing the user code. This is then used during registration to check the API version numbers.
+",copybara-service[bot],2024-08-22 13:39:58+00:00,[],2024-08-26 20:40:12+00:00,2024-08-26 20:40:12+00:00,https://github.com/tensorflow/tensorflow/pull/74319,[],[],
+2480727119,pull_request,closed,,Remove cuDNN 9 workaround from XLA presubmit,"Remove cuDNN 9 workaround from XLA presubmit
+
+Thanks to the hermetic CUDA change, it's not necessary anymore to have cuDNN installed in the Docker containers and we can just remove the cuDNN 9 workaround.
+",copybara-service[bot],2024-08-22 12:57:17+00:00,[],2024-08-23 17:48:26+00:00,2024-08-23 17:48:25+00:00,https://github.com/tensorflow/tensorflow/pull/74318,[],[],
+2480718963,pull_request,closed,,[XLA:GPU] Fix underflow in Triton's highestPowOf2Divisor function when the input is INT_MIN.,"[XLA:GPU] Fix underflow in Triton's highestPowOf2Divisor function when the input is INT_MIN.
+",copybara-service[bot],2024-08-22 12:53:38+00:00,[],2024-08-23 11:01:49+00:00,2024-08-23 11:01:48+00:00,https://github.com/tensorflow/tensorflow/pull/74317,[],[],
+2480690858,pull_request,closed,,Remove now unused helper method GetNormalizedTransposeShape().,"Remove now unused helper method GetNormalizedTransposeShape().
+
+We only use GetNormalizedLogicalTransposeShape now.
+",copybara-service[bot],2024-08-22 12:40:28+00:00,['akuegel'],2024-08-23 08:26:44+00:00,2024-08-23 08:26:42+00:00,https://github.com/tensorflow/tensorflow/pull/74316,[],[],
+2480689852,pull_request,closed,,#sdy Support empty meshes.,"#sdy Support empty meshes.
+",copybara-service[bot],2024-08-22 12:39:56+00:00,[],2024-08-22 17:20:09+00:00,2024-08-22 17:20:07+00:00,https://github.com/tensorflow/tensorflow/pull/74315,[],[],
+2480631656,pull_request,closed,,Fix GpuCompilerPassTest.GpuCompilerRunsTritonGemmRewriterByDefaultFromAmpere on ROCm,"Fix GpuCompilerPassTest.GpuCompilerRunsTritonGemmRewriterByDefaultFromAmpere on ROCm
+
+The gemm rewriter also runs on ROCm hardware, so the assumption ""AtLeastAmpere"" is only true for NVIDIA.
+
+This change extends it to ROCm.
+",copybara-service[bot],2024-08-22 12:11:39+00:00,[],2024-08-22 13:23:32+00:00,2024-08-22 13:23:31+00:00,https://github.com/tensorflow/tensorflow/pull/74314,[],[],
+2480546487,pull_request,closed,,Improve tf.io.parse_single_example error message when features are empty,"Improve tf.io.parse_single_example error message when features are empty
+",copybara-service[bot],2024-08-22 11:28:17+00:00,[],2024-08-22 17:49:35+00:00,2024-08-22 17:49:33+00:00,https://github.com/tensorflow/tensorflow/pull/74313,[],[],
+2480516225,pull_request,closed,,PR #8589: Improve the accuracy of asin(x) and asinh(x) for complex x using modified Hull et al algorithm.,"PR #8589: Improve the accuracy of asin(x) and asinh(x) for complex x using modified Hull et al algorithm.
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/8589
+
+As in the title.
+
+~Fixes https://github.com/openxla/xla/issues/8553~ - PR https://github.com/openxla/xla/pull/9802 disabled the fix.
+
+Update: the fix to https://github.com/openxla/xla/issues/8553 will be available via https://github.com/openxla/stablehlo/pull/2357
+Copybara import of the project:
+
+--
+547f5f7248c18fcb66e2c81c0be1c8e5d017b8a7 by Pearu Peterson <pearu.peterson@gmail.com>:
+
+Improve the accuracy of asinh(z) for complex z with large absolute value.
+
+--
+00c96e87ea7db796a4c0a9ded6cbc1076363dad5 by Pearu Peterson <pearu.peterson@gmail.com>:
+
+Implement the modified Hull et al algorithm for Asin and Asinh.
+
+--
+94eb9ad9281f6518135c74254529713fb2e60c52 by Pearu Peterson <pearu.peterson@gmail.com>:
+
+Use functional_algorithms to generate Asin implementation
+
+--
+ec7334f10ec501f3be5e405181ed5dd08291cc10 by Pearu Peterson <pearu.peterson@gmail.com>:
+
+Eliminate static Hypot as not used
+
+--
+0f8cd5e77caf23501954cd372413b317d538d292 by Pearu Peterson <pearu.peterson@gmail.com>:
+
+Apply clang-format
+
+Merging this change closes #8589
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/8589 from pearu:pearu/asinh 0f8cd5e77caf23501954cd372413b317d538d292
+",copybara-service[bot],2024-08-22 11:12:07+00:00,[],2024-08-22 18:33:40+00:00,2024-08-22 18:33:39+00:00,https://github.com/tensorflow/tensorflow/pull/74311,[],[],
+2480486695,pull_request,open,,Mark test with nomsan tag.,"Mark test with nomsan tag.
+",copybara-service[bot],2024-08-22 10:56:47+00:00,['akuegel'],2024-08-22 10:56:48+00:00,,https://github.com/tensorflow/tensorflow/pull/74310,[],[],
+2480454559,pull_request,open,,compat: Update forward compatibility horizon to 2024-08-23,"compat: Update forward compatibility horizon to 2024-08-23
+",copybara-service[bot],2024-08-22 10:41:19+00:00,['akuegel'],2024-08-23 09:46:45+00:00,,https://github.com/tensorflow/tensorflow/pull/74309,[],[],
+2480446744,pull_request,open,,Mark test with nomsan tag.,"Mark test with nomsan tag.
+",copybara-service[bot],2024-08-22 10:37:49+00:00,['akuegel'],2024-08-22 10:37:50+00:00,,https://github.com/tensorflow/tensorflow/pull/74308,[],[],
+2480403585,pull_request,closed,,Mark test with nomsan tag.,"Mark test with nomsan tag.
+",copybara-service[bot],2024-08-22 10:18:34+00:00,['akuegel'],2024-08-22 10:50:34+00:00,2024-08-22 10:50:33+00:00,https://github.com/tensorflow/tensorflow/pull/74307,[],[],
+2480333268,pull_request,closed,,PR #16291: [GPU] Upgrade cuDNN frontend to 1.6.1.,"PR #16291: [GPU] Upgrade cuDNN frontend to 1.6.1.
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16291
+
+1.6.1 [fixed](https://github.com/NVIDIA/cudnn-frontend/releases/tag/v1.6.1) the problem we've [seen](https://github.com/openxla/xla/pull/16098) with 1.6.0.
+Copybara import of the project:
+
+--
+fc63a514cd3885cad5e727670f67195cc68cab54 by Ilia Sergachev <isergachev@nvidia.com>:
+
+[GPU] Upgrade cuDNN frontend to 1.6.1.
+
+Merging this change closes #16291
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16291 from openxla:cudnn_fe_161 fc63a514cd3885cad5e727670f67195cc68cab54
+",copybara-service[bot],2024-08-22 09:48:51+00:00,[],2024-08-22 19:42:45+00:00,2024-08-22 19:42:44+00:00,https://github.com/tensorflow/tensorflow/pull/74306,[],[],
+2480264137,pull_request,closed,,Integrate LLVM at llvm/llvm-project@7f7f4feaf07d,"Integrate LLVM at llvm/llvm-project@7f7f4feaf07d
+
+Updates LLVM usage to match
+[7f7f4feaf07d](https://github.com/llvm/llvm-project/commit/7f7f4feaf07d)
+",copybara-service[bot],2024-08-22 09:18:53+00:00,[],2024-08-22 15:32:37+00:00,2024-08-22 15:32:36+00:00,https://github.com/tensorflow/tensorflow/pull/74305,[],[],
+2480231838,pull_request,closed,,Bump shardy commit,"Bump shardy commit
+",copybara-service[bot],2024-08-22 09:03:37+00:00,[],2024-08-22 11:30:38+00:00,2024-08-22 11:30:37+00:00,https://github.com/tensorflow/tensorflow/pull/74304,[],[],
+2480116772,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 08:06:18+00:00,[],2024-08-23 10:11:20+00:00,,https://github.com/tensorflow/tensorflow/pull/74302,[],[],
+2480062890,pull_request,closed,,[XLA:GPU] Remove handling of copies as transposes.,"[XLA:GPU] Remove handling of copies as transposes.
+
+Layout normalization turns copies that change the layout into transposes.
+Initially, this pass was behind a flag, but by now the flag has been removed
+and it is always run. Passes that run after layout normalization don't create
+additional copies with layout changes (checked manually). Therefore, the
+transpose emitter does not need to handle copies with layout changes.
+Update the tests that used copies instead of transposes to reflect reality.
+",copybara-service[bot],2024-08-22 07:38:21+00:00,['akuegel'],2024-08-22 11:10:45+00:00,2024-08-22 11:10:44+00:00,https://github.com/tensorflow/tensorflow/pull/74301,[],[],
+2479987578,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 06:55:04+00:00,[],2024-08-22 11:43:56+00:00,,https://github.com/tensorflow/tensorflow/pull/74299,[],[],
+2479984061,pull_request,closed,,"Adding support for state tensors to be externally handled, especially while quantizing models for microcontroller","Adding support for state tensors to be externally handled, especially while quantizing models for microcontroller
+",copybara-service[bot],2024-08-22 06:52:52+00:00,[],2024-08-27 23:49:39+00:00,2024-08-27 23:49:36+00:00,https://github.com/tensorflow/tensorflow/pull/74298,[],[],
+2479850803,pull_request,closed,,[tsl:concurrency] Add MakeAsyncValueRef overloads with automatic result type inference,"[tsl:concurrency] Add MakeAsyncValueRef overloads with automatic result type inference
+",copybara-service[bot],2024-08-22 05:07:47+00:00,['ezhulenev'],2024-08-22 22:09:35+00:00,2024-08-22 22:09:34+00:00,https://github.com/tensorflow/tensorflow/pull/74296,"[('ready to pull', 'PR ready for merge process')]",[],
+2479773840,pull_request,open,,Copy the control dependencies when replacing the while op.,"Copy the control dependencies when replacing the while op.
+",copybara-service[bot],2024-08-22 04:33:25+00:00,['seherellis'],2024-08-22 05:26:46+00:00,,https://github.com/tensorflow/tensorflow/pull/74295,"[('ready to pull', 'PR ready for merge process')]",[],
+2479732111,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 04:20:00+00:00,[],2024-08-22 09:44:20+00:00,,https://github.com/tensorflow/tensorflow/pull/74294,"[('ready to pull', 'PR ready for merge process')]",[],
+2479694180,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:39:39+00:00,[],2024-08-23 05:08:39+00:00,2024-08-23 05:08:38+00:00,https://github.com/tensorflow/tensorflow/pull/74293,"[('ready to pull', 'PR ready for merge process')]",[],
+2479690994,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:35:37+00:00,[],2024-08-22 05:27:51+00:00,,https://github.com/tensorflow/tensorflow/pull/74292,"[('ready to pull', 'PR ready for merge process')]",[],
+2479690011,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:34:21+00:00,[],2024-08-23 06:06:14+00:00,2024-08-23 06:06:14+00:00,https://github.com/tensorflow/tensorflow/pull/74291,[],[],
+2479686851,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:30:21+00:00,[],2024-08-23 06:41:43+00:00,,https://github.com/tensorflow/tensorflow/pull/74290,[],[],
+2479685973,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:29:12+00:00,[],2024-08-22 03:29:12+00:00,,https://github.com/tensorflow/tensorflow/pull/74288,[],[],
+2479685799,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:28:57+00:00,[],2024-08-22 03:28:57+00:00,,https://github.com/tensorflow/tensorflow/pull/74286,[],[],
+2479685153,pull_request,closed,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:28:10+00:00,[],2024-08-27 08:06:12+00:00,2024-08-27 08:06:11+00:00,https://github.com/tensorflow/tensorflow/pull/74285,[],[],
+2479684460,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:27:16+00:00,[],2024-08-22 03:27:16+00:00,,https://github.com/tensorflow/tensorflow/pull/74284,[],[],
+2479683746,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:26:22+00:00,[],2024-08-22 03:26:22+00:00,,https://github.com/tensorflow/tensorflow/pull/74283,[],[],
+2479678892,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-22 03:21:10+00:00,[],2024-08-22 03:21:10+00:00,,https://github.com/tensorflow/tensorflow/pull/74282,[],[],
+2479634971,pull_request,open,,Reverts 0e64d4e5e1c9a602863bbadd7fe55cf26f4cda9e,"Reverts 0e64d4e5e1c9a602863bbadd7fe55cf26f4cda9e
+",copybara-service[bot],2024-08-22 02:28:02+00:00,[],2024-08-22 05:46:50+00:00,,https://github.com/tensorflow/tensorflow/pull/74281,[],[],
+2479622371,pull_request,closed,,Release unused memory storing an additional copy of the saved model just before  invoking C++ TFLite Converter.,"Release unused memory storing an additional copy of the saved model just before  invoking C++ TFLite Converter.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16291 from openxla:cudnn_fe_161 fc63a514cd3885cad5e727670f67195cc68cab54
+",copybara-service[bot],2024-08-22 02:13:47+00:00,['vamsimanchala'],2024-08-22 21:25:10+00:00,2024-08-22 21:25:10+00:00,https://github.com/tensorflow/tensorflow/pull/74279,[],[],
+2479505134,pull_request,open,,[xla:cpu] Use default ThreadOptions for eigen intra-op thread pool,"[xla:cpu] Use default ThreadOptions for eigen intra-op thread pool
+",copybara-service[bot],2024-08-22 01:17:49+00:00,['ezhulenev'],2024-08-22 01:17:50+00:00,,https://github.com/tensorflow/tensorflow/pull/74278,[],[],
+2479480411,pull_request,closed,,[tsl] Add an adaptor from ThreadPool to AsyncValue::Executor,"[tsl] Add an adaptor from ThreadPool to AsyncValue::Executor
+",copybara-service[bot],2024-08-22 00:46:31+00:00,['ezhulenev'],2024-08-22 05:44:51+00:00,2024-08-22 05:44:50+00:00,https://github.com/tensorflow/tensorflow/pull/74277,[],[],
+2479460804,pull_request,closed,,[tflite-gpu] Add shlo clamp to gpu_compatibility.cc,"[tflite-gpu] Add shlo clamp to gpu_compatibility.cc
+",copybara-service[bot],2024-08-22 00:20:52+00:00,['grantjensen'],2024-08-22 22:01:47+00:00,2024-08-22 22:01:46+00:00,https://github.com/tensorflow/tensorflow/pull/74276,[],[],
+2479457940,pull_request,open,,[xla:cpu] Enable parallel compilation of LLVM module parts,"[xla:cpu] Enable parallel compilation of LLVM module parts
+",copybara-service[bot],2024-08-22 00:17:04+00:00,['ezhulenev'],2024-08-22 00:17:05+00:00,,https://github.com/tensorflow/tensorflow/pull/74275,[],[],
+2479433990,pull_request,closed,,Visibility changes for Google.,"Visibility changes for Google.
+",copybara-service[bot],2024-08-21 23:48:45+00:00,[],2024-08-22 01:38:06+00:00,2024-08-22 01:38:05+00:00,https://github.com/tensorflow/tensorflow/pull/74274,[],[],
+2479432237,pull_request,closed,,Clean up includes.,"Clean up includes.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16149 from ROCm:ci_workspace_fix_triangular_solve be3dddf99592d3c1474678a87adb1e5a4b8770bd
+",copybara-service[bot],2024-08-21 23:46:36+00:00,['lrdxgm'],2024-08-22 01:20:36+00:00,2024-08-22 01:20:35+00:00,https://github.com/tensorflow/tensorflow/pull/74273,[],[],
+2479426648,pull_request,open,,Placeholder. Will remove after base cl is submitted.,"Placeholder. Will remove after base cl is submitted.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16149 from ROCm:ci_workspace_fix_triangular_solve be3dddf99592d3c1474678a87adb1e5a4b8770bd
+",copybara-service[bot],2024-08-21 23:39:43+00:00,[],2024-08-21 23:39:43+00:00,,https://github.com/tensorflow/tensorflow/pull/74272,[],[],
+2479422447,pull_request,open,,Integrate LLVM at llvm/llvm-project@ae48affd25ac,"Integrate LLVM at llvm/llvm-project@ae48affd25ac
+
+Updates LLVM usage to match
+[ae48affd25ac](https://github.com/llvm/llvm-project/commit/ae48affd25ac)
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16149 from ROCm:ci_workspace_fix_triangular_solve be3dddf99592d3c1474678a87adb1e5a4b8770bd
+",copybara-service[bot],2024-08-21 23:33:45+00:00,[],2024-08-21 23:33:45+00:00,,https://github.com/tensorflow/tensorflow/pull/74271,[],[],
+2479420842,pull_request,closed,,log the xla compilation cache signature and hash,"log the xla compilation cache signature and hash
+",copybara-service[bot],2024-08-21 23:31:40+00:00,[],2024-08-22 01:01:38+00:00,2024-08-22 01:01:33+00:00,https://github.com/tensorflow/tensorflow/pull/74270,[],[],
+2479419486,pull_request,closed,,Remove unused or unneeded  members & methods from Kernel and GpuKernel.,"Remove unused or unneeded  members & methods from Kernel and GpuKernel.
+",copybara-service[bot],2024-08-21 23:29:48+00:00,[],2024-08-23 00:23:16+00:00,2024-08-23 00:23:15+00:00,https://github.com/tensorflow/tensorflow/pull/74269,[],[],
+2479416673,pull_request,open,,Integrate LLVM at llvm/llvm-project@356533246aa3,"Integrate LLVM at llvm/llvm-project@356533246aa3
+
+Updates LLVM usage to match
+[356533246aa3](https://github.com/llvm/llvm-project/commit/356533246aa3)
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16149 from ROCm:ci_workspace_fix_triangular_solve be3dddf99592d3c1474678a87adb1e5a4b8770bd
+",copybara-service[bot],2024-08-21 23:26:15+00:00,[],2024-08-21 23:26:15+00:00,,https://github.com/tensorflow/tensorflow/pull/74268,[],[],
+2479408209,pull_request,closed,,[XLA:TPU] Add a method to the BufferIntervalTree to return the largest occupied memory location in the heap within a given time interval.,"[XLA:TPU] Add a method to the BufferIntervalTree to return the largest occupied memory location in the heap within a given time interval.
+",copybara-service[bot],2024-08-21 23:15:58+00:00,['subhankarshah'],2024-08-30 20:15:43+00:00,2024-08-30 20:15:43+00:00,https://github.com/tensorflow/tensorflow/pull/74267,[],[],
+2479390961,pull_request,closed,,[XLA:SPMD] Check gather/scatter partitioning for index parallel case have the index parallel dimensions matches for operand and indices.,"[XLA:SPMD] Check gather/scatter partitioning for index parallel case have the index parallel dimensions matches for operand and indices.
+",copybara-service[bot],2024-08-21 22:56:27+00:00,['Tongfei-Guo'],2024-08-22 21:39:15+00:00,2024-08-22 21:39:14+00:00,https://github.com/tensorflow/tensorflow/pull/74266,[],[],
+2479341183,pull_request,closed,,PR #16149: [ROCM] fixing setting workspace for triangular solve,"PR #16149: [ROCM] fixing setting workspace for triangular solve
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16149
+
+After enabling workspaces on ROCM in https://github.com/openxla/xla/pull/13779, we have a problem with **//xla/tests:triangular_solve_test**. Note that, [triangular_solve_thunk](https://github.com/openxla/xla/blob/4cfd0f84e1fbd5e92c7b961d59650474e7f310a4/xla/service/gpu/runtime/triangular_solve_thunk.cc#L151) does **not** set a workspace while calling DoBlasTrsmBatched functions which is probably not needed on CUDA side.
+
+Apparently, rocblas has a different behaviour: since rocblas_set_workspace was not called before TRSM routine, rocblas will try to reuse **previously set** workspace which might not be enough for that triangular solve. I fix it by setting workspace to **nullptr** if it is not explicitly provided (thereby forcing rocblas to use its internal scratch buffer). 
+
+@xla-rotation: could you have a look please ?
+Copybara import of the project:
+
+--
+cbaa907fd9a348215175fd6e65c7a7614f224806 by Pavel Emeliyanenko <pavel.emeliyanenko@amd.com>:
+
+workspace fixing
+
+--
+be3dddf99592d3c1474678a87adb1e5a4b8770bd by Pavel Emeliyanenko <pavel.emeliyanenko@amd.com>:
+
+fixing clang format
+
+Merging this change closes #16149
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16149 from ROCm:ci_workspace_fix_triangular_solve be3dddf99592d3c1474678a87adb1e5a4b8770bd
+",copybara-service[bot],2024-08-21 22:34:26+00:00,[],2024-08-22 00:19:18+00:00,2024-08-22 00:19:17+00:00,https://github.com/tensorflow/tensorflow/pull/74265,[],[],
+2479271742,pull_request,closed,,Move ShardingIsComplete from auto_sharding.cc to auto_sharding_util.h,"Move ShardingIsComplete from auto_sharding.cc to auto_sharding_util.h
+",copybara-service[bot],2024-08-21 22:19:10+00:00,[],2024-08-23 02:47:44+00:00,2024-08-23 02:47:44+00:00,https://github.com/tensorflow/tensorflow/pull/74264,[],[],
+2479252927,pull_request,closed,,[xla:cpu] Use default ThreadOptions for eigen intra-op thread pool,"[xla:cpu] Use default ThreadOptions for eigen intra-op thread pool
+",copybara-service[bot],2024-08-21 22:12:35+00:00,['ezhulenev'],2024-08-22 01:49:21+00:00,2024-08-22 01:49:20+00:00,https://github.com/tensorflow/tensorflow/pull/74263,[],[],
+2479232909,pull_request,closed,,Remove memory leak in error paths of cuda_executor.cc.,"Remove memory leak in error paths of cuda_executor.cc.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16149 from ROCm:ci_workspace_fix_triangular_solve be3dddf99592d3c1474678a87adb1e5a4b8770bd
+",copybara-service[bot],2024-08-21 22:02:21+00:00,[],2024-08-22 00:56:48+00:00,2024-08-22 00:56:47+00:00,https://github.com/tensorflow/tensorflow/pull/74262,[],[],
+2479158279,pull_request,closed,,[tf.data] Update the docstring for map_fusion option.,"[tf.data] Update the docstring for map_fusion option.
+",copybara-service[bot],2024-08-21 21:23:53+00:00,[],2024-08-21 23:42:00+00:00,2024-08-21 23:41:59+00:00,https://github.com/tensorflow/tensorflow/pull/74261,[],[],
+2479140837,pull_request,closed,,#sdy Support device ID list when exporting from sdy to mhlo.,"#sdy Support device ID list when exporting from sdy to mhlo.
+
+Add test for empty meshes and meshes with a device ID list.
+",copybara-service[bot],2024-08-21 21:15:25+00:00,['bixia1'],2024-08-26 15:50:32+00:00,2024-08-26 15:50:32+00:00,https://github.com/tensorflow/tensorflow/pull/74260,[],[],
+2479114069,pull_request,open,,Skip meeting input and output type for zeros like in shape inference.,"Skip meeting input and output type for zeros like in shape inference.
+",copybara-service[bot],2024-08-21 21:02:47+00:00,['LukeBoyer'],2024-08-21 21:02:48+00:00,,https://github.com/tensorflow/tensorflow/pull/74259,[],[],
+2479112067,pull_request,closed,,"Remove some unused functions, inclusions, and definitions from cuda_executor.cc.","Remove some unused functions, inclusions, and definitions from cuda_executor.cc.
+
+Also replace some WINDOWS-specific #ifdef with a tsl::Port
+",copybara-service[bot],2024-08-21 21:01:51+00:00,[],2024-08-22 00:13:19+00:00,2024-08-22 00:13:17+00:00,https://github.com/tensorflow/tensorflow/pull/74258,[],[],
+2479076017,pull_request,closed,,[tflite-gpu] Add Ceil to gpu_compatiblity,"[tflite-gpu] Add Ceil to gpu_compatiblity
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16149 from ROCm:ci_workspace_fix_triangular_solve be3dddf99592d3c1474678a87adb1e5a4b8770bd
+",copybara-service[bot],2024-08-21 20:45:21+00:00,['grantjensen'],2024-08-22 02:33:57+00:00,2024-08-22 02:33:56+00:00,https://github.com/tensorflow/tensorflow/pull/74257,[],[],
+2479063354,pull_request,closed,,[xla:cpu] Make parallel compilation configurable with XLA flags,"[xla:cpu] Make parallel compilation configurable with XLA flags
+
++ bump default number of splits up to 32
+",copybara-service[bot],2024-08-21 20:39:36+00:00,['ezhulenev'],2024-08-22 23:09:35+00:00,2024-08-22 23:09:34+00:00,https://github.com/tensorflow/tensorflow/pull/74256,[],[],
+2479060198,pull_request,closed,,[Numpy] Prepare TF CI scripts for NumPy 2.0,"[Numpy] Prepare TF CI scripts for NumPy 2.0
+",copybara-service[bot],2024-08-21 20:38:09+00:00,['kanglant'],2024-08-26 18:13:48+00:00,2024-08-26 18:13:46+00:00,https://github.com/tensorflow/tensorflow/pull/74255,[],[],
+2479020949,pull_request,closed,,[xla:gpu] Remove a hack for capturing triton custom calls into command buffer,"[xla:gpu] Remove a hack for capturing triton custom calls into command buffer
+",copybara-service[bot],2024-08-21 20:21:35+00:00,['ezhulenev'],2024-08-21 22:08:43+00:00,2024-08-21 22:08:43+00:00,https://github.com/tensorflow/tensorflow/pull/74254,[],[],
+2479011935,pull_request,closed,,Remove unused function and clean up header file inclusions for gpu_executable.cc.,"Remove unused function and clean up header file inclusions for gpu_executable.cc.
+",copybara-service[bot],2024-08-21 20:17:53+00:00,[],2024-08-21 23:09:40+00:00,2024-08-21 23:09:39+00:00,https://github.com/tensorflow/tensorflow/pull/74253,[],[],
+2479010047,pull_request,open,,Use StableHLO filegroup for python APIs in jaxlib MLIR build.,"Use StableHLO filegroup for python APIs in jaxlib MLIR build.
+",copybara-service[bot],2024-08-21 20:17:06+00:00,['GleasonK'],2024-08-21 20:17:07+00:00,,https://github.com/tensorflow/tensorflow/pull/74252,[],[],
+2478937180,pull_request,closed,,Remove known_incorrect_fn_ from exhaustive tests,"Remove known_incorrect_fn_ from exhaustive tests
+
+All uses have been replaced by `ErrorSpec::skip_comparison`, and all future uses should work under that framework instead.
+",copybara-service[bot],2024-08-21 19:46:11+00:00,[],2024-08-22 21:45:04+00:00,2024-08-22 21:45:04+00:00,https://github.com/tensorflow/tensorflow/pull/74251,[],[],
+2478925903,pull_request,closed,,Replace uses of known_incorrect_fn_ with ErrorSpec::skip_comparison,"Replace uses of known_incorrect_fn_ with ErrorSpec::skip_comparison
+
+`ErrorSpec::skip_comparison` fulfills all of the same features, but is slightly more ergonomic for unary tests and provides the ability to filter binary inputs as a pair instead of one at a time.
+",copybara-service[bot],2024-08-21 19:41:22+00:00,[],2024-08-22 20:18:30+00:00,2024-08-22 20:18:29+00:00,https://github.com/tensorflow/tensorflow/pull/74250,[],[],
+2478902754,pull_request,closed,,Add a filegroup and cc_library for the StableHLO Python API.,"Add a filegroup and cc_library for the StableHLO Python API.
+",copybara-service[bot],2024-08-21 19:31:04+00:00,['GleasonK'],2024-08-21 22:50:25+00:00,2024-08-21 22:50:25+00:00,https://github.com/tensorflow/tensorflow/pull/74249,[],[],
+2478899136,pull_request,open,,remove versioning target from flatbuffer_export,"remove versioning target from flatbuffer_export
+",copybara-service[bot],2024-08-21 19:29:34+00:00,[],2024-09-18 19:57:23+00:00,,https://github.com/tensorflow/tensorflow/pull/74248,[],[],
+2478813197,pull_request,closed,,Enable AbsComplex in exhaustive_binary_f32_f64_test,"Enable AbsComplex in exhaustive_binary_f32_f64_test
+
+Merges the two `AbsComplex` variants into one macro invocation that enables for both F32 and F64 tests (for `complex64` and `complex128`). Tightens tolerances and re-enables the tests on CPU.
+",copybara-service[bot],2024-08-21 19:02:12+00:00,[],2024-08-22 10:18:35+00:00,2024-08-22 10:18:33+00:00,https://github.com/tensorflow/tensorflow/pull/74247,[],[],
+2478798638,pull_request,open,,Remove cc_api_version stage 4: deletion where cc_api_version = 2,"Remove cc_api_version stage 4: deletion where cc_api_version = 2
+",copybara-service[bot],2024-08-21 18:58:19+00:00,[],2024-08-23 19:39:04+00:00,,https://github.com/tensorflow/tensorflow/pull/74246,[],[],
+2478764676,pull_request,open,,"TC1 cores in megacore sometimes doesn't have any work to do and therefore when the results are compared against the host evaluations, it shows nonsensical large values or inf. Here, I'm checking for that in the instrumentation handler and skip the comparison message if the core index is not 0.","TC1 cores in megacore sometimes doesn't have any work to do and therefore when the results are compared against the host evaluations, it shows nonsensical large values or inf. Here, I'm checking for that in the instrumentation handler and skip the comparison message if the core index is not 0.
+",copybara-service[bot],2024-08-21 18:45:06+00:00,[],2024-08-21 18:45:06+00:00,,https://github.com/tensorflow/tensorflow/pull/74245,[],[],
+2478763738,pull_request,open,,Additional unit tests for host assisted instrumentation.,"Additional unit tests for host assisted instrumentation.
+",copybara-service[bot],2024-08-21 18:44:40+00:00,[],2024-08-21 18:44:40+00:00,,https://github.com/tensorflow/tensorflow/pull/74244,[],[],
+2478726933,pull_request,closed,,Add pattern to reorder gather and cast ops.,"Add pattern to reorder gather and cast ops.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/15460 from zhenying-liu:memfix e0443385eb7bacc852ab800aad9707c48315f480
+",copybara-service[bot],2024-08-21 18:27:37+00:00,['lrdxgm'],2024-08-21 21:21:46+00:00,2024-08-21 21:21:45+00:00,https://github.com/tensorflow/tensorflow/pull/74243,[],[],
+2478676243,pull_request,closed,,[XLA:CPU] Support FFI execution context in XLA:CPU backend,"[XLA:CPU] Support FFI execution context in XLA:CPU backend
+",copybara-service[bot],2024-08-21 18:05:05+00:00,[],2024-09-03 12:18:43+00:00,2024-09-03 12:18:42+00:00,https://github.com/tensorflow/tensorflow/pull/74242,[],"[{'comment_id': 2302670225, 'issue_id': 2478676243, 'author': 'google-cla[bot]', 'body': ""Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\nView this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74242/checks?check_run_id=29072725212) of the CLA check for more information.\n\nFor the most up to date status, view the checks section at the bottom of the pull request."", 'created_at': datetime.datetime(2024, 8, 21, 18, 5, 9, tzinfo=datetime.timezone.utc)}]","google-cla[bot] on (2024-08-21 18:05:09 UTC): Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).
+
+View this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74242/checks?check_run_id=29072725212) of the CLA check for more information.
+
+For the most up to date status, view the checks section at the bottom of the pull request.
+
+"
+2478637977,pull_request,closed,,[XLA:TPU] Add LoopOptimizerBestFitHeap class that models alternate memory for memory bound loops and accounts for fragmentation.,"[XLA:TPU] Add LoopOptimizerBestFitHeap class that models alternate memory for memory bound loops and accounts for fragmentation.
+",copybara-service[bot],2024-08-21 17:49:24+00:00,['subhankarshah'],2024-09-16 06:26:16+00:00,2024-09-16 06:26:15+00:00,https://github.com/tensorflow/tensorflow/pull/74241,[],[],
+2478624560,pull_request,closed,,"Add boilerplate code to help define, create and register passes in TFLite Converter.","Add boilerplate code to help define, create and register passes in TFLite Converter.
+",copybara-service[bot],2024-08-21 17:44:00+00:00,['vamsimanchala'],2024-08-23 23:19:46+00:00,2024-08-23 23:19:45+00:00,https://github.com/tensorflow/tensorflow/pull/74240,[],[],
+2478607888,pull_request,open,,Bump shardy commit,"Bump shardy commit
+",copybara-service[bot],2024-08-21 17:36:35+00:00,[],2024-08-21 17:36:35+00:00,,https://github.com/tensorflow/tensorflow/pull/74239,[],[],
+2478572141,pull_request,open,,Rolling back large scale change that broke some internal tests.,"Rolling back large scale change that broke some internal tests.
+
+Reverts changelist 618403903
+",copybara-service[bot],2024-08-21 17:19:57+00:00,['sagunb'],2024-08-21 17:20:52+00:00,,https://github.com/tensorflow/tensorflow/pull/74238,"[('ready to pull', 'PR ready for merge process')]",[],
+2478570928,pull_request,closed,,#sdy Support a mesh with an arbitrary order of devices.,"#sdy Support a mesh with an arbitrary order of devices.
+
+Replace the single device_id in MeshAttr with an optional list of device_ids.
+Adjust the assembly format for MeshAttr, and add verification for checking the
+list of device_ids and the agreement between device_ids and axes.
+
+Update tests to reflect the change in the assembly format.
+",copybara-service[bot],2024-08-21 17:19:05+00:00,['bixia1'],2024-08-21 22:14:28+00:00,2024-08-21 22:14:27+00:00,https://github.com/tensorflow/tensorflow/pull/74237,[],[],
+2478544772,pull_request,closed,,Fix out-of-bounds access.,"Fix out-of-bounds access.
+",copybara-service[bot],2024-08-21 17:04:03+00:00,[],2024-08-21 22:19:53+00:00,2024-08-21 22:19:52+00:00,https://github.com/tensorflow/tensorflow/pull/74236,[],[],
+2478531765,pull_request,closed,,Return nullptr if PJRT_Layouts_Extension is not found when PjRtCApiBuffer::layout is called.,"Return nullptr if PJRT_Layouts_Extension is not found when PjRtCApiBuffer::layout is called.
+",copybara-service[bot],2024-08-21 16:57:48+00:00,['jyingl3'],2024-08-21 19:58:38+00:00,2024-08-21 19:58:36+00:00,https://github.com/tensorflow/tensorflow/pull/74235,[],[],
+2478385730,pull_request,closed,,[xla:cpu] Optimize invariant buffers check,"[xla:cpu] Optimize invariant buffers check
+
+
+Instead of invariant buffer slices, simply remember invariant argument indices. This simplifies the runtime check.
+
+Additionally get already resolved buffer memory addresses during check (from `kernel_args`), instead of resolving them for the second time.
+",copybara-service[bot],2024-08-21 15:45:34+00:00,[],2024-08-23 20:30:50+00:00,2024-08-23 20:30:49+00:00,https://github.com/tensorflow/tensorflow/pull/74233,[],"[{'comment_id': 2302412417, 'issue_id': 2478385730, 'author': 'google-cla[bot]', 'body': ""Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).\n\nView this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74233/checks?check_run_id=29066252236) of the CLA check for more information.\n\nFor the most up to date status, view the checks section at the bottom of the pull request."", 'created_at': datetime.datetime(2024, 8, 21, 15, 45, 40, tzinfo=datetime.timezone.utc)}]","google-cla[bot] on (2024-08-21 15:45:40 UTC): Thanks for your pull request! It looks like this may be your first contribution to a Google open source project. Before we can look at your pull request, you'll need to sign a Contributor License Agreement (CLA).
+
+View this [failed invocation](https://github.com/tensorflow/tensorflow/pull/74233/checks?check_run_id=29066252236) of the CLA check for more information.
+
+For the most up to date status, view the checks section at the bottom of the pull request.
+
+"
+2478380814,pull_request,closed,,[XLA:GPU] Fix `pred` loads and stores in the generic Triton emitter.,"[XLA:GPU] Fix `pred` loads and stores in the generic Triton emitter.
+
+The `pred` type is not packed, and each `pred` is stored in a byte. This makes
+the storage type `i8`, but we want to use `i1` within the Triton IR we emit.
+We now make sure to appropriately truncate loads and extend results before
+stores.
+",copybara-service[bot],2024-08-21 15:42:52+00:00,[],2024-08-21 17:16:45+00:00,2024-08-21 17:16:45+00:00,https://github.com/tensorflow/tensorflow/pull/74232,[],[],
+2478362855,pull_request,closed,,Add an axis ordering aware mesh shape inference routine.,"Add an axis ordering aware mesh shape inference routine.
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/tensorflow/tensorflow/pull/73875 from ganyu1992:bugfix/event_mgr/op_sched_hang01 a210ae4e6752b008f77b9d0c80cf4ce72060fadf
+",copybara-service[bot],2024-08-21 15:33:36+00:00,[],2024-08-23 20:01:40+00:00,2024-08-23 20:01:39+00:00,https://github.com/tensorflow/tensorflow/pull/74231,[],[],
+2478359538,pull_request,open,,[PjRT] Remove unused PjRT client,"[PjRT] Remove unused PjRT client
+",copybara-service[bot],2024-08-21 15:31:56+00:00,['cheshire'],2024-08-21 15:31:57+00:00,,https://github.com/tensorflow/tensorflow/pull/74230,[],[],
+2478332429,pull_request,open,,[PjRT] [NFC] Remove unused PjRT device description field,"[PjRT] [NFC] Remove unused PjRT device description field
+",copybara-service[bot],2024-08-21 15:20:07+00:00,['cheshire'],2024-08-21 15:20:08+00:00,,https://github.com/tensorflow/tensorflow/pull/74229,[],[],
+2478302145,pull_request,closed,,[PjRT] Remove unused fields from GPU topology,"[PjRT] Remove unused fields from GPU topology
+",copybara-service[bot],2024-08-21 15:10:11+00:00,['cheshire'],2024-09-03 10:43:28+00:00,2024-09-03 10:43:27+00:00,https://github.com/tensorflow/tensorflow/pull/74228,[],[],
+2478260200,pull_request,closed,,[xla:cpu] Make f32->bf16 conversion of NaN return quiet NaN.,"[xla:cpu] Make f32->bf16 conversion of NaN return quiet NaN.
+
+The old code truncates the 16 LSBs of the mantissa, which could result in an `inf` instead of NaN if the remaining mantissa bits are all zeroes.
+
++ Update `convert_test` to catch this.
+",copybara-service[bot],2024-08-21 14:57:39+00:00,['penpornk'],2024-08-21 20:18:59+00:00,2024-08-21 20:18:58+00:00,https://github.com/tensorflow/tensorflow/pull/74227,[],[],
+2478213495,pull_request,closed,,[XLA:GPU] Move ReduceScatterCreator post CollectivePipeliner.,"[XLA:GPU] Move ReduceScatterCreator post CollectivePipeliner.
+
+This change simplifies the compiler flow for collective pipeliners.
+
+We run two collective pipeliners separately for all reduce and reduce scatter. If we move ReduceScatterCreator pass post pipeliners then we only exercise all reduce pipeliner (because reduce scatters will be created post this flow) which is sufficient.
+",copybara-service[bot],2024-08-21 14:39:33+00:00,[],2024-08-21 18:29:34+00:00,2024-08-21 18:29:33+00:00,https://github.com/tensorflow/tensorflow/pull/74226,[],[],
+2478188339,pull_request,closed,,[XLA:GPU] Improve the triton support implementation for `kConvert` and add a dedicated test.,"[XLA:GPU] Improve the triton support implementation for `kConvert` and add a dedicated test.
+",copybara-service[bot],2024-08-21 14:28:37+00:00,[],2024-08-23 15:58:34+00:00,2024-08-23 15:58:33+00:00,https://github.com/tensorflow/tensorflow/pull/74225,[],[],
+2478187569,pull_request,closed,,[XLA:GPU] Remove unnecessary check for should_add_loop_invariant_op_in_chain.,"[XLA:GPU] Remove unnecessary check for should_add_loop_invariant_op_in_chain.
+",copybara-service[bot],2024-08-21 14:28:17+00:00,[],2024-09-10 09:50:32+00:00,2024-09-10 09:50:31+00:00,https://github.com/tensorflow/tensorflow/pull/74224,[],[],
+2477947219,pull_request,closed,,[XLA:GPU] Cleanup ReductionLayoutNormalizer.,"[XLA:GPU] Cleanup ReductionLayoutNormalizer.
+
+Passes that run after layout normalization should not create copies with layout
+changes. Fortunately ReductionLayoutNormalizer is handling a case here that
+should never happen if LayoutAssignment did run before. Let it return an error
+instead.
+Add a test case for variadic reduce to layout_assignment_test.
+",copybara-service[bot],2024-08-21 12:43:04+00:00,['akuegel'],2024-08-21 13:18:56+00:00,2024-08-21 13:18:55+00:00,https://github.com/tensorflow/tensorflow/pull/74223,[],[],
+2477905831,pull_request,closed,,[xla:ffi] Update FFI `priv` field to support extensions like PJRT.,"[xla:ffi] Update FFI `priv` field to support extensions like PJRT.
+
+The `void* priv` field throughout the FFI has been renamed to `XLA_FFI_Extension_Base* extension_start` for consistency with PRJT. This will enable ABI compatible extensions like metadata fetching.
+",copybara-service[bot],2024-08-21 12:23:10+00:00,[],2024-08-26 11:20:31+00:00,2024-08-26 11:20:30+00:00,https://github.com/tensorflow/tensorflow/pull/74222,[],[],
+2477846142,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-21 11:54:12+00:00,[],2024-08-22 11:11:33+00:00,,https://github.com/tensorflow/tensorflow/pull/74221,[],[],
+2477769004,pull_request,open,,PR #14897: [Nvidia GPU] Add mechanism to detect nccl timeout and return error status,"PR #14897: [Nvidia GPU] Add mechanism to detect nccl timeout and return error status
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/14897
+
+The current behavior crashes the program whenever a nccl async error has occured, timeout errors are also not detected for async events. This pr adds a mechanism to do:
+1. poll statuses of async events and return timeout if status is pending for too long
+2. return nccl async event status as xla status so a proper python exception can be thrown.
+Copybara import of the project:
+
+--
+4a6e3b1cee3af3bc0c83e31ee1ce5ecfffd524ac by TJ Xu <tjx@nvidia.com>:
+
+Add mechanism to detect nccl timeout and return error status
+
+--
+c7bdda819ade875f03d6fd8ed4a6d07c00aba5e7 by TJ Xu <tjx@nvidia.com>:
+
+move async status and queue management to gpu executable
+
+--
+d4b44f1afde05a78a4e233b05503015218c29ec7 by TJ <tjx@nvidia.com>:
+
+Added e2e test for testing nccl timeout and error propagation
+
+--
+c64997afee2d83a857b61cb0d91d8ca2a641097c by TJ <tjx@nvidia.com>:
+
+address pr comments
+
+--
+d3318e7f8703519b060f7efb1c77d3f409fc5ed8 by TJ <tjx@nvidia.com>:
+
+changed back the formatting for xla/python/pjit.cc
+
+--
+d396cc6972275fd718e4961a0d5040f23679bd24 by TJ Xu <tjx@nvidia.com>:
+
+Added back the IsIdle api in gpu stream interface
+
+Merging this change closes #14897
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/14897 from Tixxx:tixxx/nccl_error_prop d396cc6972275fd718e4961a0d5040f23679bd24
+",copybara-service[bot],2024-08-21 11:16:20+00:00,[],2024-08-21 11:16:20+00:00,,https://github.com/tensorflow/tensorflow/pull/74220,[],[],
+2477762766,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-21 11:13:06+00:00,[],2024-08-22 05:12:23+00:00,,https://github.com/tensorflow/tensorflow/pull/74219,[],[],
+2477750290,pull_request,closed,,[XLA:GPU] Do not compute output-to-input indexing for fusion operands.,"[XLA:GPU] Do not compute output-to-input indexing for fusion operands.
+
+This is a wasted computation, because we discard the result anyway. This should improve compile time performance.
+
+I noticed this only because there is a bug in indexing analysis that results in a crash. Otherwise `ComputeOutputToInputIndexing` always return a valid result.
+",copybara-service[bot],2024-08-21 11:06:49+00:00,[],2024-08-21 11:53:02+00:00,2024-08-21 11:53:01+00:00,https://github.com/tensorflow/tensorflow/pull/74218,[],[],
+2477735258,pull_request,closed,,Change `custom_package` name for DPB to match Java package name.,"Change `custom_package` name for DPB to match Java package name.
+",copybara-service[bot],2024-08-21 10:58:56+00:00,[],2024-08-21 16:30:57+00:00,2024-08-21 16:30:57+00:00,https://github.com/tensorflow/tensorflow/pull/74217,[],[],
+2477667936,pull_request,closed,,Float8E4M3FNUZ -> Float8E4M3FN for NVIDIA PTX,"Float8E4M3FNUZ -> Float8E4M3FN for NVIDIA PTX
+
+Imported from https://github.com/openxla/triton/pull/8/
+",copybara-service[bot],2024-08-21 10:25:12+00:00,['chsigg'],2024-08-26 13:23:08+00:00,2024-08-26 13:23:07+00:00,https://github.com/tensorflow/tensorflow/pull/74214,[],[],
+2477619106,pull_request,closed,,Restrict Custom Kernel Fusion Cutlass upcast Pattern matcher to a list of precompiled kernels.,"Restrict Custom Kernel Fusion Cutlass upcast Pattern matcher to a list of precompiled kernels.
+",copybara-service[bot],2024-08-21 10:03:04+00:00,[],2024-08-21 16:50:02+00:00,2024-08-21 16:50:01+00:00,https://github.com/tensorflow/tensorflow/pull/74213,[],[],
+2477605648,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-21 09:56:49+00:00,[],2024-08-22 06:10:00+00:00,,https://github.com/tensorflow/tensorflow/pull/74212,[],[],
+2477598224,pull_request,open,,Reverts 0a851d3db58d3982b6017ab128115932b07929d0,"Reverts 0a851d3db58d3982b6017ab128115932b07929d0
+",copybara-service[bot],2024-08-21 09:53:18+00:00,['akuegel'],2024-08-21 09:53:19+00:00,,https://github.com/tensorflow/tensorflow/pull/74211,[],[],
+2477512866,pull_request,open,,Update GraphDef version to 1961.,"Update GraphDef version to 1961.
+",copybara-service[bot],2024-08-21 09:13:02+00:00,[],2024-08-21 09:13:02+00:00,,https://github.com/tensorflow/tensorflow/pull/74210,[],[],
+2477482150,pull_request,closed,,PR #16279: [NFC]: remove dce redundant log,"PR #16279: [NFC]: remove dce redundant log
+
+Imported from GitHub PR https://github.com/openxla/xla/pull/16279
+
+
+Copybara import of the project:
+
+--
+9befa8231c42219b8a1d1aaeb342346d48513b0d by flyingcat <1004815462@qq.com>:
+
+[NFC]: remove dce redundant log
+
+Merging this change closes #16279
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16279 from knightXun:DEC-NFC 9befa8231c42219b8a1d1aaeb342346d48513b0d
+",copybara-service[bot],2024-08-21 08:59:05+00:00,[],2024-08-21 10:20:27+00:00,2024-08-21 10:20:26+00:00,https://github.com/tensorflow/tensorflow/pull/74209,[],[],
+2477470371,pull_request,closed,,Bump shardy commit,"Bump shardy commit
+",copybara-service[bot],2024-08-21 08:53:45+00:00,[],2024-08-21 17:29:53+00:00,2024-08-21 17:29:51+00:00,https://github.com/tensorflow/tensorflow/pull/74208,[],[],
+2477444458,pull_request,closed,,[XLA:GPU] Make `CanTritonHandleReduce` to match the new emitter implementaiton.,"[XLA:GPU] Make `CanTritonHandleReduce` to match the new emitter implementaiton.
+
+This CL also fixes the broken tests.
+",copybara-service[bot],2024-08-21 08:42:06+00:00,[],2024-08-27 12:54:42+00:00,2024-08-27 12:54:40+00:00,https://github.com/tensorflow/tensorflow/pull/74207,[],[],
+2477428907,pull_request,closed,,Reverts 6363b8458710ca98369efd774b3ccab01942da41,"Reverts 6363b8458710ca98369efd774b3ccab01942da41
+",copybara-service[bot],2024-08-21 08:34:25+00:00,['akuegel'],2024-08-21 11:28:43+00:00,2024-08-21 11:28:43+00:00,https://github.com/tensorflow/tensorflow/pull/74206,[],[],
+2477393647,pull_request,open,,Automated Code Change,"Automated Code Change
+
+Reverts 6363b8458710ca98369efd774b3ccab01942da41
+",copybara-service[bot],2024-08-21 08:17:44+00:00,[],2024-08-21 11:33:47+00:00,,https://github.com/tensorflow/tensorflow/pull/74205,[],[],
+2477340718,pull_request,open,,Automated Code Change,"Automated Code Change
+
+FUTURE_COPYBARA_INTEGRATE_REVIEW=https://github.com/openxla/xla/pull/16279 from knightXun:DEC-NFC 9befa8231c42219b8a1d1aaeb342346d48513b0d
+",copybara-service[bot],2024-08-21 07:55:37+00:00,[],2024-08-21 10:14:30+00:00,,https://github.com/tensorflow/tensorflow/pull/74204,[],[],
+2477329656,pull_request,closed,,Update default CUDA Toolkit version to 12.5.1,"Update default CUDA Toolkit version to 12.5.1
+
+This updates CUDA for both TF and XLA. It also enables the CUDA driver forward
+compatibility mode for XLA since XLA's CUDA graph integration needs a newer
+driver version.
+",copybara-service[bot],2024-08-21 07:50:51+00:00,[],2024-09-12 20:19:04+00:00,2024-09-12 20:19:02+00:00,https://github.com/tensorflow/tensorflow/pull/74203,[],[],
+2477324422,pull_request,open,,Automated Code Change,"Automated Code Change
+",copybara-service[bot],2024-08-21 07:48:20+00:00,[],2024-08-22 07:18:25+00:00,,https://github.com/tensorflow/tensorflow/pull/74202,[],[],
