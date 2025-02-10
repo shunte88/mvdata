@@ -37,8 +37,8 @@ cd /data2/github-slurp/helpers
 #mange "odoo" "odoo" 18000 "zip"
 #mange "OWASP" "Nettacker" 18000 "zip"
 #mange "kubernetes" "kubernetes" 18000 "zip"
-mange "metabase" "metabase" 18000 "zip"
-#mange "apache" "airflow" 400
+#mange "metabase" "metabase" 18000 "zip"
+mange "apache" "airflow" 18000 "zip"
 #mange "pytorch" "pytorch" 18000 "zip"
 
 cd /data2/mvdata
