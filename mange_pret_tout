@@ -39,8 +39,8 @@ cd /data2/github-slurp/helpers
 #mange "kubernetes" "kubernetes" 400
 #mange "metabase" "metabase" 400
 #mange "apache" "airflow" 400
-# was 5000
-mange "pytorch" "pytorch" 6000 "zip"
+# was 6000
+mange "pytorch" "pytorch" 8000 "zip"
 
 cd /data2/mvdata
 git add .
