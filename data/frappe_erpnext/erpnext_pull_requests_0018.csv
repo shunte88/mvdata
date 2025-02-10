@@ -1,0 +1,1712 @@
+id,type,state,state_reason,title,body,author,created_at,assignees,updated_at,closed_at,url,labels,comments_list,comment_thread
+2581113552,pull_request,closed,,test: don't load test records into db during module import,"cc @ruthra-kumar
+",blaggacao,2024-10-11 11:15:09+00:00,[],2024-10-26 00:10:59+00:00,2024-10-11 11:42:50+00:00,https://github.com/frappe/erpnext/pull/43623,[],[],
+2580821806,pull_request,closed,,fix: show incorrect entries filter in Stock Ledger Invariant Check report (backport #43619),"<img width=""1378"" alt=""Screenshot 2024-10-11 at 1 39 19 PM"" src=""https://github.com/user-attachments/assets/bf5af346-35a9-4515-bfbe-69a43549253d"">
+<hr>This is an automatic backport of pull request #43619 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-11 08:50:30+00:00,['rohitwaghchaure'],2024-10-26 00:11:00+00:00,2024-10-11 10:52:22+00:00,https://github.com/frappe/erpnext/pull/43622,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2580778433,pull_request,closed,,ci: trigger,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",blaggacao,2024-10-11 08:29:42+00:00,[],2024-11-20 00:11:28+00:00,2024-11-05 08:15:35+00:00,https://github.com/frappe/erpnext/pull/43621,"[('inactive', '')]","[{'comment_id': 2456122079, 'issue_id': 2580778433, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 11, 5, 2, 55, 26, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-11-05 02:55:26 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2580771930,pull_request,closed,,test: prepare item group test idempotency,"- **test: increase error context on test_item_group**
+- **test: order cases in test_item_group into their execution order**
+
+cc @ruthra-kumar
+",blaggacao,2024-10-11 08:26:12+00:00,['blaggacao'],2024-10-27 00:12:08+00:00,2024-10-12 10:18:52+00:00,https://github.com/frappe/erpnext/pull/43620,[],[],
+2580744301,pull_request,closed,,fix: show incorrect entries filter in Stock Ledger Invariant Check report,"<img width=""1378"" alt=""Screenshot 2024-10-11 at 1 39 19 PM"" src=""https://github.com/user-attachments/assets/bf5af346-35a9-4515-bfbe-69a43549253d"">
+",rohitwaghchaure,2024-10-11 08:10:45+00:00,[],2024-10-26 00:11:01+00:00,2024-10-11 08:47:34+00:00,https://github.com/frappe/erpnext/pull/43619,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2580686047,pull_request,closed,,fix: height and font size plant floor,"**Before**
+<img width=""1322"" alt=""Screenshot 2024-10-11 at 1 12 00 PM"" src=""https://github.com/user-attachments/assets/e3103b82-078a-42af-97c5-0574e28c8be0"">
+
+
+**After**
+
+<img width=""1322"" alt=""Screenshot 2024-10-11 at 1 14 30 PM"" src=""https://github.com/user-attachments/assets/48fa023f-8d93-4e93-8d4f-a02eaece9cce"">
+",rohitwaghchaure,2024-10-11 07:46:15+00:00,[],2024-10-26 00:11:02+00:00,2024-10-11 08:11:16+00:00,https://github.com/frappe/erpnext/pull/43618,[],[],
+2580620771,pull_request,closed,,fix: rounding for inclusive tax precision,"![image](https://github.com/user-attachments/assets/7d0f4cf2-1d64-454b-bc74-b180912851d9)
+",rtdany10,2024-10-11 07:13:21+00:00,[],2024-12-03 00:13:40+00:00,2024-11-16 04:26:27+00:00,https://github.com/frappe/erpnext/pull/43616,"[('accounts', ''), ('inactive', '')]","[{'comment_id': 2445486492, 'issue_id': 2580620771, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 10, 29, 23, 9, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-10-29 23:09:00 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2580580936,pull_request,closed,,fix: ignore free item when qty is zero,"### Issue:
+
+- Create a sales invoice and apply pricing rule for item group and 10 qty 1 free rule.
+- After creating the sales invoice if I reduce the qty to less than 10 then the free qty is set to 0 and that free item cannot be removed.
+
+![EB21E452-8FDC-4818-94C9-E025DFE9](https://github.com/user-attachments/assets/dccba16f-8e72-4cc8-bf17-d27f93a37dd7)
+
+
+",Ninad1306,2024-10-11 06:49:37+00:00,[],2024-10-30 00:11:43+00:00,2024-10-14 10:49:45+00:00,https://github.com/frappe/erpnext/pull/43614,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2580336268,pull_request,closed,,test: step 2 refactor towards idempotency,"- **refactor: use cls.globalTestRecords instead of declaring test_records**
+  As with https://github.com/frappe/erpnext/pull/43610 `test_records` may be considered an anti-pattern if it doesn't deviate from the default behaviour. Instead, we ensure proper dependency declaration, and use `self.globalTestRecords` (actually: `cls.globalTestRecords`)
+
+cc @ruthra-kumar @rohitwaghchaure @s-aga-r @deepeshgarg007
+
+If we can get this to green, then this is a significant step, because it means that we have achived (or maybe only _ensured_, cause it already was the case) a baseline for a certain locality and isolation of tests: items inside `cls.globalTestRecords` are MappingProxys and therefore can't be written to. They represent the records at their time of insertion into the database. On a rerun on the CLI with the same database, they are reconstructed from `sites/test_site/.test_log.jsonl` instead of from an actual insert and represent the records at the time of their original insert on prior test runs.
+
+This PR also significantly reduces the deprecation warning pressure on CLI.
+
+---
+
+**Intermediate Step Required**
+- https://github.com/frappe/frappe/pull/28083
+
+> `AttributeError: 'mappingproxy' object has no attribute 'as_dict'`
+
+This is wonderful! It shows that the mapping proxies are working as intended. On the framework side, we want to modify at least `frappe.copy_doc` to work with MappingProxy, as of its widespread use in tests.
+
+---
+**`enterClassContext` / `enterContext` technique**
+
+All [`frappe.tests.classes.context_managers`](https://github.com/frappe/frappe/blob/develop/frappe/tests/classes/context_managers.py) can be used in `setUp` or `setUpClass` with `enterContext` or `enterClassContext`. This is a relatively new unittest feature which takes a context manager and ensures the context is upheld during the entire scope of the test class / test case respecitvely.
+
+An example of its use: https://github.com/frappe/erpnext/pull/43612/commits/c17de26e4453ec9e42c51967a245f85482931325
+
+---
+**Further Intemediate Steps Required**
+
+- https://github.com/frappe/frappe/pull/28102
+- https://github.com/frappe/frappe/pull/28094
+
+These mainly fixed the Test Record loading for correctness. The most significant change was to load actual json records into `cls.globalTestRecords` instead of `doc.as_dict()` post db-insertion. This matches more closely the expectations that test designers had when they previously declared `test_records = ...`.
+",blaggacao,2024-10-11 03:22:59+00:00,[],2024-10-27 00:12:05+00:00,2024-10-12 22:31:30+00:00,https://github.com/frappe/erpnext/pull/43612,[],[],
+2580242536,pull_request,closed,,test: step 1 refactor towards idempotency,"- **chore: remove redundant declarations of test_records**
+  Contrary to intuition, when `test_records` simply re-declare the current document, it is the default implementation of 
+ any `IntegrationTestCase` via `frappe.tests.utils.generators.make_test_records`. At the very least it's a ""wasteful"" no-op, but more importantly its widespread use fake a nonexistent deviation from the default / convention.
+ 
+Module attribute `test_records` or module function `_make_test_records` may be used when the default behaviour is not suitable. The default behaviour is loading the current doc and all its link-field transitory dependencies. Additional dependencies can be declared via module attribute `EXTRA_TEST_RECORD_DEPENDENCIES` while exemptions can be declared via `IGNORE_TEST_RECORD_DEPENDENCIES`.
+
+Ref.: `frappe/tests/utils/generators.py`
+
+`IGNORE_TEST_RECORD_DEPENDENCIES` does not mean that these records wouldn't be loaded by another test into `self.globalTestRecords`: **they could** (they are global, after all). It's just a cosmetic way to speed up **isolated** (!) execution by avoiding to pull in unneeded records.
+
+This PR also reduces the deprecation warning pressure on the CLI.
+
+cc @ruthra-kumar @rohitwaghchaure @s-aga-r @deepeshgarg007 ",blaggacao,2024-10-11 02:04:59+00:00,[],2024-10-26 00:11:03+00:00,2024-10-11 03:19:22+00:00,https://github.com/frappe/erpnext/pull/43610,[],"[{'comment_id': 2406482167, 'issue_id': 2580242536, 'author': 'blaggacao', 'body': 'A less boring follow-up PR is incoming ...', 'created_at': datetime.datetime(2024, 10, 11, 3, 20, 4, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-11 03:20:04 UTC): A less boring follow-up PR is incoming ...
+
+"
+2579022835,pull_request,closed,,ci: validate upstream attempted fix,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",blaggacao,2024-10-10 14:23:55+00:00,[],2024-10-26 00:11:05+00:00,2024-10-10 18:32:16+00:00,https://github.com/frappe/erpnext/pull/43607,[],[],
+2578559132,pull_request,closed,,refactor: clarify test record module iface (treewide),"This aims at reducing the deprecation warning pressure on a standard CLI-based ERPnext test run.
+
+Following https://github.com/frappe/frappe/pull/28060
+",blaggacao,2024-10-10 11:26:54+00:00,[],2024-10-26 00:11:06+00:00,2024-10-10 17:21:20+00:00,https://github.com/frappe/erpnext/pull/43605,[],[],
+2578333489,pull_request,closed,,test: fix item detail test module,"```console
+======================================================================
+ ERROR  setUpClass (erpnext.stock.tests.test_get_item_details.TestGetItemDetail)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File ""/home/runner/frappe-bench/apps/frappe/frappe/tests/classes/integration_test_case.py"", line 53, in setUpClass
+    raise NotImplementedError(
+    __class__ = <class 'frappe.tests.classes.integration_test_case.IntegrationTestCase'>
+    cls = <class 'erpnext.stock.tests.test_get_item_details.TestGetItemDetail'>
+    ignore = ['BOM']
+    to_add = ['Customer', 'Supplier', 'Item', 'Price List', 'Item Price']
+NotImplementedError: IGNORE_TEST_RECORD_DEPENDENCIES is only implement for test modules within a doctype folder <module 'erpnext.stock.tests.test_get_item_details' from '/home/runner/frappe-bench/apps/erpnext/erpnext/stock/tests/test_get_item_details.py'> None
+```
+
+cc @ruthra-kumar ",blaggacao,2024-10-10 10:12:44+00:00,[],2024-10-26 00:11:09+00:00,2024-10-10 10:31:50+00:00,https://github.com/frappe/erpnext/pull/43603,[],[],
+2577860602,pull_request,closed,,fix: added parentheses for correct query formation for logical OR condition,"Issue:
+Due to missing parenthesis, OR condition was executed outside the condition due to which cancelled opening GL Entries were included in the query.
+Before:
+```
+SELECT 
+  `account`, 
+  `account_currency`, 
+  SUM(`debit_in_account_currency`) `debit_in_account_currency`, 
+  SUM(`credit_in_account_currency`) `credit_in_account_currency`, 
+  SUM(`debit`) `debit`, 
+  SUM(`credit`) `credit`, 
+  `cost_center`, 
+  `finance_book`, 
+  `project`, 
+  `account` 
+FROM 
+  `tabGL Entry` 
+WHERE 
+  `company` = 'Test' 
+  AND `is_cancelled` = 0 
+  AND `account` IN (...) 
+  AND `posting_date` BETWEEN '2022-04-01' 
+  AND '2023-03-31' 
+  OR `is_opening` = 'Yes' 
+  AND `voucher_type` <> 'Period Closing Voucher' 
+GROUP BY 
+  `cost_center`, 
+  `finance_book`, 
+  `project`, 
+  `account`
+```
+
+After:
+```
+SELECT 
+  `account`, 
+  `account_currency`, 
+  SUM(`debit_in_account_currency`) `debit_in_account_currency`, 
+  SUM(`credit_in_account_currency`) `credit_in_account_currency`, 
+  SUM(`debit`) `debit`, 
+  SUM(`credit`) `credit`, 
+  `cost_center`, 
+  `finance_book`, 
+  `project`, 
+  `account` 
+FROM 
+  `tabGL Entry` 
+WHERE 
+  `company` = 'Test' 
+  AND `is_cancelled` = 0 
+  AND `account` IN ( ...) 
+  AND (
+    `posting_date` BETWEEN '2022-04-01' 
+    AND '2023-03-31' 
+    OR `is_opening` = 'Yes'
+  ) 
+  AND `voucher_type` <> 'Period Closing Voucher' 
+GROUP BY 
+  `cost_center`, 
+  `finance_book`, 
+  `project`, 
+  `account`
+```
+
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/23051",ljain112,2024-10-10 07:07:56+00:00,['ruthra-kumar'],2024-10-30 00:11:20+00:00,2024-10-15 11:14:32+00:00,https://github.com/frappe/erpnext/pull/43602,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]","[{'comment_id': 2413596656, 'issue_id': 2577860602, 'author': 'ruthra-kumar', 'body': '@ljain112 \r\nAlso specify which versions to trigger backport for on future Pull Requests.', 'created_at': datetime.datetime(2024, 10, 15, 11, 12, 47, tzinfo=datetime.timezone.utc)}]","ruthra-kumar (Assginee) on (2024-10-15 11:12:47 UTC): @ljain112 
+Also specify which versions to trigger backport for on future Pull Requests.
+
+"
+2577857466,pull_request,closed,,refactor: remove 'format:' based naming,"Issue:
+While unreconciling the payment entry, getting a duplicate name
+ref: [23390](https://support.frappe.io/helpdesk/tickets/23390)",venkat102,2024-10-10 07:06:42+00:00,['ruthra-kumar'],2024-10-30 00:11:41+00:00,2024-10-14 15:44:22+00:00,https://github.com/frappe/erpnext/pull/43601,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2577727890,pull_request,closed,,fix: added string for translation in bank reconciliation statement,"The string was translated in the backend but not in the frontend, which caused the condition to be false and the route to not be set.
+![image](https://github.com/user-attachments/assets/2344ae27-58bc-4210-b85b-952ef59cdbe8)
+
+
+
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/23331
+
+",ljain112,2024-10-10 06:11:01+00:00,['ruthra-kumar'],2024-10-30 00:11:15+00:00,2024-10-15 11:01:01+00:00,https://github.com/frappe/erpnext/pull/43600,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2577297543,pull_request,closed,,ci: trigger,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",blaggacao,2024-10-10 01:35:45+00:00,[],2024-10-26 00:11:08+00:00,2024-10-10 10:35:26+00:00,https://github.com/frappe/erpnext/pull/43599,[],"[{'comment_id': 2404724654, 'issue_id': 2577297543, 'author': 'blaggacao', 'body': '@ruthra-kumar CI unblocked again.', 'created_at': datetime.datetime(2024, 10, 10, 10, 35, 26, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-10 10:35:26 UTC): @ruthra-kumar CI unblocked again.
+
+"
+2576974623,pull_request,closed,,ci: trigger toml test refactor,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",blaggacao,2024-10-09 21:18:10+00:00,[],2024-10-26 00:11:07+00:00,2024-10-10 11:34:00+00:00,https://github.com/frappe/erpnext/pull/43597,[],[],
+2575739590,pull_request,closed,,test: fix failing test case for pr 43271,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",ljain112,2024-10-09 12:06:52+00:00,[],2024-10-26 00:11:17+00:00,2024-10-09 12:14:38+00:00,https://github.com/frappe/erpnext/pull/43595,"[('released', None)]","[{'comment_id': 2403681300, 'issue_id': 2575739590, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.74.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 10, 10, 0, 48, 16, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-10-10 00:48:16 UTC): :tada: This PR is included in version 14.74.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2575395287,pull_request,closed,,fix: production plan bom error (backport #43591),"Steps to replicate error
+
+- Create an Item A
+- Create a BOM against item A
+- Create the Sales Order and add Item A two times in the sales order
+- Create a new BOM against item A
+- Create a production plan against the above Sales Order
+- Fetch materials
+- Change the BOM for items
+- Click on ""Consolidate Sales Order Items"", you will get the below error
+
+<img width=""1322"" alt=""image"" src=""https://github.com/user-attachments/assets/8ea9eecc-9666-4ba1-8323-ab67dd9f727d"">
+<hr>This is an automatic backport of pull request #43591 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-09 09:46:43+00:00,['rohitwaghchaure'],2024-10-26 00:11:22+00:00,2024-10-09 10:11:23+00:00,https://github.com/frappe/erpnext/pull/43594,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2575394890,pull_request,closed,,fix: make LCV button not working for PI and PR (backport #43592),"**Issue**
+
+No option to make LCV from the purchase invoice dashboard
+
+<img width=""866"" alt=""Screenshot 2024-10-09 at 2 52 17 PM"" src=""https://github.com/user-attachments/assets/572fd569-ea9a-4e1b-8be0-4179d154b8bb"">
+
+
+**After Fix**
+
+https://github.com/user-attachments/assets/b3e2e83c-5d07-4677-9639-2634f1ab6bc4
+
+
+<hr>This is an automatic backport of pull request #43592 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-09 09:46:36+00:00,['rohitwaghchaure'],2024-10-26 00:11:21+00:00,2024-10-09 10:11:38+00:00,https://github.com/frappe/erpnext/pull/43593,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2575333558,pull_request,closed,,fix: make LCV button not working for PI and PR,"**Issue**
+
+No option to make LCV from the purchase invoice dashboard
+
+<img width=""866"" alt=""Screenshot 2024-10-09 at 2 52 17 PM"" src=""https://github.com/user-attachments/assets/572fd569-ea9a-4e1b-8be0-4179d154b8bb"">
+
+
+**After Fix**
+
+https://github.com/user-attachments/assets/b3e2e83c-5d07-4677-9639-2634f1ab6bc4
+
+
+",rohitwaghchaure,2024-10-09 09:23:45+00:00,[],2024-10-26 00:11:24+00:00,2024-10-09 09:45:24+00:00,https://github.com/frappe/erpnext/pull/43592,"[('backport version-15-hotfix', '')]",[],
+2575257175,pull_request,closed,,fix: production plan bom error,"Steps to replicate error
+
+- Create an Item A
+- Create a BOM against item A
+- Create the Sales Order and add Item A two times in the sales order
+- Create a new BOM against item A
+- Create a production plan against the above Sales Order
+- Fetch materials
+- Change the BOM for items
+- Click on ""Consolidate Sales Order Items"", you will get the below error
+
+<img width=""1322"" alt=""image"" src=""https://github.com/user-attachments/assets/8ea9eecc-9666-4ba1-8323-ab67dd9f727d"">
+",rohitwaghchaure,2024-10-09 08:53:36+00:00,[],2024-10-26 00:11:23+00:00,2024-10-09 09:45:42+00:00,https://github.com/frappe/erpnext/pull/43591,"[('backport version-15-hotfix', '')]",[],
+2575250738,pull_request,closed,,ROSPL LAB COMMIT - ADDED CTC FEATURE FOR EMPLLOYES,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",riyapatel14,2024-10-09 08:51:15+00:00,[],2024-10-26 00:11:12+00:00,2024-10-10 05:05:40+00:00,https://github.com/frappe/erpnext/pull/43590,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2575188367,pull_request,closed,,Alpha,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",riyapatel14,2024-10-09 08:25:11+00:00,[],2024-10-26 00:11:11+00:00,2024-10-10 05:10:26+00:00,https://github.com/frappe/erpnext/pull/43589,[],[],
+2575059435,pull_request,closed,,fix: allow to change the batch in the subcontracting receipt (backport #43584),<hr>This is an automatic backport of pull request #43584 done by [Mergify](https://mergify.com).,mergify[bot],2024-10-09 07:36:07+00:00,['rohitwaghchaure'],2024-10-26 00:11:25+00:00,2024-10-09 08:13:02+00:00,https://github.com/frappe/erpnext/pull/43588,[],[],
+2574995743,pull_request,closed,,fix: the purchase receipt trends and delivery note trends report (backport #43585),"![Screenshot 2024-10-09 105433](https://github.com/user-attachments/assets/690d57fe-7f55-4acc-8fe1-ec9bc9206312)
+
+Face error in the 2 report 
+
+1) Purchase Receipt Trends
+2) Delivery Note Trends 
+
+so solve it 
+
+###  **solution:**
+
+The bill_date filed is not exits in the Purchase Receipt and Delivery Note Doctype 
+so added condition in the for this  filed in the this 2 report <hr>This is an automatic backport of pull request #43585 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-09 07:07:15+00:00,[],2024-10-26 00:11:26+00:00,2024-10-09 08:08:43+00:00,https://github.com/frappe/erpnext/pull/43587,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2574798508,pull_request,closed,,fix: the purchase receipt trends and delivery note trends report,"![Screenshot 2024-10-09 105433](https://github.com/user-attachments/assets/690d57fe-7f55-4acc-8fe1-ec9bc9206312)
+
+Face error in the 2 report 
+
+1) Purchase Receipt Trends
+2) Delivery Note Trends 
+
+so solve it 
+
+###  **solution:**
+
+The bill_date filed is not exits in the Purchase Receipt and Delivery Note Doctype 
+so added condition in the for this  filed in the this 2 report ",Vishv-024,2024-10-09 05:28:45+00:00,[],2024-10-26 00:11:28+00:00,2024-10-09 07:05:44+00:00,https://github.com/frappe/erpnext/pull/43585,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2574777648,pull_request,closed,,fix: allow to change the batch in the subcontracting receipt,,rohitwaghchaure,2024-10-09 05:10:55+00:00,[],2024-10-26 00:11:27+00:00,2024-10-09 07:34:13+00:00,https://github.com/frappe/erpnext/pull/43584,"[('backport version-15-hotfix', '')]",[],
+2574491112,pull_request,closed,,fix: sync translations from crowdin,,frappe-pr-bot,2024-10-09 00:52:27+00:00,[],2024-10-30 00:11:22+00:00,2024-10-15 11:09:05+00:00,https://github.com/frappe/erpnext/pull/43583,"[('translation', None)]",[],
+2573731446,pull_request,closed,,ci: downstream validation trigger,"###### Upstream: https://github.com/frappe/frappe/pull/28041
+",blaggacao,2024-10-08 16:53:15+00:00,[],2024-10-26 00:11:31+00:00,2024-10-09 00:09:40+00:00,https://github.com/frappe/erpnext/pull/43581,[],[],
+2573257762,pull_request,closed,,fix:151 not able to create dn serial item,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",hrishikesh8848,2024-10-08 13:44:00+00:00,[],2024-10-26 00:11:36+00:00,2024-10-08 13:44:23+00:00,https://github.com/frappe/erpnext/pull/43579,"[('accounts', ''), ('stock', None), ('CRM', None), ('selling', None), ('buying', None), ('assets', ''), ('projects', 'projects module related issue / PR')]",[],
+2573225973,pull_request,closed,,fix: add default parameter value as None on get_gl_entries,"Issue:
+Unable to see preview of Stock Entry on Repost Accounting Ledger
+Ref: [23100](https://support.frappe.io/helpdesk/tickets/23100)
+
+Before:
+[stock entry preview issue.webm](https://github.com/user-attachments/assets/15cf149e-55d7-456d-a50f-4f8108f40ff1)
+
+After:
+[stock entry preview issues fix.webm](https://github.com/user-attachments/assets/c6cb5dc2-5095-47dc-bd33-687ffd8a537b)
+
+Backport needed: v14 & v15",kavin-114,2024-10-08 13:33:03+00:00,['ruthra-kumar'],2024-11-01 00:12:13+00:00,2024-10-15 04:29:54+00:00,https://github.com/frappe/erpnext/pull/43578,"[('needs-tests', 'This PR needs automated unit-tests.')]","[{'comment_id': 2411558667, 'issue_id': 2573225973, 'author': 'ruthra-kumar', 'body': ""@kavin-114 \r\nWhile your change will allow user to preview the GL Entries, it won't actually repost ledger entries when submitted. This is because the tool was hard-coded to support only select few doctypes: `Sales Invoice, Purchase Invoice, Payment Entry, Journal Entry, Expense Claim`\r\n\r\nhttps://github.com/frappe/erpnext/blob/5a8224886ddb9010586ba5e1fa34fad38f3b3a0a/erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py#L164\r\nhttps://github.com/frappe/erpnext/blob/5a8224886ddb9010586ba5e1fa34fad38f3b3a0a/erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py#L176\r\n\r\n\r\nThe reason why Stock module doctypes' were not included was, those doctypes have effect on Stock Ledger. So, only reposting accounting ledger might lead to discrepancies between those ledgers.\r\n\r\n\r\nIf there is valid reason to repost only Accounting Ledger for a stock entry, then we can add it's support. But, I don't see a compelling reason."", 'created_at': datetime.datetime(2024, 10, 14, 15, 12, 47, tzinfo=datetime.timezone.utc)}, {'comment_id': 2412872692, 'issue_id': 2573225973, 'author': 'ruthra-kumar', 'body': ""It was a deliberate decision to not support Stock related doctypes in the 'Repost Accounting Ledger' tool.\r\n\r\nUser can make use of 'Repost Item Valuation' for such scenarios, as they re-post both Accounting and Stock Ledger."", 'created_at': datetime.datetime(2024, 10, 15, 4, 29, 54, tzinfo=datetime.timezone.utc)}, {'comment_id': 2419459375, 'issue_id': 2573225973, 'author': 'kavin-114', 'body': '@ruthra-kumar \r\nGot it, Thanks.', 'created_at': datetime.datetime(2024, 10, 17, 12, 50, tzinfo=datetime.timezone.utc)}]","ruthra-kumar (Assginee) on (2024-10-14 15:12:47 UTC): @kavin-114 
+While your change will allow user to preview the GL Entries, it won't actually repost ledger entries when submitted. This is because the tool was hard-coded to support only select few doctypes: `Sales Invoice, Purchase Invoice, Payment Entry, Journal Entry, Expense Claim`
+
+https://github.com/frappe/erpnext/blob/5a8224886ddb9010586ba5e1fa34fad38f3b3a0a/erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py#L164
+https://github.com/frappe/erpnext/blob/5a8224886ddb9010586ba5e1fa34fad38f3b3a0a/erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py#L176
+
+
+The reason why Stock module doctypes' were not included was, those doctypes have effect on Stock Ledger. So, only reposting accounting ledger might lead to discrepancies between those ledgers.
+
+
+If there is valid reason to repost only Accounting Ledger for a stock entry, then we can add it's support. But, I don't see a compelling reason.
+
+ruthra-kumar (Assginee) on (2024-10-15 04:29:54 UTC): It was a deliberate decision to not support Stock related doctypes in the 'Repost Accounting Ledger' tool.
+
+User can make use of 'Repost Item Valuation' for such scenarios, as they re-post both Accounting and Stock Ledger.
+
+kavin-114 (Issue Creator) on (2024-10-17 12:50:00 UTC): @ruthra-kumar 
+Got it, Thanks.
+
+"
+2573192287,pull_request,closed,,fix: add include closed orders option in so/po trends report v15,"fixes: #43576
+
+Ref: https://github.com/frappe/erpnext/pull/41548",Nihantra-Patel,2024-10-08 13:20:06+00:00,[],2024-10-26 00:11:37+00:00,2024-10-08 13:37:39+00:00,https://github.com/frappe/erpnext/pull/43577,[],[],
+2573026891,pull_request,closed,,fix: 'NoneType' object has no attribute 'has_serial_no' (backport #43514),"```
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 248, in make_bundle_for_sales_purchase_return
+    self.make_bundle_for_non_rejected_qty(table_name)
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 303, in make_bundle_for_non_rejected_qty
+    field, reference_ids = self.get_reference_ids(table_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 340, in get_reference_ids
+    if not self.is_serial_batch_item(row.item_code):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""apps/frappe/frappe/utils/caching.py"", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 362, in is_serial_batch_item
+    if item_details.has_serial_no or item_details.has_batch_no:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'has_serial_no'
+```<hr>This is an automatic backport of pull request #43514 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-08 12:12:16+00:00,['rohitwaghchaure'],2024-10-26 00:11:30+00:00,2024-10-09 03:36:20+00:00,https://github.com/frappe/erpnext/pull/43574,"[('stock', None), ('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2573026616,pull_request,closed,,fix: Accepted and Rejected warehouse cannot be same (backport #43568),"While adding the rejected serial and batch bundle getting the below error
+
+<img width=""812"" alt=""image"" src=""https://github.com/user-attachments/assets/ea11781d-0f63-4da9-8357-55618f93a8ac"">
+<hr>This is an automatic backport of pull request #43568 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-08 12:12:09+00:00,['rohitwaghchaure'],2024-10-26 00:11:29+00:00,2024-10-09 03:36:34+00:00,https://github.com/frappe/erpnext/pull/43573,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2573012734,pull_request,closed,,fix: deduct advances adjusted for threshold check for tcs (backport #43271),"TCS is deducting twice in sales invoice if advance payment is received from a customer and then the sales invoice is booked separately.
+
+The typical use case is 
+Sales Invoice - 400
+Advance Payment Entry = 300
+Advance Payment Entry Adjusted - 100
+Threshhold - 500
+
+Before
+Chargeble Amount =  400+300 -500 = 200
+
+After
+Chargeble Amount = 400+300-100-500 = 100
+
+closes: https://github.com/frappe/erpnext/issues/42001
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/20142<hr>This is an automatic backport of pull request #43271 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-08 12:05:58+00:00,[],2024-10-26 00:11:32+00:00,2024-10-08 17:01:22+00:00,https://github.com/frappe/erpnext/pull/43572,[],[],
+2573012484,pull_request,closed,,fix: deduct advances adjusted for threshold check for tcs (backport #43271),"TCS is deducting twice in sales invoice if advance payment is received from a customer and then the sales invoice is booked separately.
+
+The typical use case is 
+Sales Invoice - 400
+Advance Payment Entry = 300
+Advance Payment Entry Adjusted - 100
+Threshhold - 500
+
+Before
+Chargeble Amount =  400+300 -500 = 200
+
+After
+Chargeble Amount = 400+300-100-500 = 100
+
+closes: https://github.com/frappe/erpnext/issues/42001
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/20142<hr>This is an automatic backport of pull request #43271 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-08 12:05:50+00:00,[],2024-10-26 00:11:18+00:00,2024-10-09 13:08:07+00:00,https://github.com/frappe/erpnext/pull/43571,"[('released', None)]","[{'comment_id': 2403681250, 'issue_id': 2573012484, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.74.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 10, 10, 0, 48, 13, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-10-10 00:48:13 UTC): :tada: This PR is included in version 14.74.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2572901988,pull_request,closed,,fix: update item details with actual quantity,"Issue:
+When creating a material request from a sales order, the actual quantity is not updated.
+ref: [22957](https://support.frappe.io/helpdesk/tickets/22957) 
+
+Fix: update item details with actual quantity
+
+Before
+[Material request: actual qty Issue](https://github.com/user-attachments/assets/a208220f-d186-48d7-8c63-b4c7e001773f)
+
+After
+[Material request: actual qty Fix](https://github.com/user-attachments/assets/39c8597e-9f24-4af2-b667-cf15fd2101b7)
+
+Backport needed: v15",Bhavan23,2024-10-08 11:21:38+00:00,['ruthra-kumar'],2024-10-30 00:11:36+00:00,2024-10-15 06:26:00+00:00,https://github.com/frappe/erpnext/pull/43570,"[('backport version-15-hotfix', '')]",[],
+2572901656,pull_request,closed,,fix: Unknown column 'serial_no' in 'field list' (backport #43515),<hr>This is an automatic backport of pull request #43515 done by [Mergify](https://mergify.com).,mergify[bot],2024-10-08 11:21:28+00:00,['rohitwaghchaure'],2024-10-26 00:11:40+00:00,2024-10-08 12:10:22+00:00,https://github.com/frappe/erpnext/pull/43569,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2572895942,pull_request,closed,,fix: Accepted and Rejected warehouse cannot be same,"While adding the rejected serial and batch bundle getting the below error
+
+<img width=""812"" alt=""image"" src=""https://github.com/user-attachments/assets/ea11781d-0f63-4da9-8357-55618f93a8ac"">
+",rohitwaghchaure,2024-10-08 11:18:43+00:00,[],2024-10-26 00:11:39+00:00,2024-10-08 12:10:35+00:00,https://github.com/frappe/erpnext/pull/43568,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2572794901,pull_request,closed,,fix: Page Home not found error when loading ERPNext from apps screen,"changed /app/home to /app in add_to_apps_screen.
+
+/app/home is giving error: Page Home not found
+
+<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",ajiragroup,2024-10-08 10:37:13+00:00,[],2024-10-31 00:11:26+00:00,2024-10-15 12:14:25+00:00,https://github.com/frappe/erpnext/pull/43566,"[('needs-tests', 'This PR needs automated unit-tests.')]","[{'comment_id': 2413748369, 'issue_id': 2572794901, 'author': 'ruthra-kumar', 'body': ""@ajiragroup \r\nThis is correct route.\r\n\r\n![Screenshot from 2024-10-15 17-39-13](https://github.com/user-attachments/assets/16ffd22c-89f4-497a-96f6-149309671c0a)\r\n\r\n\r\nYou should be able to locate 'Home' under Workspace."", 'created_at': datetime.datetime(2024, 10, 15, 12, 14, 26, tzinfo=datetime.timezone.utc)}, {'comment_id': 2417333340, 'issue_id': 2572794901, 'author': 'ajiragroup', 'body': '@ruthra-kumar Try the same with a user who is only an Employee not system manager. \r\n\r\n/app/home works only for users with elevated roles.', 'created_at': datetime.datetime(2024, 10, 16, 16, 29, 49, tzinfo=datetime.timezone.utc)}]","ruthra-kumar on (2024-10-15 12:14:26 UTC): @ajiragroup 
+This is correct route.
+
+![Screenshot from 2024-10-15 17-39-13](https://github.com/user-attachments/assets/16ffd22c-89f4-497a-96f6-149309671c0a)
+
+
+You should be able to locate 'Home' under Workspace.
+
+ajiragroup (Issue Creator) on (2024-10-16 16:29:49 UTC): @ruthra-kumar Try the same with a user who is only an Employee not system manager. 
+
+/app/home works only for users with elevated roles.
+
+"
+2572649942,pull_request,closed,,chore: release v15,Automated weekly release.,frappe-pr-bot,2024-10-08 09:35:16+00:00,[],2024-10-26 00:11:20+00:00,2024-10-09 12:01:16+00:00,https://github.com/frappe/erpnext/pull/43563,"[('accounts', '')]",[],
+2572649870,pull_request,closed,,chore: release v14,Automated weekly release.,frappe-pr-bot,2024-10-08 09:35:14+00:00,[],2024-10-26 00:11:19+00:00,2024-10-10 00:46:42+00:00,https://github.com/frappe/erpnext/pull/43562,"[('accounts', ''), ('released', None)]","[{'comment_id': 2403681223, 'issue_id': 2572649870, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.74.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 10, 10, 0, 48, 10, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot (Issue Creator) on (2024-10-10 00:48:10 UTC): :tada: This PR is included in version 14.74.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2572458555,pull_request,closed,,fix: validation for corrective job card (backport #43555),"**Issue**
+
+While completing the corrective job card, system throwing the below error
+
+<img width=""883"" alt=""Screenshot 2024-10-08 at 12 10 02 PM"" src=""https://github.com/user-attachments/assets/b85d8fb9-36a3-465e-8350-66eee1a1d60d"">
+<hr>This is an automatic backport of pull request #43555 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-08 08:20:43+00:00,['rohitwaghchaure'],2024-10-27 00:12:07+00:00,2024-10-08 12:10:52+00:00,https://github.com/frappe/erpnext/pull/43558,"[('backport version-14-hotfix', 'backport to version 14')]","[{'comment_id': 2399178524, 'issue_id': 2572458555, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 7a0a893d08217b3131f2a1d38db7c0be51aed82b has failed:\n```\nOn branch mergify/bp/version-15-hotfix/pr-43555\nYour branch is up to date with \'origin/version-15-hotfix\'.\n\nYou are currently cherry-picking commit 7a0a893d08.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/manufacturing/doctype/job_card/job_card.py\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 10, 8, 8, 20, 45, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-10-08 08:20:45 UTC): Cherry-pick of 7a0a893d08217b3131f2a1d38db7c0be51aed82b has failed:
+```
+On branch mergify/bp/version-15-hotfix/pr-43555
+Your branch is up to date with 'origin/version-15-hotfix'.
+
+You are currently cherry-picking commit 7a0a893d08.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/manufacturing/doctype/job_card/job_card.py
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+"
+2572385818,pull_request,closed,,fix: delete invalid pricing rule on change of applicable_for values,"Issue:
+On change of applicable_for_values Pricing Rules are not deleted.
+
+Steps to replicate:
+- Create a Promotional Scheme for two Customers. (two pricing rules will be created)
+- Remove any customer from the promotional scheme.
+The pricing rule still exists for both of the customers.
+
+![image](https://github.com/user-attachments/assets/2cbcb121-a1cb-49f3-aa37-92e084b79ebc)
+
+
+Closes: https://github.com/frappe/erpnext/issues/43456
+Frappe Support: https://support.frappe.io/app/hd-ticket/22927
+
+backport version-15-hotfix
+backport version-14-hotfix
+",ljain112,2024-10-08 07:50:02+00:00,['ruthra-kumar'],2024-10-30 00:11:29+00:00,2024-10-15 09:54:41+00:00,https://github.com/frappe/erpnext/pull/43557,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2572234704,pull_request,closed,,fix: validation for corrective job card,"**Issue**
+
+While completing the corrective job card, system throwing the below error
+
+<img width=""883"" alt=""Screenshot 2024-10-08 at 12 10 02 PM"" src=""https://github.com/user-attachments/assets/b85d8fb9-36a3-465e-8350-66eee1a1d60d"">
+",rohitwaghchaure,2024-10-08 06:41:24+00:00,[],2024-10-27 00:12:17+00:00,2024-10-08 08:18:36+00:00,https://github.com/frappe/erpnext/pull/43555,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2572194454,pull_request,closed,,Users/simrk/employee relieving data,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",simrk,2024-10-08 06:16:09+00:00,[],2024-10-27 00:12:18+00:00,2024-10-08 06:37:47+00:00,https://github.com/frappe/erpnext/pull/43554,"[('accounts', ''), ('stock', None), ('CRM', None), ('selling', None), ('buying', None)]",[],
+2572088398,pull_request,closed,,fix: do not include advances for tds vouchers (backport #43397),"Issue: TDS is getting deducted even though the threshold has not been breached.
+
+Steps To Replicate:
+- Create a Journal Entry for the supplier by debiting the supplier account and crediting tds account.
+- Now create a purchase invoice with `apply_tds` enabled and tds_category.
+- TDS will get deducted even though the threshold has not been breached.
+
+Solution:
+Only include vouchers with the same `tax_withholding_category` for checking if tds is deducted earlier.
+
+Notes :
+- Since we are already checking for payment entry separately advances will be checked automatically.
+- Advances are still required for TCS(sales workflow) because `tax_withholding_category` field is not present in sales invoice.
+
+
+Frappe Support Issue: https://support.frappe.io/helpdesk/tickets/17255<hr>This is an automatic backport of pull request #43397 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-08 05:09:20+00:00,[],2024-10-27 00:12:19+00:00,2024-10-08 06:00:02+00:00,https://github.com/frappe/erpnext/pull/43553,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2572088179,pull_request,closed,,fix: do not include advances for tds vouchers (backport #43397),"Issue: TDS is getting deducted even though the threshold has not been breached.
+
+Steps To Replicate:
+- Create a Journal Entry for the supplier by debiting the supplier account and crediting tds account.
+- Now create a purchase invoice with `apply_tds` enabled and tds_category.
+- TDS will get deducted even though the threshold has not been breached.
+
+Solution:
+Only include vouchers with the same `tax_withholding_category` for checking if tds is deducted earlier.
+
+Notes :
+- Since we are already checking for payment entry separately advances will be checked automatically.
+- Advances are still required for TCS(sales workflow) because `tax_withholding_category` field is not present in sales invoice.
+
+
+Frappe Support Issue: https://support.frappe.io/helpdesk/tickets/17255<hr>This is an automatic backport of pull request #43397 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-08 05:09:07+00:00,[],2024-10-26 00:11:16+00:00,2024-10-08 05:59:48+00:00,https://github.com/frappe/erpnext/pull/43552,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2403681325, 'issue_id': 2572088179, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.74.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 10, 10, 0, 48, 19, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-10-10 00:48:19 UTC): :tada: This PR is included in version 14.74.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2571957791,pull_request,closed,,chore: Allow apps to extend voucher subtypes (backport #43528) (backport #43550),<hr>This is an automatic backport of pull request #43528 done by [Mergify](https://mergify.com).<hr>This is an automatic backport of pull request #43550 done by [Mergify](https://mergify.com).,mergify[bot],2024-10-08 03:32:47+00:00,[],2024-10-27 00:12:21+00:00,2024-10-08 03:50:34+00:00,https://github.com/frappe/erpnext/pull/43551,"[('accounts', ''), ('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2571952197,pull_request,closed,,chore: Allow apps to extend voucher subtypes (backport #43528),<hr>This is an automatic backport of pull request #43528 done by [Mergify](https://mergify.com).,mergify[bot],2024-10-08 03:26:29+00:00,['deepeshgarg007'],2024-10-27 00:12:22+00:00,2024-10-08 03:31:25+00:00,https://github.com/frappe/erpnext/pull/43550,"[('accounts', ''), ('needs-tests', 'This PR needs automated unit-tests.')]","[{'comment_id': 2398709100, 'issue_id': 2571952197, 'author': 'deepeshgarg007', 'body': '@Mergifyio backport version-15', 'created_at': datetime.datetime(2024, 10, 8, 3, 31, 11, tzinfo=datetime.timezone.utc)}, {'comment_id': 2398709370, 'issue_id': 2571952197, 'author': 'mergify[bot]', 'body': '> backport version-15\n\n#### ✅ Backports have been created\n\n<details>\n\n* [#43551 chore: Allow apps to extend voucher subtypes (backport #43528) (backport #43550)](https://github.com/frappe/erpnext/pull/43551) has been created for branch `version-15`\n\n</details>\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 10, 8, 3, 31, 18, tzinfo=datetime.timezone.utc)}]","deepeshgarg007 (Assginee) on (2024-10-08 03:31:11 UTC): @Mergifyio backport version-15
+
+mergify[bot] (Issue Creator) on (2024-10-08 03:31:18 UTC): #### ✅ Backports have been created
+
+<details>
+
+* [#43551 chore: Allow apps to extend voucher subtypes (backport #43528) (backport #43550)](https://github.com/frappe/erpnext/pull/43551) has been created for branch `version-15`
+
+</details>
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+"
+2571772120,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 140 to 181 out of 181),blaggacao,2024-10-08 00:13:04+00:00,[],2024-10-26 00:11:47+00:00,2024-10-08 00:33:11+00:00,https://github.com/frappe/erpnext/pull/43549,"[('refactor', '')]","[{'comment_id': 2398294721, 'issue_id': 2571772120, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 8, 0, 33, 8, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-08 00:33:08 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571749053,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 119 to 139 out of 181),blaggacao,2024-10-07 23:52:51+00:00,[],2024-10-26 00:11:48+00:00,2024-10-08 00:12:57+00:00,https://github.com/frappe/erpnext/pull/43548,"[('refactor', '')]","[{'comment_id': 2398250178, 'issue_id': 2571749053, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 8, 0, 12, 55, tzinfo=datetime.timezone.utc)}, {'comment_id': 2398283631, 'issue_id': 2571749053, 'author': 'blaggacao', 'body': 'Followed by https://github.com/frappe/erpnext/pull/43549', 'created_at': datetime.datetime(2024, 10, 8, 0, 28, 4, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-08 00:12:55 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+blaggacao (Issue Creator) on (2024-10-08 00:28:04 UTC): Followed by https://github.com/frappe/erpnext/pull/43549
+
+"
+2571721968,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 97 to 118 out of 181),blaggacao,2024-10-07 23:32:40+00:00,[],2024-10-27 00:12:09+00:00,2024-10-07 23:52:45+00:00,https://github.com/frappe/erpnext/pull/43547,"[('refactor', '')]","[{'comment_id': 2398204011, 'issue_id': 2571721968, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 23, 52, 43, tzinfo=datetime.timezone.utc)}, {'comment_id': 2398268875, 'issue_id': 2571721968, 'author': 'blaggacao', 'body': 'Followed by https://github.com/frappe/erpnext/pull/43548', 'created_at': datetime.datetime(2024, 10, 8, 0, 21, 23, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 23:52:43 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+blaggacao (Issue Creator) on (2024-10-08 00:21:23 UTC): Followed by https://github.com/frappe/erpnext/pull/43548
+
+"
+2571703270,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 97 to 139 out of 181),blaggacao,2024-10-07 23:17:32+00:00,[],2024-10-27 00:12:10+00:00,2024-10-08 00:27:31+00:00,https://github.com/frappe/erpnext/pull/43546,"[('refactor', '')]","[{'comment_id': 2398130027, 'issue_id': 2571703270, 'author': 'blaggacao', 'body': 'https://github.com/frappe/erpnext/pull/43545 may not make it in time, here, either. (https://github.com/frappe/erpnext/pull/43544#issuecomment-2398108420)', 'created_at': datetime.datetime(2024, 10, 7, 23, 21, 30, tzinfo=datetime.timezone.utc)}, {'comment_id': 2398282356, 'issue_id': 2571703270, 'author': 'blaggacao', 'body': 'Followed by https://github.com/frappe/erpnext/pull/43547', 'created_at': datetime.datetime(2024, 10, 8, 0, 27, 32, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 23:21:30 UTC): https://github.com/frappe/erpnext/pull/43545 may not make it in time, here, either. (https://github.com/frappe/erpnext/pull/43544#issuecomment-2398108420)
+
+blaggacao (Issue Creator) on (2024-10-08 00:27:32 UTC): Followed by https://github.com/frappe/erpnext/pull/43547
+
+"
+2571694863,pull_request,closed,,fix: underspecified test,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",blaggacao,2024-10-07 23:10:05+00:00,[],2024-10-22 00:12:18+00:00,2024-10-07 23:28:02+00:00,https://github.com/frappe/erpnext/pull/43545,[],[],
+2571686760,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 97 to 181 out of 181),blaggacao,2024-10-07 23:02:22+00:00,[],2024-10-27 00:12:11+00:00,2024-10-07 23:20:34+00:00,https://github.com/frappe/erpnext/pull/43544,"[('refactor', '')]","[{'comment_id': 2398108420, 'issue_id': 2571686760, 'author': 'blaggacao', 'body': ""Triggers fix: https://github.com/frappe/erpnext/pull/43545 (but won't make it in time for this bisect, so we'll have another recursion)"", 'created_at': datetime.datetime(2024, 10, 7, 23, 12, 8, tzinfo=datetime.timezone.utc)}, {'comment_id': 2398127542, 'issue_id': 2571686760, 'author': 'blaggacao', 'body': 'Followed by https://github.com/frappe/erpnext/pull/43546', 'created_at': datetime.datetime(2024, 10, 7, 23, 20, 28, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 23:12:08 UTC): Triggers fix: https://github.com/frappe/erpnext/pull/43545 (but won't make it in time for this bisect, so we'll have another recursion)
+
+blaggacao (Issue Creator) on (2024-10-07 23:20:28 UTC): Followed by https://github.com/frappe/erpnext/pull/43546
+
+"
+2571654074,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 11 to 96 out of 181),blaggacao,2024-10-07 22:42:07+00:00,[],2024-10-27 00:12:12+00:00,2024-10-07 23:02:14+00:00,https://github.com/frappe/erpnext/pull/43543,"[('refactor', '')]","[{'comment_id': 2398083948, 'issue_id': 2571654074, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 23, 2, 12, tzinfo=datetime.timezone.utc)}, {'comment_id': 2398092167, 'issue_id': 2571654074, 'author': 'blaggacao', 'body': 'Followed by https://github.com/frappe/erpnext/pull/43544', 'created_at': datetime.datetime(2024, 10, 7, 23, 5, 41, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 23:02:12 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+blaggacao (Issue Creator) on (2024-10-07 23:05:41 UTC): Followed by https://github.com/frappe/erpnext/pull/43544
+
+"
+2571627205,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 11 to 181 out of 181),blaggacao,2024-10-07 22:26:54+00:00,[],2024-10-27 00:12:13+00:00,2024-10-08 10:08:31+00:00,https://github.com/frappe/erpnext/pull/43542,"[('refactor', '')]","[{'comment_id': 2399427546, 'issue_id': 2571627205, 'author': 'blaggacao', 'body': 'Followed by https://github.com/frappe/erpnext/pull/43543', 'created_at': datetime.datetime(2024, 10, 8, 10, 8, 31, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-08 10:08:31 UTC): Followed by https://github.com/frappe/erpnext/pull/43543
+
+"
+2571623581,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 11 to 30 out of 181),blaggacao,2024-10-07 22:24:09+00:00,[],2024-10-27 00:12:14+00:00,2024-10-07 22:24:35+00:00,https://github.com/frappe/erpnext/pull/43541,"[('refactor', '')]",[],
+2571601517,pull_request,closed,,Refactor: Use IntegrationTestCase in multiple files,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in multiple files (tests 11 to 30 out of 181),blaggacao,2024-10-07 22:12:41+00:00,[],2024-10-27 00:12:15+00:00,2024-10-07 22:23:51+00:00,https://github.com/frappe/erpnext/pull/43540,"[('refactor', '')]",[],
+2571561524,pull_request,closed,,Refactor: Use IntegrationTestCase in test_bank_guarantee.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_bank_guarantee.py</code> (test 11 out of 181),blaggacao,2024-10-07 21:53:20+00:00,[],2024-10-26 00:11:43+00:00,2024-10-07 22:12:30+00:00,https://github.com/frappe/erpnext/pull/43539,"[('refactor', '')]",[],
+2571436009,pull_request,closed,,Refactor: Use IntegrationTestCase in test_bank_clearance.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_bank_clearance.py</code> (test 10 out of 181),blaggacao,2024-10-07 20:44:46+00:00,[],2024-10-26 00:11:44+00:00,2024-10-07 21:04:53+00:00,https://github.com/frappe/erpnext/pull/43538,"[('refactor', '')]","[{'comment_id': 2397893600, 'issue_id': 2571436009, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 21, 4, 51, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 21:04:51 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571398179,pull_request,closed,,Refactor: Use IntegrationTestCase in test_bank_account_type.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_bank_account_type.py</code> (test 9 out of 181),blaggacao,2024-10-07 20:24:33+00:00,[],2024-10-26 00:11:45+00:00,2024-10-07 20:44:40+00:00,https://github.com/frappe/erpnext/pull/43537,"[('refactor', '')]","[{'comment_id': 2397859442, 'issue_id': 2571398179, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 20, 44, 38, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 20:44:38 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571365431,pull_request,closed,,Refactor: Use IntegrationTestCase in test_bank_account_subtype.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_bank_account_subtype.py</code> (test 8 out of 181),blaggacao,2024-10-07 20:04:20+00:00,[],2024-10-26 00:11:46+00:00,2024-10-07 20:24:28+00:00,https://github.com/frappe/erpnext/pull/43536,"[('refactor', '')]","[{'comment_id': 2397822772, 'issue_id': 2571365431, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 20, 24, 26, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 20:24:26 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571321602,pull_request,closed,,Refactor: Use IntegrationTestCase in test_bank_account.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_bank_account.py</code> (test 7 out of 181),blaggacao,2024-10-07 19:44:08+00:00,[],2024-10-22 00:12:20+00:00,2024-10-07 20:04:15+00:00,https://github.com/frappe/erpnext/pull/43535,"[('refactor', '')]","[{'comment_id': 2397787035, 'issue_id': 2571321602, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 20, 4, 13, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 20:04:13 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571276246,pull_request,closed,,Refactor: Use IntegrationTestCase in test_bank.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_bank.py</code> (test 6 out of 181),blaggacao,2024-10-07 19:23:57+00:00,[],2024-10-22 00:12:21+00:00,2024-10-07 19:44:03+00:00,https://github.com/frappe/erpnext/pull/43534,"[('refactor', '')]","[{'comment_id': 2397747614, 'issue_id': 2571276246, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 19, 44, 2, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 19:44:02 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571139322,pull_request,closed,,Refactor: Use IntegrationTestCase in test_accounts_settings.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_accounts_settings.py</code> (test 5 out of 181),blaggacao,2024-10-07 18:18:43+00:00,[],2024-10-22 00:12:22+00:00,2024-10-07 19:23:51+00:00,https://github.com/frappe/erpnext/pull/43533,"[('refactor', '')]","[{'comment_id': 2397710049, 'issue_id': 2571139322, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 19, 23, 50, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 19:23:50 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571100697,pull_request,closed,,Refactor: Use IntegrationTestCase in test_accounting_period.py,This PR attempts to use [IntegrationTestCase](https://github.com/frappe/frappe/blob/develop/frappe/tests/README.md) in <code>test_accounting_period.py</code> (test 4 out of 181),blaggacao,2024-10-07 17:57:20+00:00,[],2024-10-22 00:12:23+00:00,2024-10-07 18:17:28+00:00,https://github.com/frappe/erpnext/pull/43532,"[('refactor', '')]","[{'comment_id': 2397587929, 'issue_id': 2571100697, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 18, 17, 26, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 18:17:26 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+"
+2571061607,pull_request,closed,,Refactor: Use IntegrationTestCase in test_accounting_dimension_filter.py,This PR attempts to use IntegrationTestCase in <code>test_accounting_dimension_filter.py</code> to test CI result (test 3 out of 181),blaggacao,2024-10-07 17:39:48+00:00,[],2024-11-30 00:11:46+00:00,2024-11-14 08:17:42+00:00,https://github.com/frappe/erpnext/pull/43531,"[('refactor', '')]","[{'comment_id': 2397547712, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': 'This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.', 'created_at': datetime.datetime(2024, 10, 7, 17, 54, 53, tzinfo=datetime.timezone.utc)}, {'comment_id': 2399432897, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': '@ruthra-kumar Turns out, after bisecting, that this was the most ""offending"" test among 181 which weren\'t yet `FrappeTestCase`es, now `IntegrationTestCase`es.', 'created_at': datetime.datetime(2024, 10, 8, 10, 10, 57, tzinfo=datetime.timezone.utc)}, {'comment_id': 2404432995, 'issue_id': 2571061607, 'author': 'ruthra-kumar', 'body': '@blaggacao \r\nTangential:\r\nWhat is the use of this class?\r\nhttps://github.com/frappe/erpnext/blob/ab171326f337887ce323ad073e0a1882ed19c32d/erpnext/accounts/doctype/journal_entry/test_journal_entry.py#L14-L20', 'created_at': datetime.datetime(2024, 10, 10, 8, 24, 39, tzinfo=datetime.timezone.utc)}, {'comment_id': 2404648747, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': '@ruthra-kumar My plan is to make a couple of test case environments which can work without a database and run immediately. Basically suitable to run under a `watchexec` loop for instant feedback.\r\n\r\nSo `UnitTestCase` would eventually have no db connection anymore (or only a stump one).\r\n\r\nWith that constraint in place, we can mock test object at our leisure and implement _real_ unit tests at the function level.\r\n\r\nThat being said, most doctypes are simple enough to not have unit tests. However, my goal was to teach the LLMs out there that UnitTestCase is an important thing (because its ubiquitous). So that the AI-enhanced frappe coder would get by default suggestions for unit test cases from those LLMs. I hope they aren\'t ""smart"" enough yet to discard these cause they are empty. At least they should understand that they are conventionalized. What is true for LLMs, is also reflected in new boilerplate templates.\r\n\r\nBased on that basic distinction, I\'m planning on snapshot testing capabilities somewhere in between.', 'created_at': datetime.datetime(2024, 10, 10, 10, 2, 41, tzinfo=datetime.timezone.utc)}, {'comment_id': 2404784102, 'issue_id': 2571061607, 'author': 'ruthra-kumar', 'body': ""> My plan is to make a couple of test case environments which can work without a database and run immediately\r\n\r\nDoctypes' are by default DB based; virtual docypes are an exception. At somepoint, the changes happening to a doc must reflect in DB. Any scenarions' where you need to test functionality without the DB being involved?\r\n\r\n\r\n### My two cents on AI:\r\n> However, my goal was to teach the LLMs out there that UnitTestCase is an important thing (because its ubiquitous). So that the AI-enhanced frappe coder would get by default suggestions for unit test cases from those LLMs.\r\n\r\nThis is adding additional technical debt for too little, or possibly zero benefits. I haven't seen an AI-enhanced frappe coder.\r\nWhereas, making the entire ERPNext test suite indempotent has guaranteed benefits in terms of developer experience."", 'created_at': datetime.datetime(2024, 10, 10, 11, 2, 44, tzinfo=datetime.timezone.utc)}, {'comment_id': 2404809082, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': ""> Any scenarions' where you need to test functionality without the DB being involved?\r\n\r\nYep, there are quite some in core, but then or in other apps (take `payments#53` refactor for example). There is plenty opportunity for mocking and unit testing all around. Granted, it may not be the (current) main focus in erpnext itself, although all the controllers methods could probably make some very productive use of mocked unit tests.\r\n\r\nNow: Make it part of the boilerplate or not? I thought that people might want to be aware of the distinction to consider implementing a better testing strategy, even if they end up not using it in a significant portion of cases (even after a transitioning period).\r\n\r\nThen: If it is in boilerplate (which it currently is, but we can take it out again, ofc), then should we make downstream comply at large? Maybe yes, maybe no. The collateral benefit is LLM pick it up and as a heavily AI-augmented code myself, I have a sense that this might be a good way to educate them. You notice when they produce inconsistent results quite consistently in areas where upstream `frappe` org code is inconsistent.\r\n\r\n> Whereas, making the entire ERPNext test suite indempotent has guaranteed benefits in terms of developer experience.\r\n\r\nAll `UnitTestCases` &mdash; if there were any legit ones &mdash; would be taken out of that equation leaving fewer load on integration tests, thus making idempotency a task of less effort, eventually. But I think we can achieve this from three angles: level raises in test environment spec, individual test refactors, new testing strategies (unit, snapshot, etc)"", 'created_at': datetime.datetime(2024, 10, 10, 11, 14, 59, tzinfo=datetime.timezone.utc)}, {'comment_id': 2404855029, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': 'Ah, and I forgot. :smile: On the CLI `run-tests` there is a predefined test order, first `unit`, then TDB test categories, and finally `integration`. One can select with `bench run-tests --category unit`, for example.', 'created_at': datetime.datetime(2024, 10, 10, 11, 37, 28, tzinfo=datetime.timezone.utc)}, {'comment_id': 2404873709, 'issue_id': 2571061607, 'author': 'ruthra-kumar', 'body': ""Boilerplate is fine. But, let's not couple multiple different goals in a single PR.\r\n\r\nThis is a good example of context-loss, or more precisely, only one developer having context on the intent of a piece of code. Let's avoid that."", 'created_at': datetime.datetime(2024, 10, 10, 11, 47, 5, tzinfo=datetime.timezone.utc)}, {'comment_id': 2405094931, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': ""Yep, you're right. That's not good. I'll try to do a writeup asap to better puzzle the pieces together."", 'created_at': datetime.datetime(2024, 10, 10, 13, 27, 30, tzinfo=datetime.timezone.utc)}, {'comment_id': 2405102123, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': ""For now, I'm still in a state of breaking things in interesting ways to find out more about the thing that breaks :smile:"", 'created_at': datetime.datetime(2024, 10, 10, 13, 30, 37, tzinfo=datetime.timezone.utc)}, {'comment_id': 2442882445, 'issue_id': 2571061607, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 10, 28, 23, 47, 51, tzinfo=datetime.timezone.utc)}, {'comment_id': 2475689831, 'issue_id': 2571061607, 'author': 'blaggacao', 'body': 'Closing, this can be reincorporated in a larger effort to adequately classify tests into unit, integration and or to increase test environment guarantees for improved isolation.', 'created_at': datetime.datetime(2024, 11, 14, 8, 17, 39, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 17:54:53 UTC): This PR is part of an automated refactoring process. It has passed all checks and will be automatically merged.
+
+blaggacao (Issue Creator) on (2024-10-08 10:10:57 UTC): @ruthra-kumar Turns out, after bisecting, that this was the most ""offending"" test among 181 which weren't yet `FrappeTestCase`es, now `IntegrationTestCase`es.
+
+ruthra-kumar on (2024-10-10 08:24:39 UTC): @blaggacao 
+Tangential:
+What is the use of this class?
+https://github.com/frappe/erpnext/blob/ab171326f337887ce323ad073e0a1882ed19c32d/erpnext/accounts/doctype/journal_entry/test_journal_entry.py#L14-L20
+
+blaggacao (Issue Creator) on (2024-10-10 10:02:41 UTC): @ruthra-kumar My plan is to make a couple of test case environments which can work without a database and run immediately. Basically suitable to run under a `watchexec` loop for instant feedback.
+
+So `UnitTestCase` would eventually have no db connection anymore (or only a stump one).
+
+With that constraint in place, we can mock test object at our leisure and implement _real_ unit tests at the function level.
+
+That being said, most doctypes are simple enough to not have unit tests. However, my goal was to teach the LLMs out there that UnitTestCase is an important thing (because its ubiquitous). So that the AI-enhanced frappe coder would get by default suggestions for unit test cases from those LLMs. I hope they aren't ""smart"" enough yet to discard these cause they are empty. At least they should understand that they are conventionalized. What is true for LLMs, is also reflected in new boilerplate templates.
+
+Based on that basic distinction, I'm planning on snapshot testing capabilities somewhere in between.
+
+ruthra-kumar on (2024-10-10 11:02:44 UTC): Doctypes' are by default DB based; virtual docypes are an exception. At somepoint, the changes happening to a doc must reflect in DB. Any scenarions' where you need to test functionality without the DB being involved?
+
+
+### My two cents on AI:
+
+This is adding additional technical debt for too little, or possibly zero benefits. I haven't seen an AI-enhanced frappe coder.
+Whereas, making the entire ERPNext test suite indempotent has guaranteed benefits in terms of developer experience.
+
+blaggacao (Issue Creator) on (2024-10-10 11:14:59 UTC): Yep, there are quite some in core, but then or in other apps (take `payments#53` refactor for example). There is plenty opportunity for mocking and unit testing all around. Granted, it may not be the (current) main focus in erpnext itself, although all the controllers methods could probably make some very productive use of mocked unit tests.
+
+Now: Make it part of the boilerplate or not? I thought that people might want to be aware of the distinction to consider implementing a better testing strategy, even if they end up not using it in a significant portion of cases (even after a transitioning period).
+
+Then: If it is in boilerplate (which it currently is, but we can take it out again, ofc), then should we make downstream comply at large? Maybe yes, maybe no. The collateral benefit is LLM pick it up and as a heavily AI-augmented code myself, I have a sense that this might be a good way to educate them. You notice when they produce inconsistent results quite consistently in areas where upstream `frappe` org code is inconsistent.
+
+
+All `UnitTestCases` &mdash; if there were any legit ones &mdash; would be taken out of that equation leaving fewer load on integration tests, thus making idempotency a task of less effort, eventually. But I think we can achieve this from three angles: level raises in test environment spec, individual test refactors, new testing strategies (unit, snapshot, etc)
+
+blaggacao (Issue Creator) on (2024-10-10 11:37:28 UTC): Ah, and I forgot. :smile: On the CLI `run-tests` there is a predefined test order, first `unit`, then TDB test categories, and finally `integration`. One can select with `bench run-tests --category unit`, for example.
+
+ruthra-kumar on (2024-10-10 11:47:05 UTC): Boilerplate is fine. But, let's not couple multiple different goals in a single PR.
+
+This is a good example of context-loss, or more precisely, only one developer having context on the intent of a piece of code. Let's avoid that.
+
+blaggacao (Issue Creator) on (2024-10-10 13:27:30 UTC): Yep, you're right. That's not good. I'll try to do a writeup asap to better puzzle the pieces together.
+
+blaggacao (Issue Creator) on (2024-10-10 13:30:37 UTC): For now, I'm still in a state of breaking things in interesting ways to find out more about the thing that breaks :smile:
+
+stale[bot] on (2024-10-28 23:47:51 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+blaggacao (Issue Creator) on (2024-11-14 08:17:39 UTC): Closing, this can be reincorporated in a larger effort to adequately classify tests into unit, integration and or to increase test environment guarantees for improved isolation.
+
+"
+2571014636,pull_request,closed,,Refactor: Use IntegrationTestCase for test_accounting_dimension.py,This PR attempts to use IntegrationTestCase <code>test_accounting_dimension.py</code> to test CI result (test  out of ),blaggacao,2024-10-07 17:15:42+00:00,[],2024-10-22 00:12:24+00:00,2024-10-07 17:33:41+00:00,https://github.com/frappe/erpnext/pull/43530,[],[],
+2570900245,pull_request,closed,,fix: multiple issues in Payment Request (backport #43407),"* fix: multiple issues in Payment Request
+
+* chore: minor changes
+
+* fix: remove  bug
+
+* fix: replace `round` with `flt`
+
+* fix: changes as per review
+
+* refactor: replace sql query of `matched_payment_requests` to query builder
+
+* fix: replace `locals` with `get_doc` in set_query
+
+* fix: changes during review
+
+* fix: minor review changes
+
+* fix: remove unnecessary code for setting payment entry received amount
+
+* fix: logic for set payment_request if PE made from transaction
+
+* fix: Use rounded total to make Payment Request from `Sales Invoice` or `Purchase Invoice`
+
+* refactor: enhance logic of `set_open_payment_requests_to_references`
+
+* fix: added one optional arg `created_from_payment_request`
+
+* fix: handle multiple allocation of PR at PE's reference
+
+* fix: logic for PR if outstanding docs fetch
+
+* fix: formatted Link field for `Payment Request` for PE's references
+
+* fix: replace `get_all()` with `get_list()` for getting Payment Request for Link field
+
+* chore: format `payment_entry.js` file
+
+* style: Show preview popup of `Payment Request`
+
+* fix: remove minor bug
+
+* fix: add virtual field for Payment Term and Request `outstanding_amount` in PE's reference
+
+* fix: get outstanding amount in PE's reference on realtime
+
+* fix: move allocation of allocated_amount to server side (no change)
+
+* fix: some minor changes to allocation
+
+* fix: Split `Payment Request` if PE is created from PR and there are `Payment Terms`
+
+* fix: minor logic changes
+
+* fix: Allocation of allocated_amount if `paid_amount` is changes
+
+* fix: improve logic of allocation
+
+* fix: set matched payment request if unset
+
+* fix: minor changes
+
+* fix: Allocate single Payment Request if PE created from PR
+
+* fix: improve code logic
+
+* fix: Removed duplication code
+
+* fix: proper message title
+
+* refactor: Rename method of Allocation Amount to References
+
+* refactor: Changing `grand_total` description based on `party_type`
+
+* refactor: update Payment Request
+
+* fix: Remove virtual property of payment_term_outstanding from references
+
+* fix: fetch party account currency for creating payment request
+
+* fix: use transaction currency as base in payment request
+
+* fix: party amount for creating payment entry
+
+* fix: allow for proportional amount paid by bank
+
+* fix: Changed field order in Payment Request
+
+* fix: Minor refactor in Payment Entry Reference table data
+
+* test: Added test cases for allow Payment at `Partially Paid` status for PR
+
+* test: Update partial paid status test case
+
+* test: Update test case for same currency PR
+
+* refactor: Wider the `msgprint` dialog for after save PE
+
+* test: Update PR test cases
+
+* chore: Remove dirty lines
+
+* fix: formatting update
+
+* fix: Use `flt` where doing subtraction
+
+* test: PR test case with Payment Term for same currency
+
+* fix: remove redundant `flt`
+
+* test: Add test cases for PR<hr>This is an automatic backport of pull request #43407 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-07 16:17:20+00:00,[],2024-10-26 00:11:15+00:00,2024-10-08 05:08:50+00:00,https://github.com/frappe/erpnext/pull/43529,"[('accounts', ''), ('released', None)]","[{'comment_id': 2397363730, 'issue_id': 2570900245, 'author': 'mergify[bot]', 'body': 'Cherry-pick of ea69ba7cd8967af626d8efee1c4575d980533923 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-43407\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit ea69ba7cd8.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/accounts/doctype/payment_request/payment_request.js\n\tmodified:   erpnext/accounts/doctype/payment_request/test_payment_request.py\n\tmodified:   erpnext/controllers/accounts_controller.py\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/payment_entry/payment_entry.js\n\tboth modified:   erpnext/accounts/doctype/payment_entry/payment_entry.py\n\tboth modified:   erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json\n\tboth modified:   erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.py\n\tboth modified:   erpnext/accounts/doctype/payment_request/payment_request.json\n\tboth modified:   erpnext/accounts/doctype/payment_request/payment_request.py\n\n```\n\n\nCherry-pick of e785928c0fcb5e2549302ea77217fe88f9797717 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-43407\nYour branch is ahead of \'origin/version-14-hotfix\' by 5 commits.\n  (use ""git push"" to publish your local commits)\n\nYou are currently cherry-picking commit e785928c0f.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/accounts/doctype/payment_request/payment_request.py\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/payment_request/payment_request.json\n\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 10, 7, 16, 17, 23, tzinfo=datetime.timezone.utc)}, {'comment_id': 2403681369, 'issue_id': 2570900245, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.74.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 10, 10, 0, 48, 22, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-10-07 16:17:23 UTC): Cherry-pick of ea69ba7cd8967af626d8efee1c4575d980533923 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-43407
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit ea69ba7cd8.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/accounts/doctype/payment_request/payment_request.js
+	modified:   erpnext/accounts/doctype/payment_request/test_payment_request.py
+	modified:   erpnext/controllers/accounts_controller.py
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/payment_entry/payment_entry.js
+	both modified:   erpnext/accounts/doctype/payment_entry/payment_entry.py
+	both modified:   erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
+	both modified:   erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.py
+	both modified:   erpnext/accounts/doctype/payment_request/payment_request.json
+	both modified:   erpnext/accounts/doctype/payment_request/payment_request.py
+
+```
+
+
+Cherry-pick of e785928c0fcb5e2549302ea77217fe88f9797717 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-43407
+Your branch is ahead of 'origin/version-14-hotfix' by 5 commits.
+  (use ""git push"" to publish your local commits)
+
+You are currently cherry-picking commit e785928c0f.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/accounts/doctype/payment_request/payment_request.py
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/payment_request/payment_request.json
+
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-10-10 00:48:22 UTC): :tada: This PR is included in version 14.74.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2570895096,pull_request,closed,,chore: Allow apps to extend voucher subtypes,,deepeshgarg007,2024-10-07 16:14:39+00:00,[],2024-10-27 00:12:23+00:00,2024-10-08 03:25:00+00:00,https://github.com/frappe/erpnext/pull/43528,"[('accounts', ''), ('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]","[{'comment_id': 2397366081, 'issue_id': 2570895096, 'author': 'vorasmit', 'body': 'This may not be possible with complex conditions, like in case of Sales Invoice.', 'created_at': datetime.datetime(2024, 10, 7, 16, 18, 31, tzinfo=datetime.timezone.utc)}, {'comment_id': 2397381892, 'issue_id': 2570895096, 'author': 'deepeshgarg007', 'body': '@vorasmit Will try and use a method instead', 'created_at': datetime.datetime(2024, 10, 7, 16, 26, 16, tzinfo=datetime.timezone.utc)}]","vorasmit on (2024-10-07 16:18:31 UTC): This may not be possible with complex conditions, like in case of Sales Invoice.
+
+deepeshgarg007 (Issue Creator) on (2024-10-07 16:26:16 UTC): @vorasmit Will try and use a method instead
+
+"
+2570891186,pull_request,closed,,fix: create Account Closing Balance even though there are no transaction in period (backport #43391),"Issue-: If there are no transactions in a period, Account Closing Balances are not created. This gives incorrect opening balance for the following period.
+
+Fix: Allow creating closing entries even if there are no GL entries or period closing voucher entries.
+
+![image](https://github.com/user-attachments/assets/3b7aaa9e-2026-4137-97a1-a528d42c4862)
+
+
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/22654
+<hr>This is an automatic backport of pull request #43391 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-07 16:12:37+00:00,[],2024-10-22 00:12:25+00:00,2024-10-07 17:04:46+00:00,https://github.com/frappe/erpnext/pull/43527,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2570891120,pull_request,closed,,fix: create Account Closing Balance even though there are no transaction in period (backport #43391),"Issue-: If there are no transactions in a period, Account Closing Balances are not created. This gives incorrect opening balance for the following period.
+
+Fix: Allow creating closing entries even if there are no GL entries or period closing voucher entries.
+
+![image](https://github.com/user-attachments/assets/3b7aaa9e-2026-4137-97a1-a528d42c4862)
+
+
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/22654
+<hr>This is an automatic backport of pull request #43391 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-07 16:12:34+00:00,[],2024-10-26 00:11:14+00:00,2024-10-07 17:04:37+00:00,https://github.com/frappe/erpnext/pull/43526,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2403681404, 'issue_id': 2570891120, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.74.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 10, 10, 0, 48, 25, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-10-10 00:48:25 UTC): :tada: This PR is included in version 14.74.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2570852164,pull_request,closed,,fix: add parenttype condition for item table in Purchase Register Report (backport #43384),"If a child table is used in some other table it can cause an issue with the data.
+
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/21111
+Purchase Invoice Item table was used in custom doctype which caused the issues for them.
+<hr>This is an automatic backport of pull request #43384 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-07 15:55:54+00:00,[],2024-10-22 00:12:26+00:00,2024-10-07 16:12:07+00:00,https://github.com/frappe/erpnext/pull/43525,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2570852065,pull_request,closed,,fix: add parenttype condition for item table in Purchase Register Report (backport #43384),"If a child table is used in some other table it can cause an issue with the data.
+
+Frappe Support Issue: https://support.frappe.io/app/hd-ticket/21111
+Purchase Invoice Item table was used in custom doctype which caused the issues for them.
+<hr>This is an automatic backport of pull request #43384 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-07 15:55:52+00:00,[],2024-10-26 00:11:13+00:00,2024-10-07 17:04:23+00:00,https://github.com/frappe/erpnext/pull/43524,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2403681446, 'issue_id': 2570852065, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.74.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 10, 10, 0, 48, 28, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-10-10 00:48:28 UTC): :tada: This PR is included in version 14.74.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.74.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2570833513,pull_request,closed,,fix: include parent item group in query (backport #43385),"https://github.com/frappe/erpnext/pull/43257
+include parent item group in query<hr>This is an automatic backport of pull request #43385 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-07 15:48:10+00:00,[],2024-10-22 00:12:27+00:00,2024-10-07 16:11:05+00:00,https://github.com/frappe/erpnext/pull/43523,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2570658026,pull_request,closed,,Refactor: Use IntegrationTestCase for test_account.py,This PR attempts to use IntegrationTestCase <code>test_account.py</code> to test CI result,blaggacao,2024-10-07 14:44:13+00:00,[],2024-10-22 00:12:31+00:00,2024-10-07 15:06:53+00:00,https://github.com/frappe/erpnext/pull/43522,"[('refactor', '')]",[],
+2570571063,pull_request,closed,,fix: Link opportunity from RFQ to supplier quotation,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",mujeerhashmi,2024-10-07 14:14:20+00:00,['ruthra-kumar'],2024-10-30 00:11:38+00:00,2024-10-15 04:38:26+00:00,https://github.com/frappe/erpnext/pull/43521,"[('accounts', ''), ('stock', None), ('CRM', None), ('selling', None), ('buying', None), ('assets', ''), ('projects', 'projects module related issue / PR')]","[{'comment_id': 2412853180, 'issue_id': 2570571063, 'author': 'mujeerhashmi', 'body': ""@ruthra-kumar kindly review. It's a small change."", 'created_at': datetime.datetime(2024, 10, 15, 4, 7, 14, tzinfo=datetime.timezone.utc)}, {'comment_id': 2412881497, 'issue_id': 2570571063, 'author': 'ruthra-kumar', 'body': '@mergify copy develop', 'created_at': datetime.datetime(2024, 10, 15, 4, 38, 36, tzinfo=datetime.timezone.utc)}, {'comment_id': 2412881648, 'issue_id': 2570571063, 'author': 'mergify[bot]', 'body': '> copy develop\n\n#### ✅ Pull request copies have been created\n\n<details>\n\n* [#43655 fix: Link opportunity from RFQ to supplier quotation (copy #43521)](https://github.com/frappe/erpnext/pull/43655) has been created for branch `develop`\n\n</details>\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""copy develop"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 10, 15, 4, 38, 46, tzinfo=datetime.timezone.utc)}]","mujeerhashmi (Issue Creator) on (2024-10-15 04:07:14 UTC): @ruthra-kumar kindly review. It's a small change.
+
+ruthra-kumar (Assginee) on (2024-10-15 04:38:36 UTC): @mergify copy develop
+
+mergify[bot] on (2024-10-15 04:38:46 UTC): #### ✅ Pull request copies have been created
+
+<details>
+
+* [#43655 fix: Link opportunity from RFQ to supplier quotation (copy #43521)](https://github.com/frappe/erpnext/pull/43655) has been created for branch `develop`
+
+</details>
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""copy develop"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+"
+2570038350,pull_request,closed,,fix: Payment Request's minor fixes,Previous PR: #42427 ,Abdeali099,2024-10-07 10:39:39+00:00,[],2024-10-22 00:12:32+00:00,2024-10-07 15:02:10+00:00,https://github.com/frappe/erpnext/pull/43520,[],[],
+2569911524,pull_request,closed,,ci: validate fix,"Alternative to https://github.com/frappe/erpnext/pull/43517
+
+cc @rohitwaghchaure This should be the definitive temporary work around, as it seems the other one was not quite enough. :pray:
+
+I'm confident, because this was the only functional change introduced to `parallel_test_runner` code path",blaggacao,2024-10-07 09:45:28+00:00,['ruthra-kumar'],2024-10-22 00:12:35+00:00,2024-10-07 10:50:30+00:00,https://github.com/frappe/erpnext/pull/43518,"[('dont-merge', None)]","[{'comment_id': 2396579764, 'issue_id': 2569911524, 'author': 'blaggacao', 'body': 'Validation succeed: https://github.com/frappe/frappe/pull/28006 merged.', 'created_at': datetime.datetime(2024, 10, 7, 10, 50, 30, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 10:50:30 UTC): Validation succeed: https://github.com/frappe/frappe/pull/28006 merged.
+
+"
+2569856535,pull_request,closed,,test: inherit from frappe.tests.IntegrationTestCase (treewide),"Infer probable test spec of unclear test cases (integration vs unit).
+
+see: https://github.com/frappe/frappe/pull/27987
+",blaggacao,2024-10-07 09:22:51+00:00,[],2024-10-27 00:12:16+00:00,2024-10-08 10:14:37+00:00,https://github.com/frappe/erpnext/pull/43517,[],"[{'comment_id': 2396389358, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': ""@rohitwaghchaure This should fix the problem. I unfortunately fried my main machine just 20 mins ago, will try to fix this asap, but can't cycle locally."", 'created_at': datetime.datetime(2024, 10, 7, 9, 24, 10, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396413457, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': 'Unless there are tests which do not concisely declare their test record dependencies, in which case I\'ll implement a temporary ""lump-sump"" record loader specifically for erpnext, until that is fixed.', 'created_at': datetime.datetime(2024, 10, 7, 9, 34, 58, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396659030, 'issue_id': 2569856535, 'author': 'ruthra-kumar', 'body': '> Unless there are tests which do not concisely declare their test record dependencies\r\n\r\nThis is the case for most of the doctypes. Unless the test suite for each of them are manually refactored to be indempotent, merging this change will be almost impossible, as there sure will be breakage somewhere.', 'created_at': datetime.datetime(2024, 10, 7, 11, 26, 49, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396684835, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': ""> Unless the test suite for each of them are manually refactored to be indempotent\r\n\r\nI was actually planning in doing (attempting) exactly that. I'm so fed up with not being able to test things in isolation. :cry:"", 'created_at': datetime.datetime(2024, 10, 7, 11, 38, 22, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396699433, 'issue_id': 2569856535, 'author': 'ruthra-kumar', 'body': ""I would suggest you to tackle one doctype at a time.\r\n\r\nI've been attempting to make Journal Entry test suite independent https://github.com/frappe/erpnext/pull/43405"", 'created_at': datetime.datetime(2024, 10, 7, 11, 44, 59, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396743318, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': 'I\'m still pondering on a strategy, but here is my draft:\r\n\r\n1. Fix missing test records for each doctype (auto create in framework via predictable rule)\r\n2. Store created document content hashes (instead of only names; from `as_json`) at runtime, so that we can assert initial document state for each ""managed"" test record\r\n3. Remove manual creation in favor of auto-created test records (according to predictable rules), so that predictable rules start to be the basis of test records\r\n4. Start warning on document hash mismatch during test class tear down; fix stuff manually\r\n5. Start erroring on document hash mismatch during test class tear down; ensure bad stuff doesn\'t come back\r\n\r\nThen, we can tackle ""unmanaged"" test records which are test-local, if need still be.', 'created_at': datetime.datetime(2024, 10, 7, 12, 5, 56, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396754902, 'issue_id': 2569856535, 'author': 'ruthra-kumar', 'body': ""> (auto create in framework via predictable rule)\r\n\r\nHow are you planning to do this?  I don't remember a system in framework for auto-creation of test records."", 'created_at': datetime.datetime(2024, 10, 7, 12, 11, 7, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396772421, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': ""In a first step, we really just have to come up with predictable value rules to comply with this:\r\n\r\nhttps://github.com/frappe/frappe/blob/8983b13a3fbf88b268e171bf80fb9f3c831b1c55/frappe/tests/utils.py#L203-L212\r\n\r\nDates & Times 1970-01-01 00:00:00\r\n... we'd have to come up with a good set of rules.\r\n\r\nThat's litterally it."", 'created_at': datetime.datetime(2024, 10, 7, 12, 19, 9, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396836309, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': 'This massed approach, if each step is carefully executed, may actually result in very good progress, the 2nd and 3rd commit of https://github.com/frappe/erpnext/pull/43507 are already promising.\r\n\r\nTemporary flakiness may not completely be ruled out, so best we do critical steps on weekends, to minimize potential blast radius as much as possible.', 'created_at': datetime.datetime(2024, 10, 7, 12, 47, 54, tzinfo=datetime.timezone.utc)}, {'comment_id': 2396990641, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': 'I see, one major problem in ERPNext is that test records are not declared in metadata (`test_records.json`) but ad-hoc in python code, which makes them hard to track. And unfortunately, some tests depend on such stateful creations.', 'created_at': datetime.datetime(2024, 10, 7, 13, 49, 2, tzinfo=datetime.timezone.utc)}, {'comment_id': 2397126614, 'issue_id': 2569856535, 'author': 'ruthra-kumar', 'body': '> This massed approach, if each step is carefully executed, may actually result in very good progress, the 2nd and 3rd commit of #43507 are already promising.\r\n> \r\n> Temporary flakiness may not completely be ruled out, so best we do critical steps on weekends, to minimize potential blast radius as much as possible.\r\n\r\nI would still prefer small chunks. The thing with mass changes, especially with such inter-dependent test suites, is that tracking the root cause for a breakage would become a nightmare.', 'created_at': datetime.datetime(2024, 10, 7, 14, 41, 3, tzinfo=datetime.timezone.utc)}, {'comment_id': 2397144527, 'issue_id': 2569856535, 'author': 'ruthra-kumar', 'body': ""> I see, one major problem in ERPNext is that test records are not declared in metadata (`test_records.json`) but ad-hoc in python code, which makes them hard to track. And unfortunately, some tests depend on such stateful creations.\r\n\r\nI actually don't prefer the `test_records.json` approach. It's not easy to comprehend a large JSON file.\r\n\r\nFor example: https://github.com/frappe/erpnext/blob/cd112795d3dff1f6ad1dda475d184ba6197f54e7/erpnext/accounts/doctype/purchase_invoice/test_purchase_invoice.py#L952\r\n\r\nI'll have to open the json file and locate the second item to find what sort of document the test creates."", 'created_at': datetime.datetime(2024, 10, 7, 14, 47, 57, tzinfo=datetime.timezone.utc)}, {'comment_id': 2397216136, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': ""> I actually don't prefer the test_records.json approach. It's not easy to comprehend a large JSON file.\r\n\r\nWould YAML be ok? (or TOML) &mdash; I agree json is not the best here.\r\n\r\n> I would still prefer small chunks. The thing with mass changes, especially with such inter-dependent test suites, is that tracking the root cause for a breakage would become a nightmare.\r\n\r\nHm, that is true. Maybe I should be more precise: level up the constraints for tests, step by step, but on equal footing for all tests. If a constraint isn't bearable by the test suite, then revert to manual one-by-one refactor. :+1:"", 'created_at': datetime.datetime(2024, 10, 7, 15, 14, 46, tzinfo=datetime.timezone.utc)}, {'comment_id': 2397249589, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': ""> I actually don't prefer the test_records.json approach. It's not easy to comprehend a large JSON file.\r\n\r\nWe also could write a small Frappe LSP implementation to auto-load test data-structure into a TAB-completable."", 'created_at': datetime.datetime(2024, 10, 7, 15, 28, 18, tzinfo=datetime.timezone.utc)}, {'comment_id': 2399440505, 'issue_id': 2569856535, 'author': 'blaggacao', 'body': 'This is almost completed now, through an automatic bisection effectively (after some manual validation of the bisection script) starting here: https://github.com/frappe/erpnext/pull/43542', 'created_at': datetime.datetime(2024, 10, 8, 10, 14, 37, tzinfo=datetime.timezone.utc)}]","blaggacao (Issue Creator) on (2024-10-07 09:24:10 UTC): @rohitwaghchaure This should fix the problem. I unfortunately fried my main machine just 20 mins ago, will try to fix this asap, but can't cycle locally.
+
+blaggacao (Issue Creator) on (2024-10-07 09:34:58 UTC): Unless there are tests which do not concisely declare their test record dependencies, in which case I'll implement a temporary ""lump-sump"" record loader specifically for erpnext, until that is fixed.
+
+ruthra-kumar on (2024-10-07 11:26:49 UTC): This is the case for most of the doctypes. Unless the test suite for each of them are manually refactored to be indempotent, merging this change will be almost impossible, as there sure will be breakage somewhere.
+
+blaggacao (Issue Creator) on (2024-10-07 11:38:22 UTC): I was actually planning in doing (attempting) exactly that. I'm so fed up with not being able to test things in isolation. :cry:
+
+ruthra-kumar on (2024-10-07 11:44:59 UTC): I would suggest you to tackle one doctype at a time.
+
+I've been attempting to make Journal Entry test suite independent https://github.com/frappe/erpnext/pull/43405
+
+blaggacao (Issue Creator) on (2024-10-07 12:05:56 UTC): I'm still pondering on a strategy, but here is my draft:
+
+1. Fix missing test records for each doctype (auto create in framework via predictable rule)
+2. Store created document content hashes (instead of only names; from `as_json`) at runtime, so that we can assert initial document state for each ""managed"" test record
+3. Remove manual creation in favor of auto-created test records (according to predictable rules), so that predictable rules start to be the basis of test records
+4. Start warning on document hash mismatch during test class tear down; fix stuff manually
+5. Start erroring on document hash mismatch during test class tear down; ensure bad stuff doesn't come back
+
+Then, we can tackle ""unmanaged"" test records which are test-local, if need still be.
+
+ruthra-kumar on (2024-10-07 12:11:07 UTC): How are you planning to do this?  I don't remember a system in framework for auto-creation of test records.
+
+blaggacao (Issue Creator) on (2024-10-07 12:19:09 UTC): In a first step, we really just have to come up with predictable value rules to comply with this:
+
+https://github.com/frappe/frappe/blob/8983b13a3fbf88b268e171bf80fb9f3c831b1c55/frappe/tests/utils.py#L203-L212
+
+Dates & Times 1970-01-01 00:00:00
+... we'd have to come up with a good set of rules.
+
+That's litterally it.
+
+blaggacao (Issue Creator) on (2024-10-07 12:47:54 UTC): This massed approach, if each step is carefully executed, may actually result in very good progress, the 2nd and 3rd commit of https://github.com/frappe/erpnext/pull/43507 are already promising.
+
+Temporary flakiness may not completely be ruled out, so best we do critical steps on weekends, to minimize potential blast radius as much as possible.
+
+blaggacao (Issue Creator) on (2024-10-07 13:49:02 UTC): I see, one major problem in ERPNext is that test records are not declared in metadata (`test_records.json`) but ad-hoc in python code, which makes them hard to track. And unfortunately, some tests depend on such stateful creations.
+
+ruthra-kumar on (2024-10-07 14:41:03 UTC): I would still prefer small chunks. The thing with mass changes, especially with such inter-dependent test suites, is that tracking the root cause for a breakage would become a nightmare.
+
+ruthra-kumar on (2024-10-07 14:47:57 UTC): I actually don't prefer the `test_records.json` approach. It's not easy to comprehend a large JSON file.
+
+For example: https://github.com/frappe/erpnext/blob/cd112795d3dff1f6ad1dda475d184ba6197f54e7/erpnext/accounts/doctype/purchase_invoice/test_purchase_invoice.py#L952
+
+I'll have to open the json file and locate the second item to find what sort of document the test creates.
+
+blaggacao (Issue Creator) on (2024-10-07 15:14:46 UTC): Would YAML be ok? (or TOML) &mdash; I agree json is not the best here.
+
+
+Hm, that is true. Maybe I should be more precise: level up the constraints for tests, step by step, but on equal footing for all tests. If a constraint isn't bearable by the test suite, then revert to manual one-by-one refactor. :+1:
+
+blaggacao (Issue Creator) on (2024-10-07 15:28:18 UTC): We also could write a small Frappe LSP implementation to auto-load test data-structure into a TAB-completable.
+
+blaggacao (Issue Creator) on (2024-10-08 10:14:37 UTC): This is almost completed now, through an automatic bisection effectively (after some manual validation of the bisection script) starting here: https://github.com/frappe/erpnext/pull/43542
+
+"
+2569719013,pull_request,closed,,fix: Unknown column 'serial_no' in 'field list',,rohitwaghchaure,2024-10-07 08:25:07+00:00,[],2024-10-26 00:11:42+00:00,2024-10-08 11:20:26+00:00,https://github.com/frappe/erpnext/pull/43515,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2569705472,pull_request,closed,,fix: 'NoneType' object has no attribute 'has_serial_no',"```
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 248, in make_bundle_for_sales_purchase_return
+    self.make_bundle_for_non_rejected_qty(table_name)
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 303, in make_bundle_for_non_rejected_qty
+    field, reference_ids = self.get_reference_ids(table_name)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 340, in get_reference_ids
+    if not self.is_serial_batch_item(row.item_code):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""apps/frappe/frappe/utils/caching.py"", line 59, in wrapper
+    return_val = func(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File ""apps/erpnext/erpnext/controllers/stock_controller.py"", line 362, in is_serial_batch_item
+    if item_details.has_serial_no or item_details.has_batch_no:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'has_serial_no'
+```",rohitwaghchaure,2024-10-07 08:18:55+00:00,[],2024-10-26 00:11:38+00:00,2024-10-08 12:11:09+00:00,https://github.com/frappe/erpnext/pull/43514,"[('backport version-15-hotfix', '')]",[],
+2569697532,pull_request,closed,,fix: read only filters in multidialog fields (backport #43503),"**Issue**
+
+Goto Stock Entry -> Get Items From -> Transit Entry -> Users able to change Stock Entry Type
+
+<img width=""661"" alt=""image"" src=""https://github.com/user-attachments/assets/1289a1d4-3033-41fc-8937-f3af9f58b00d"">
+
+
+**After Fix**
+
+Do not allow to change the filters in the multidialog
+
+<img width=""910"" alt=""Screenshot 2024-10-06 at 10 02 25 AM"" src=""https://github.com/user-attachments/assets/9a1493f2-0370-45d6-89bc-333ce734783a"">
+<hr>This is an automatic backport of pull request #43503 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-07 08:15:04+00:00,['rohitwaghchaure'],2024-10-22 00:12:42+00:00,2024-10-07 08:27:56+00:00,https://github.com/frappe/erpnext/pull/43513,[],[],
+2569505099,pull_request,closed,,fix: Update Values before `after_mapping` hook is called (backport #42682),Conflicts Resolved for Backport PR: https://github.com/frappe/erpnext/pull/43501,Ninad1306,2024-10-07 06:52:41+00:00,[],2024-10-22 00:12:37+00:00,2024-10-07 09:45:44+00:00,https://github.com/frappe/erpnext/pull/43512,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2569464409,pull_request,closed,,fix: Remove the `get_paid_amount_against_order` function as it is no …,Previous PR: #42427,Abdeali099,2024-10-07 06:35:01+00:00,[],2024-10-22 00:12:39+00:00,2024-10-07 09:40:11+00:00,https://github.com/frappe/erpnext/pull/43511,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2568572600,pull_request,closed,,treewide: unit test cases boilerplate,"As early and as complete as possible mainly for LLMs to catch up with the new convention on their next iteration.
+",blaggacao,2024-10-06 09:57:14+00:00,[],2024-10-22 00:12:33+00:00,2024-10-07 13:03:53+00:00,https://github.com/frappe/erpnext/pull/43507,"[('framework', None)]",[],
+2568563642,pull_request,closed,,chore: update POT file,,frappe-pr-bot,2024-10-06 09:35:24+00:00,[],2024-10-22 00:12:45+00:00,2024-10-06 10:20:14+00:00,https://github.com/frappe/erpnext/pull/43506,[],[],
+2568465319,pull_request,closed,,Version 15,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",half-ware,2024-10-06 05:01:29+00:00,[],2024-10-22 00:12:46+00:00,2024-10-06 05:02:08+00:00,https://github.com/frappe/erpnext/pull/43504,[],"[{'comment_id': 2395295551, 'issue_id': 2568465319, 'author': 'mergify[bot]', 'body': 'This pull request has been automatically closed by Mergify.', 'created_at': datetime.datetime(2024, 10, 6, 5, 2, 9, tzinfo=datetime.timezone.utc)}, {'comment_id': 2395295553, 'issue_id': 2568465319, 'author': 'mergify[bot]', 'body': '@half-ware, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.\nhttps://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch', 'created_at': datetime.datetime(2024, 10, 6, 5, 2, 9, tzinfo=datetime.timezone.utc)}]","mergify[bot] on (2024-10-06 05:02:09 UTC): This pull request has been automatically closed by Mergify.
+
+mergify[bot] on (2024-10-06 05:02:09 UTC): @half-ware, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.
+https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch
+
+"
+2568458877,pull_request,closed,,fix: read only filters in multidialog fields,"**Issue**
+
+Goto Stock Entry -> Get Items From -> Transit Entry -> Users able to change Stock Entry Type
+
+<img width=""661"" alt=""image"" src=""https://github.com/user-attachments/assets/1289a1d4-3033-41fc-8937-f3af9f58b00d"">
+
+
+**After Fix**
+
+Do not allow to change the filters in the multidialog
+
+<img width=""910"" alt=""Screenshot 2024-10-06 at 10 02 25 AM"" src=""https://github.com/user-attachments/assets/9a1493f2-0370-45d6-89bc-333ce734783a"">
+",rohitwaghchaure,2024-10-06 04:38:48+00:00,[],2024-10-22 00:12:43+00:00,2024-10-07 08:13:38+00:00,https://github.com/frappe/erpnext/pull/43503,"[('backport version-15-hotfix', '')]",[],
+2568452996,pull_request,closed,,fix(stock): Grab posting date/time from SABB (backport #43493),"## TypeError: combine() argument 1 must be datetime.date, not None
+
+Hey :wave:, sorry to bother you.
+
+I see in the code below that a ""fake"" Stock Ledger Entry is constructed. However, there are two missing keys, namely ""posting_date"" and ""posting_date"". Because, they are expected a little bit after, saving the Stock Entry fails.
+
+I just wanted an expert's opinion: is this a typo, a small oversight? Or should I dig down more.
+Please note that I did not try to reproduce the issue yet, just doing things on instinct.
+
+```py
+  File ""apps/erpnext/erpnext/stock/stock_ledger.py"", line 1714, in get_valuation_rate
+    batch_obj = BatchNoValuation(
+			sle=frappe._dict(
+				{
+					""item_code"": item_code,
+					""warehouse"": warehouse,
+					""actual_qty"": -1,
+					""serial_and_batch_bundle"": serial_and_batch_bundle,
+#				-->	## Here there are missing keys: posting_date, posting_time
+#				-->	## Let's just grab them from the SABB and call it a day
+				}
+			)
+		)
+```
+
+
+---
+
+<details><summary><h2>Stack trace</h2></summary>
+
+```py
+  File ""apps/frappe/frappe/desk/form/save.py"", line 39, in savedocs
+    doc.save()
+      doc = <StockEntry: MAT-STE-2024-XXXXX>
+  File ""apps/frappe/frappe/model/document.py"", line 1136, in run_before_save_methods
+    self.run_method(""validate"")
+  File ""apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py"", line 238, in validate
+    self.calculate_rate_and_amount()
+  File ""apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py"", line 777, in calculate_rate_and_amount
+    self.set_basic_rate(reset_outgoing_rate, raise_error_if_no_rate)
+  File ""apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py"", line 819, in set_basic_rate
+    d.basic_rate = get_valuation_rate(
+  File ""apps/erpnext/erpnext/stock/stock_ledger.py"", line 1714, in get_valuation_rate
+    batch_obj = BatchNoValuation(
+			sle=frappe._dict(
+				{
+					""item_code"": item_code,
+					""warehouse"": warehouse,
+					""actual_qty"": -1,
+					""serial_and_batch_bundle"": serial_and_batch_bundle,
+					# HERE: Missing posting_date, posting_time
+				}
+			)
+		)
+  File ""apps/erpnext/erpnext/stock/serial_batch_bundle.py"", line 627, in __init__
+    self.calculate_avg_rate()
+  File ""apps/erpnext/erpnext/stock/serial_batch_bundle.py"", line 647, in calculate_avg_rate
+    self.calculate_avg_rate_for_non_batchwise_valuation()
+  File ""apps/frappe/frappe/utils/deprecations.py"", line 18, in wrapper
+    return func(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/deprecated_serial_batch.py"", line 158, in calculate_avg_rate_for_non_batchwise_valuation
+    self.set_balance_value_for_non_batchwise_valuation_batches()
+  File ""apps/frappe/frappe/utils/deprecations.py"", line 18, in wrapper
+    return func(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/deprecated_serial_batch.py"", line 190, in set_balance_value_for_non_batchwise_valuation_batches
+    self.set_balance_value_from_sl_entries()
+  File ""apps/frappe/frappe/utils/deprecations.py"", line 18, in wrapper
+    return func(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/deprecated_serial_batch.py"", line 200, in set_balance_value_from_sl_entries
+    posting_datetime = get_combine_datetime(self.sle.posting_date, self.sle.posting_time)
+      self = <erpnext.stock.serial_batch_bundle.BatchNoValuation object>
+  File ""apps/erpnext/erpnext/stock/utils.py"", line 669, in get_combine_datetime
+    return datetime.datetime.combine(posting_date, posting_time).replace(microsecond=0)
+      posting_date = None
+      posting_time = None
+TypeError: combine() argument 1 must be datetime.date, not None
+```
+
+</details><hr>This is an automatic backport of pull request #43493 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-06 04:19:18+00:00,[],2024-10-30 00:11:10+00:00,2024-10-15 12:15:35+00:00,https://github.com/frappe/erpnext/pull/43502,"[('stock', None), ('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2568437910,pull_request,closed,,fix: Update Values before `after_mapping` hook is called (backport #42682),"**Issue:**
+
+- Reference: https://github.com/resilient-tech/india-compliance/issues/2481
+
+- When creating `Subcontracting Order` from `Purchase Order` , the taxes of Purchase Doctype and Sales Doctype are not same which raises error so mapping has to be done according to `Sales Taxes and Charges`.
+
+![image](https://github.com/user-attachments/assets/776b2b41-dd83-45d9-a5ab-06a270b33a8e)
+
+- So the values has to be updated in postprocess, so that required taxes can be updated.
+<hr>This is an automatic backport of pull request #42682 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-06 03:24:09+00:00,[],2024-10-22 00:12:38+00:00,2024-10-07 09:44:38+00:00,https://github.com/frappe/erpnext/pull/43501,"[('needs-tests', 'This PR needs automated unit-tests.'), ('conflicts', None)]","[{'comment_id': 2395276271, 'issue_id': 2568437910, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 26fc8ce209d90d374f95121c8f9e54d939b1b591 has failed:\n```\nOn branch mergify/bp/version-15-hotfix/pr-42682\nYour branch is up to date with \'origin/version-15-hotfix\'.\n\nYou are currently cherry-picking commit 26fc8ce209.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/buying/doctype/purchase_order/purchase_order.py\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 10, 6, 3, 24, 10, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-10-06 03:24:10 UTC): Cherry-pick of 26fc8ce209d90d374f95121c8f9e54d939b1b591 has failed:
+```
+On branch mergify/bp/version-15-hotfix/pr-42682
+Your branch is up to date with 'origin/version-15-hotfix'.
+
+You are currently cherry-picking commit 26fc8ce209.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/buying/doctype/purchase_order/purchase_order.py
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+"
+2567140369,pull_request,closed,,Jalali period,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",ahmadsmdn,2024-10-04 19:15:38+00:00,[],2024-10-20 00:12:11+00:00,2024-10-04 19:28:55+00:00,https://github.com/frappe/erpnext/pull/43498,"[('accounts', ''), ('stock', None), ('selling', None), ('buying', None)]",[],
+2564958152,pull_request,closed,,fix(Quotation): calculate row values for alternative items (backport #43054),"Introduced via: https://github.com/frappe/erpnext/pull/33874
+
+### Problem
+
+When marking a **Quotation** row as _Is Alternative_, the row is completely ignored in code. E.g. the row amount does not get updated, the tax template is not verified, the tax exclusive rate is no longer determined, etc.
+
+This can easily result in a wrong quotation. For example, if the rate is edited after the row was marked as _Is Alternative_, the row amount is no longer correct.
+
+### Solution
+
+Exclude alternative rows only when calculating total taxes and amounts for the entire **Quotation**. Individual row values should get updated as usual, for alternative items as well.
+
+---
+
+Internal ref: DEP-567<hr>This is an automatic backport of pull request #43054 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-03 20:35:55+00:00,['barredterra'],2024-10-20 00:12:24+00:00,2024-10-04 00:23:59+00:00,https://github.com/frappe/erpnext/pull/43495,"[('accounts', '')]",[],
+2564557161,pull_request,closed,,Jalali period,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",ahmadsmdn,2024-10-03 17:13:42+00:00,[],2024-10-20 00:12:12+00:00,2024-10-04 03:00:18+00:00,https://github.com/frappe/erpnext/pull/43494,"[('accounts', ''), ('stock', None), ('selling', None), ('buying', None)]","[{'comment_id': 2394411545, 'issue_id': 2564557161, 'author': 'mergify[bot]', 'body': '⚠️ The sha of the head commit of this PR conflicts with #43498. Mergify cannot evaluate rules on this PR. ⚠️', 'created_at': datetime.datetime(2024, 10, 4, 19, 16, 18, tzinfo=datetime.timezone.utc)}]","mergify[bot] on (2024-10-04 19:16:18 UTC): ⚠️ The sha of the head commit of this PR conflicts with #43498. Mergify cannot evaluate rules on this PR. ⚠️
+
+"
+2564518019,pull_request,closed,,fix(stock): Grab posting date/time from SABB,"## TypeError: combine() argument 1 must be datetime.date, not None
+
+Hey :wave:, sorry to bother you.
+
+I see in the code below that a ""fake"" Stock Ledger Entry is constructed. However, there are two missing keys, namely ""posting_date"" and ""posting_date"". Because, they are expected a little bit after, saving the Stock Entry fails.
+
+I just wanted an expert's opinion: is this a typo, a small oversight? Or should I dig down more.
+Please note that I did not try to reproduce the issue yet, just doing things on instinct.
+
+```py
+  File ""apps/erpnext/erpnext/stock/stock_ledger.py"", line 1714, in get_valuation_rate
+    batch_obj = BatchNoValuation(
+			sle=frappe._dict(
+				{
+					""item_code"": item_code,
+					""warehouse"": warehouse,
+					""actual_qty"": -1,
+					""serial_and_batch_bundle"": serial_and_batch_bundle,
+#				-->	## Here there are missing keys: posting_date, posting_time
+#				-->	## Let's just grab them from the SABB and call it a day
+				}
+			)
+		)
+```
+
+
+---
+
+<details><summary><h2>Stack trace</h2></summary>
+
+```py
+  File ""apps/frappe/frappe/desk/form/save.py"", line 39, in savedocs
+    doc.save()
+      doc = <StockEntry: MAT-STE-2024-XXXXX>
+  File ""apps/frappe/frappe/model/document.py"", line 1136, in run_before_save_methods
+    self.run_method(""validate"")
+  File ""apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py"", line 238, in validate
+    self.calculate_rate_and_amount()
+  File ""apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py"", line 777, in calculate_rate_and_amount
+    self.set_basic_rate(reset_outgoing_rate, raise_error_if_no_rate)
+  File ""apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py"", line 819, in set_basic_rate
+    d.basic_rate = get_valuation_rate(
+  File ""apps/erpnext/erpnext/stock/stock_ledger.py"", line 1714, in get_valuation_rate
+    batch_obj = BatchNoValuation(
+			sle=frappe._dict(
+				{
+					""item_code"": item_code,
+					""warehouse"": warehouse,
+					""actual_qty"": -1,
+					""serial_and_batch_bundle"": serial_and_batch_bundle,
+					# HERE: Missing posting_date, posting_time
+				}
+			)
+		)
+  File ""apps/erpnext/erpnext/stock/serial_batch_bundle.py"", line 627, in __init__
+    self.calculate_avg_rate()
+  File ""apps/erpnext/erpnext/stock/serial_batch_bundle.py"", line 647, in calculate_avg_rate
+    self.calculate_avg_rate_for_non_batchwise_valuation()
+  File ""apps/frappe/frappe/utils/deprecations.py"", line 18, in wrapper
+    return func(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/deprecated_serial_batch.py"", line 158, in calculate_avg_rate_for_non_batchwise_valuation
+    self.set_balance_value_for_non_batchwise_valuation_batches()
+  File ""apps/frappe/frappe/utils/deprecations.py"", line 18, in wrapper
+    return func(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/deprecated_serial_batch.py"", line 190, in set_balance_value_for_non_batchwise_valuation_batches
+    self.set_balance_value_from_sl_entries()
+  File ""apps/frappe/frappe/utils/deprecations.py"", line 18, in wrapper
+    return func(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/deprecated_serial_batch.py"", line 200, in set_balance_value_from_sl_entries
+    posting_datetime = get_combine_datetime(self.sle.posting_date, self.sle.posting_time)
+      self = <erpnext.stock.serial_batch_bundle.BatchNoValuation object>
+  File ""apps/erpnext/erpnext/stock/utils.py"", line 669, in get_combine_datetime
+    return datetime.datetime.combine(posting_date, posting_time).replace(microsecond=0)
+      posting_date = None
+      posting_time = None
+TypeError: combine() argument 1 must be datetime.date, not None
+```
+
+</details>",cogk,2024-10-03 16:56:36+00:00,[],2024-10-22 00:12:47+00:00,2024-10-06 04:18:23+00:00,https://github.com/frappe/erpnext/pull/43493,"[('stock', None), ('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]","[{'comment_id': 2392465077, 'issue_id': 2564518019, 'author': 'cogk', 'body': ""Note that tests don't cover this path anyways, which would have caught the exception I believe."", 'created_at': datetime.datetime(2024, 10, 3, 22, 44, 37, tzinfo=datetime.timezone.utc)}]","cogk (Issue Creator) on (2024-10-03 22:44:37 UTC): Note that tests don't cover this path anyways, which would have caught the exception I believe.
+
+"
+2561783947,pull_request,closed,,fix(Dunning): logic for fetching text (backport #43160),"### Before
+
+(a). If the `language` parameter is provided, return the text for this language. If this doesn't exist, return `None`.
+(b.) If the `language` parameter is not provided, return the text marked as _Is Default Language_. If this doesn't exist, return `None`.
+
+### After
+
+1. If the `language` parameter is provided, return the text for this language.
+2. If `doc.language` exists, return the text for this language.
+3. If a text marked as _Is Default Language_ exists, return this one.
+4. Return an empty dict (-> uniform return type)
+
+### How to test
+
+1. Create a **Dunning Type**
+    - add texts for different languages, enable _Is Default Language_ for one of them
+3. Create overdue **Sales Invoices** for customers with different languages
+5. Click on ""Create"" -> ""Dunning"" in each **Sales Invoice**<hr>This is an automatic backport of pull request #43160 done by [Mergify](https://mergify.com).",mergify[bot],2024-10-02 14:04:15+00:00,['barredterra'],2024-10-20 00:12:26+00:00,2024-10-03 19:28:54+00:00,https://github.com/frappe/erpnext/pull/43490,[],[],

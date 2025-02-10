@@ -1,0 +1,65 @@
+id,type,state,state_reason,title,body,author,created_at,assignees,updated_at,closed_at,url,labels,comments_list,comment_thread
+2201685004,pull_request,closed,,fix: unknown column finance_book_id in Depreciation Schedule doctype,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",saadsafda,2024-03-22 04:40:03+00:00,[],2024-04-28 00:10:16+00:00,2024-04-13 11:48:25+00:00,https://github.com/frappe/erpnext/pull/40609,"[('needs-tests', 'This PR needs automated unit-tests.'), ('inactive', '')]","[{'comment_id': 2046331131, 'issue_id': 2201685004, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 4, 10, 2, 8, 5, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-04-10 02:08:05 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2201684031,pull_request,closed,,fix: permissions during bulk transaction logs (backport #40520),"# Context 
+
+Non-'System Manager's also can create bulk transactions.
+
+@ruthra-kumar I think you last touched the code, here?
+
+Iirc, `update_log` already bypasses permission, right?
+<hr>This is an automatic backport of pull request #40520 done by [Mergify](https://mergify.com).",mergify[bot],2024-03-22 04:38:47+00:00,[],2024-04-12 00:09:30+00:00,2024-03-22 05:03:29+00:00,https://github.com/frappe/erpnext/pull/40608,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2021857864, 'issue_id': 2201684031, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.18.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.18.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 3, 27, 3, 29, 35, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-03-27 03:29:35 UTC): :tada: This PR is included in version 15.18.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.18.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2201683684,pull_request,closed,,fix: permissions during bulk transaction logs (backport #40520),"# Context 
+
+Non-'System Manager's also can create bulk transactions.
+
+@ruthra-kumar I think you last touched the code, here?
+
+Iirc, `update_log` already bypasses permission, right?
+<hr>This is an automatic backport of pull request #40520 done by [Mergify](https://mergify.com).",mergify[bot],2024-03-22 04:38:20+00:00,[],2024-04-15 02:26:39+00:00,2024-03-22 05:03:49+00:00,https://github.com/frappe/erpnext/pull/40607,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2021857467, 'issue_id': 2201683684, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.66.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.66.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 3, 27, 3, 29, 5, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-03-27 03:29:05 UTC): :tada: This PR is included in version 14.66.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.66.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"

@@ -1,0 +1,1542 @@
+id,type,state,state_reason,title,body,author,created_at,assignees,updated_at,closed_at,url,labels,comments_list,comment_thread
+2261791805,pull_request,closed,,perf: timeout issue while submitting purchase receipt (v14),"Purchase Receipt with 600 serial numbers getting the timeout while submitting 
+System taking 144 Seconds
+<img width=""764"" alt=""Screenshot 2024-04-24 at 7 36 37 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/f5b7ebbc-ea6e-4a9d-9022-de2deef479dc"">
+
+
+**After fix**
+System taking 25 Seconds
+<img width=""713"" alt=""Screenshot 2024-04-24 at 10 42 56 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/8f73b199-787a-440c-b471-e0b61d5f9e04"">
+",rohitwaghchaure,2024-04-24 17:16:46+00:00,[],2024-05-17 00:09:17+00:00,2024-04-26 05:26:28+00:00,https://github.com/frappe/erpnext/pull/41174,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2078656805, 'issue_id': 2261791805, 'author': 'rohitwaghchaure', 'body': '@Mergifyio backport version-14', 'created_at': datetime.datetime(2024, 4, 26, 5, 26, 50, tzinfo=datetime.timezone.utc)}, {'comment_id': 2078657115, 'issue_id': 2261791805, 'author': 'mergify[bot]', 'body': '> backport version-14\n\n#### ✅ Backports have been created\n\n<details>\n\n* [#41193 perf: timeout issue while submitting purchase receipt (v14) (backport #41174)](https://github.com/frappe/erpnext/pull/41193) has been created for branch `version-14`\n\n</details>\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""backport version-14"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 4, 26, 5, 27, 4, tzinfo=datetime.timezone.utc)}, {'comment_id': 2084466136, 'issue_id': 2261791805, 'author': 'alpesh-jani', 'body': 'Dear Rohit,\r\n\r\nThe Purchase Receipt timeout issue has been resolved.\r\n\r\nHowever, I encountered the same problem with the Delivery Note\r\nI think You should check Stock entry also and same as Sales Invoice with Stock', 'created_at': datetime.datetime(2024, 4, 30, 6, 21, 53, tzinfo=datetime.timezone.utc)}, {'comment_id': 2089554732, 'issue_id': 2261791805, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.69.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.69.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 5, 2, 4, 32, 34, tzinfo=datetime.timezone.utc)}]","rohitwaghchaure (Issue Creator) on (2024-04-26 05:26:50 UTC): @Mergifyio backport version-14
+
+mergify[bot] on (2024-04-26 05:27:04 UTC): #### ✅ Backports have been created
+
+<details>
+
+* [#41193 perf: timeout issue while submitting purchase receipt (v14) (backport #41174)](https://github.com/frappe/erpnext/pull/41193) has been created for branch `version-14`
+
+</details>
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""backport version-14"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+alpesh-jani on (2024-04-30 06:21:53 UTC): Dear Rohit,
+
+The Purchase Receipt timeout issue has been resolved.
+
+However, I encountered the same problem with the Delivery Note
+I think You should check Stock entry also and same as Sales Invoice with Stock
+
+frappe-pr-bot on (2024-05-02 04:32:34 UTC): :tada: This PR is included in version 14.69.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.69.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2261692104,pull_request,closed,,fix: paid amount in bank reconciliation tool,,deepeshgarg007,2024-04-24 16:19:47+00:00,[],2024-05-18 00:09:17+00:00,2024-04-30 04:55:03+00:00,https://github.com/frappe/erpnext/pull/41173,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2261415185,pull_request,closed,,fix: Invoice with no GLEs in deferred report,"Invoices not having any GLE do not show up in the Deferred Revenue and Expense report even though ""Show with upcoming revenue/expense"" is checked",deepeshgarg007,2024-04-24 14:15:57+00:00,[],2024-05-18 00:09:16+00:00,2024-04-30 05:44:54+00:00,https://github.com/frappe/erpnext/pull/41171,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2261072079,pull_request,closed,,fix: Default dates in report,Backport missing changes from v15,deepeshgarg007,2024-04-24 11:30:26+00:00,[],2024-05-31 00:09:40+00:00,2024-05-14 02:51:51+00:00,https://github.com/frappe/erpnext/pull/41170,"[('released', None)]","[{'comment_id': 2111600161, 'issue_id': 2261072079, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.70.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.70.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 5, 15, 5, 12, 33, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-05-15 05:12:33 UTC): :tada: This PR is included in version 14.70.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.70.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2260803180,pull_request,closed,,fix: warehouse type filter for stock reports,"<img width=""1310"" alt=""Screenshot 2024-04-24 at 2 40 30 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/a1b09dc4-51ee-45bb-a87a-b3f5b8f14634"">
+",rohitwaghchaure,2024-04-24 09:12:05+00:00,[],2024-05-11 00:09:20+00:00,2024-04-26 07:40:25+00:00,https://github.com/frappe/erpnext/pull/41167,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2260553741,pull_request,closed,,feat: allow to do reposting for all stock transactions (audit),"With the ""Do reposting for each Stock Transaction"" configuration, system will create the Reposting Entry for each stock transaction even though future SLE doesn't exists. This will be useful for the audit, specifically when user run the reposting non working hours. 
+
+<img width=""760"" alt=""image"" src=""https://github.com/frappe/erpnext/assets/8780500/c2081816-4480-476d-aa7d-6c77edb6c1ea"">
+
+
+Docs https://docs.erpnext.com/docs/user/manual/en/stock-reposting-settings",rohitwaghchaure,2024-04-24 07:14:23+00:00,[],2024-05-11 00:09:19+00:00,2024-04-26 08:13:35+00:00,https://github.com/frappe/erpnext/pull/41165,"[('stock', None), ('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2260464190,pull_request,closed,,chore: Remove heatmap from party dashboards (backport #41106),<hr>This is an automatic backport of pull request #41106 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-24 06:32:05+00:00,['deepeshgarg007'],2024-05-09 00:09:36+00:00,2024-04-24 07:30:50+00:00,https://github.com/frappe/erpnext/pull/41164,"[('accounts', ''), ('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074661447, 'issue_id': 2260464190, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 30, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:48:30 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2260389821,pull_request,closed,,fix: allow Employee role to select cost center & project (accounting dimensions) (backport #41160),Added select perms for the Employee role on Cost Center & Project. These are needed during Expense Claim creation<hr>This is an automatic backport of pull request #41160 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-24 05:46:07+00:00,['ruchamahabal'],2024-05-09 00:09:31+00:00,2024-04-24 06:13:46+00:00,https://github.com/frappe/erpnext/pull/41162,"[('released', None)]","[{'comment_id': 2074085425, 'issue_id': 2260389821, 'author': 'mergify[bot]', 'body': 'Cherry-pick of d0d496a5152df5cd361d581e2b6794c6fd099e59 has failed:\n```\nOn branch mergify/bp/version-15-hotfix/pr-41160\nYour branch is up to date with \'origin/version-15-hotfix\'.\n\nYou are currently cherry-picking commit d0d496a515.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/cost_center/cost_center.json\n\tboth modified:   erpnext/projects/doctype/project/project.json\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 24, 5, 46, 9, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074661832, 'issue_id': 2260389821, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 45, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-24 05:46:09 UTC): Cherry-pick of d0d496a5152df5cd361d581e2b6794c6fd099e59 has failed:
+```
+On branch mergify/bp/version-15-hotfix/pr-41160
+Your branch is up to date with 'origin/version-15-hotfix'.
+
+You are currently cherry-picking commit d0d496a515.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/cost_center/cost_center.json
+	both modified:   erpnext/projects/doctype/project/project.json
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 10:48:45 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2260389523,pull_request,closed,,fix: allow Employee role to select cost center & project (accounting dimensions) (backport #41160),Added select perms for the Employee role on Cost Center & Project. These are needed during Expense Claim creation<hr>This is an automatic backport of pull request #41160 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-24 05:45:58+00:00,['ruchamahabal'],2024-05-09 00:09:48+00:00,2024-04-24 06:13:33+00:00,https://github.com/frappe/erpnext/pull/41161,"[('released', None)]","[{'comment_id': 2074085254, 'issue_id': 2260389523, 'author': 'mergify[bot]', 'body': 'Cherry-pick of d0d496a5152df5cd361d581e2b6794c6fd099e59 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-41160\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit d0d496a515.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/cost_center/cost_center.json\n\tboth modified:   erpnext/projects/doctype/project/project.json\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 24, 5, 46, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074272064, 'issue_id': 2260389523, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 6, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-24 05:46:00 UTC): Cherry-pick of d0d496a5152df5cd361d581e2b6794c6fd099e59 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-41160
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit d0d496a515.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/cost_center/cost_center.json
+	both modified:   erpnext/projects/doctype/project/project.json
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 07:33:06 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2260357262,pull_request,closed,,fix: allow Employee role to select cost center & project (accounting dimensions),Added select perms for the Employee role on Cost Center & Project. These are needed during Expense Claim creation,ruchamahabal,2024-04-24 05:28:35+00:00,[],2024-05-09 00:09:53+00:00,2024-04-24 05:44:22+00:00,https://github.com/frappe/erpnext/pull/41160,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2259330041,pull_request,closed,,feat: Available batches as on specific date report (backport #41135),"
+<img width=""1440"" alt=""image"" src=""https://github.com/frappe/erpnext/assets/8780500/f152b604-560e-4748-8a8d-e43e3d225af7"">
+
+Much faster as compare to Batch-wise balance history report. <hr>This is an automatic backport of pull request #41135 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-23 16:49:26+00:00,['rohitwaghchaure'],2024-05-09 00:09:32+00:00,2024-04-24 05:44:16+00:00,https://github.com/frappe/erpnext/pull/41156,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074661748, 'issue_id': 2259330041, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 42, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:48:42 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2258641017,pull_request,closed,,feat: Available batches report as on specific date,"<img width=""1335"" alt=""image"" src=""https://github.com/frappe/erpnext/assets/8780500/d1dc279e-2444-45e7-9c7f-2b221689307a"">
+",rohitwaghchaure,2024-04-23 11:36:38+00:00,[],2024-05-09 00:09:47+00:00,2024-04-23 11:47:27+00:00,https://github.com/frappe/erpnext/pull/41154,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074272130, 'issue_id': 2258641017, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 9, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 07:33:09 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2258614971,pull_request,closed,,fix: incorrect stock posting for current qty (backport #41145),Do not create new stock ledgers if current qty is zero <hr>This is an automatic backport of pull request #41145 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-23 11:21:52+00:00,['rohitwaghchaure'],2024-05-09 00:09:29+00:00,2024-04-23 11:42:03+00:00,https://github.com/frappe/erpnext/pull/41153,"[('stock', None), ('released', None)]","[{'comment_id': 2074661989, 'issue_id': 2258614971, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 51, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:48:51 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2258403735,pull_request,closed,,chore: release v14,Automated weekly release.,frappe-pr-bot,2024-04-23 09:34:29+00:00,[],2024-05-09 00:09:50+00:00,2024-04-24 07:31:19+00:00,https://github.com/frappe/erpnext/pull/41151,"[('released', None)]","[{'comment_id': 2074271756, 'issue_id': 2258403735, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 32, 57, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot (Issue Creator) on (2024-04-24 07:32:57 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2258403699,pull_request,closed,,chore: release v15,Automated weekly release.,frappe-pr-bot,2024-04-23 09:34:28+00:00,[],2024-05-09 00:09:37+00:00,2024-04-24 10:46:41+00:00,https://github.com/frappe/erpnext/pull/41150,"[('stock', None), ('released', None)]","[{'comment_id': 2074661373, 'issue_id': 2258403699, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 27, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot (Issue Creator) on (2024-04-24 10:48:27 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2258368527,pull_request,closed,,refactor: better description and pop up on Advance accounts (backport #41147),"Added description and popup message to alert on the limitations of Advance accounts.
+
+![Screenshot from 2024-04-23 14-02-39](https://github.com/frappe/erpnext/assets/3272205/58c802f3-1070-4828-80ab-7e6a11383108)
+![Screenshot from 2024-04-23 14-03-03](https://github.com/frappe/erpnext/assets/3272205/2047830c-daae-4341-bb82-db8f9b90e9a2)
+![Screenshot from 2024-04-23 14-03-29](https://github.com/frappe/erpnext/assets/3272205/95e2266a-6086-4a1f-87d0-e62505e9c208)
+<hr>This is an automatic backport of pull request #41147 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-23 09:17:06+00:00,['ruthra-kumar'],2024-05-09 00:09:33+00:00,2024-04-24 01:49:19+00:00,https://github.com/frappe/erpnext/pull/41149,"[('released', None)]","[{'comment_id': 2071817750, 'issue_id': 2258368527, 'author': 'mergify[bot]', 'body': 'Cherry-pick of de9c8fc9d62879c96a3a9ca361d106c55bf6ece7 has failed:\n```\nOn branch mergify/bp/version-15-hotfix/pr-41147\nYour branch is up to date with \'origin/version-15-hotfix\'.\n\nYou are currently cherry-picking commit de9c8fc9d6.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/setup/doctype/company/company.py\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json\n\tboth modified:   erpnext/setup/doctype/company/company.json\n\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 23, 9, 17, 8, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074661674, 'issue_id': 2258368527, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 39, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-23 09:17:08 UTC): Cherry-pick of de9c8fc9d62879c96a3a9ca361d106c55bf6ece7 has failed:
+```
+On branch mergify/bp/version-15-hotfix/pr-41147
+Your branch is up to date with 'origin/version-15-hotfix'.
+
+You are currently cherry-picking commit de9c8fc9d6.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/setup/doctype/company/company.py
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+	both modified:   erpnext/setup/doctype/company/company.json
+
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 10:48:39 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2258280705,pull_request,closed,,refactor: better description and pop up on Advance accounts,"Added description and popup message to alert on the limitations of Advance accounts.
+
+![Screenshot from 2024-04-23 14-02-39](https://github.com/frappe/erpnext/assets/3272205/58c802f3-1070-4828-80ab-7e6a11383108)
+![Screenshot from 2024-04-23 14-03-03](https://github.com/frappe/erpnext/assets/3272205/2047830c-daae-4341-bb82-db8f9b90e9a2)
+![Screenshot from 2024-04-23 14-03-29](https://github.com/frappe/erpnext/assets/3272205/95e2266a-6086-4a1f-87d0-e62505e9c208)
+",ruthra-kumar,2024-04-23 08:34:11+00:00,[],2024-05-09 00:10:04+00:00,2024-04-23 09:15:05+00:00,https://github.com/frappe/erpnext/pull/41147,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2258258366,pull_request,closed,,fix(supplier): add back import that got removed by ruff,"It isn't unused, just isn't directly called
+
+Fixes 3effaf21ef60a50a20f1bbc15e9289ceaf80cc1a
+",akhilnarang,2024-04-23 08:22:32+00:00,[],2024-05-17 00:09:11+00:00,2024-05-02 06:53:59+00:00,https://github.com/frappe/erpnext/pull/41146,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]","[{'comment_id': 2090302685, 'issue_id': 2258258366, 'author': 'cogk', 'body': 'Hmm, I believe the import was removed intentionally in https://github.com/frappe/erpnext/pull/41106, right? This lead to issue https://github.com/frappe/health/issues/431. However, I\'m not sure this PR here will fix the problem: I searched for _""timeline""_ in [erpnext/accounts/party.py](https://github.com/frappe/erpnext/blob/develop/erpnext/accounts/party.py) and found nothing. The function was removed so importing it can\'t work, right? Maybe I\'m missing something here :sweat_smile: \r\n\r\n![image](https://github.com/frappe/erpnext/assets/10946971/b55852c7-b20b-4236-8b0d-fb5a1cd185b8)', 'created_at': datetime.datetime(2024, 5, 2, 11, 46, 57, tzinfo=datetime.timezone.utc)}, {'comment_id': 2090347388, 'issue_id': 2258258366, 'author': 'akhilnarang', 'body': 'Thanks for pointing out @cogk, yeah some confusion and I had an older version of the branch at the time, reverting.\r\n\r\n(It was removed by ruff, then some issues were discovered leading to the above PR, at the same time I had locally added it back and forgotten to merge)', 'created_at': datetime.datetime(2024, 5, 2, 12, 12, 30, tzinfo=datetime.timezone.utc)}]","cogk on (2024-05-02 11:46:57 UTC): Hmm, I believe the import was removed intentionally in https://github.com/frappe/erpnext/pull/41106, right? This lead to issue https://github.com/frappe/health/issues/431. However, I'm not sure this PR here will fix the problem: I searched for _""timeline""_ in [erpnext/accounts/party.py](https://github.com/frappe/erpnext/blob/develop/erpnext/accounts/party.py) and found nothing. The function was removed so importing it can't work, right? Maybe I'm missing something here :sweat_smile: 
+
+![image](https://github.com/frappe/erpnext/assets/10946971/b55852c7-b20b-4236-8b0d-fb5a1cd185b8)
+
+akhilnarang (Issue Creator) on (2024-05-02 12:12:30 UTC): Thanks for pointing out @cogk, yeah some confusion and I had an older version of the branch at the time, reverting.
+
+(It was removed by ruff, then some issues were discovered leading to the above PR, at the same time I had locally added it back and forgotten to merge)
+
+"
+2258257198,pull_request,closed,,fix: incorrect stock posting for current qty,Do not create new stock ledgers if current qty is zero ,rohitwaghchaure,2024-04-23 08:21:56+00:00,[],2024-05-09 00:10:03+00:00,2024-04-23 11:20:09+00:00,https://github.com/frappe/erpnext/pull/41145,"[('backport version-15-hotfix', '')]",[],
+2258222620,pull_request,closed,,feat: addition of branch column and filter in the gross profit report,"
+    https://docs.erpnext.com/docs/user/manual/en/doctype 
+> Added a branch filter and branch column to the Gross Profit report.
+> Associated the Branch DocType with the Sales Invoice DocType.
+
+
+",rahulrana0105,2024-04-23 08:03:46+00:00,[],2024-06-11 00:09:38+00:00,2024-05-26 07:39:47+00:00,https://github.com/frappe/erpnext/pull/41144,"[('needs-tests', 'This PR needs automated unit-tests.'), ('inactive', '')]","[{'comment_id': 2071683662, 'issue_id': 2258222620, 'author': 'rahulrana0105', 'body': '@deepeshgarg007 @ruthra-kumar @ankush @nihantra  please review the PR.', 'created_at': datetime.datetime(2024, 4, 23, 8, 8, 25, tzinfo=datetime.timezone.utc)}, {'comment_id': 2102098630, 'issue_id': 2258222620, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 9, 7, 18, 48, tzinfo=datetime.timezone.utc)}]","rahulrana0105 (Issue Creator) on (2024-04-23 08:08:25 UTC): @deepeshgarg007 @ruthra-kumar @ankush @nihantra  please review the PR.
+
+stale[bot] on (2024-05-09 07:18:48 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2258188532,pull_request,closed,,fix: stock reconciliation negative qty validation (backport #41098),"1. Make stock inward entry for batch item with 50 qty
+2. Make another stock inward  entry for batch item with 50 qty 
+3. Make another stock inward  entry for batch item with 100 qty 
+4. Make another stock inward  entry for batch item with 100 qty 
+5. So total qty is 300 with 4 batches
+6. Make Backdated stock reco after the 3rd stock entry and before the 4th stock entry posting time 
+7. In the stock reco make first three batches qty to zero
+8. Try to submit the stock reco
+9. System will throw the negative stock error<hr>This is an automatic backport of pull request #41098 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-23 07:44:50+00:00,['rohitwaghchaure'],2024-05-09 00:09:28+00:00,2024-04-23 08:13:08+00:00,https://github.com/frappe/erpnext/pull/41143,"[('stock', None), ('released', None)]","[{'comment_id': 2071642863, 'issue_id': 2258188532, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 289495c30856579c47109054d33c249153c34636 has failed:\n```\nOn branch mergify/bp/version-15-hotfix/pr-41098\nYour branch is up to date with \'origin/version-15-hotfix\'.\n\nYou are currently cherry-picking commit 289495c308.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/stock/doctype/stock_reconciliation/test_stock_reconciliation.py\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/stock/stock_ledger.py\n\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 23, 7, 44, 52, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074662057, 'issue_id': 2258188532, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 54, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-23 07:44:52 UTC): Cherry-pick of 289495c30856579c47109054d33c249153c34636 has failed:
+```
+On branch mergify/bp/version-15-hotfix/pr-41098
+Your branch is up to date with 'origin/version-15-hotfix'.
+
+You are currently cherry-picking commit 289495c308.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/stock/doctype/stock_reconciliation/test_stock_reconciliation.py
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/stock/stock_ledger.py
+
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 10:48:54 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2258023902,pull_request,closed,,fix: mode of payment has precedance in Payment Entry,"## Mode of Payment is given precedence over company/party bank account
+",ruthra-kumar,2024-04-23 06:07:03+00:00,[],2024-05-11 00:09:33+00:00,2024-04-23 06:24:54+00:00,https://github.com/frappe/erpnext/pull/41142,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]","[{'comment_id': 2076286535, 'issue_id': 2258023902, 'author': 'ruthra-kumar', 'body': '@mergify backport version-14', 'created_at': datetime.datetime(2024, 4, 25, 3, 33, 18, tzinfo=datetime.timezone.utc)}, {'comment_id': 2076286582, 'issue_id': 2258023902, 'author': 'ruthra-kumar', 'body': '@mergify backport version-15', 'created_at': datetime.datetime(2024, 4, 25, 3, 33, 22, tzinfo=datetime.timezone.utc)}, {'comment_id': 2076286672, 'issue_id': 2258023902, 'author': 'mergify[bot]', 'body': '> backport version-14\n\n#### ✅ Backports have been created\n\n<details>\n\n* [#41179 fix: mode of payment has precedance in Payment Entry (backport #41142)](https://github.com/frappe/erpnext/pull/41179) has been created for branch `version-14` but encountered conflicts\n\n</details>\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""backport version-14"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 4, 25, 3, 33, 29, tzinfo=datetime.timezone.utc)}, {'comment_id': 2076286679, 'issue_id': 2258023902, 'author': 'mergify[bot]', 'body': '> backport version-15\n\n#### ✅ Backports have been created\n\n<details>\n\n* [#41180 fix: mode of payment has precedance in Payment Entry (backport #41142)](https://github.com/frappe/erpnext/pull/41180) has been created for branch `version-15`\n\n</details>\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 4, 25, 3, 33, 30, tzinfo=datetime.timezone.utc)}]","ruthra-kumar (Issue Creator) on (2024-04-25 03:33:18 UTC): @mergify backport version-14
+
+ruthra-kumar (Issue Creator) on (2024-04-25 03:33:22 UTC): @mergify backport version-15
+
+mergify[bot] on (2024-04-25 03:33:29 UTC): #### ✅ Backports have been created
+
+<details>
+
+* [#41179 fix: mode of payment has precedance in Payment Entry (backport #41142)](https://github.com/frappe/erpnext/pull/41179) has been created for branch `version-14` but encountered conflicts
+
+</details>
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""backport version-14"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+mergify[bot] on (2024-04-25 03:33:30 UTC): #### ✅ Backports have been created
+
+<details>
+
+* [#41180 fix: mode of payment has precedance in Payment Entry (backport #41142)](https://github.com/frappe/erpnext/pull/41180) has been created for branch `version-15`
+
+</details>
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+"
+2257942502,pull_request,closed,,fix: Missing args while fetching items from delivery note in Installation Note (backport #41136),"### Route
+
+```
+
+Form/Installation Note/new-installation-note-nwjwszzkqn
+
+```
+
+### Traceback
+
+```
+Traceback (most recent call last):
+
+File ""apps/frappe/frappe/[app.py](http://app.py/)"", line 95, in application
+
+response = frappe.api.handle()
+
+File ""apps/frappe/frappe/[api.py](http://api.py/)"", line 55, in handle
+
+return frappe.handler.handle()
+
+File ""apps/frappe/frappe/[handler.py](http://handler.py/)"", line 48, in handle
+
+data = execute_cmd(cmd)
+
+File ""apps/frappe/frappe/[handler.py](http://handler.py/)"", line 86, in execute_cmd
+
+return [frappe.call](http://frappe.call/)(method, **frappe.form_dict)
+
+File ""apps/frappe/frappe/__init__.py"", line 1611, in call
+
+return fn(*args, **newargs)
+
+File ""apps/frappe/frappe/model/[mapper.py](http://mapper.py/)"", line 53, in map_docs
+
+target_doc = method(*_args)
+
+TypeError: make_installation_note() takes from 1 to 2 positional arguments but 3 were given
+
+```
+",mergify[bot],2024-04-23 04:55:09+00:00,['nabinhait'],2024-05-09 00:09:30+00:00,2024-04-24 05:28:34+00:00,https://github.com/frappe/erpnext/pull/41141,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074661917, 'issue_id': 2257942502, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 48, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:48:48 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2257942480,pull_request,closed,,fix: Missing args while fetching items from delivery note in Installation Note (backport #41136),"### Route
+
+```
+
+Form/Installation Note/new-installation-note-nwjwszzkqn
+
+```
+
+### Traceback
+
+```
+Traceback (most recent call last):
+
+File ""apps/frappe/frappe/[app.py](http://app.py/)"", line 95, in application
+
+response = frappe.api.handle()
+
+File ""apps/frappe/frappe/[api.py](http://api.py/)"", line 55, in handle
+
+return frappe.handler.handle()
+
+File ""apps/frappe/frappe/[handler.py](http://handler.py/)"", line 48, in handle
+
+data = execute_cmd(cmd)
+
+File ""apps/frappe/frappe/[handler.py](http://handler.py/)"", line 86, in execute_cmd
+
+return [frappe.call](http://frappe.call/)(method, **frappe.form_dict)
+
+File ""apps/frappe/frappe/__init__.py"", line 1611, in call
+
+return fn(*args, **newargs)
+
+File ""apps/frappe/frappe/model/[mapper.py](http://mapper.py/)"", line 53, in map_docs
+
+target_doc = method(*_args)
+
+TypeError: make_installation_note() takes from 1 to 2 positional arguments but 3 were given
+
+```
+<hr>This is an automatic backport of pull request #41136 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-23 04:55:08+00:00,['nabinhait'],2024-05-09 00:09:38+00:00,2024-04-24 05:29:16+00:00,https://github.com/frappe/erpnext/pull/41140,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074271973, 'issue_id': 2257942480, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 3, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 07:33:03 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2257755692,pull_request,closed,,fix: prevent foreign currency  accounts as advance accounts. (backport #41086),Booking advances in separate party account is restricted to company currency accounts.<hr>This is an automatic backport of pull request #41086 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-23 01:45:48+00:00,['ruthra-kumar'],2024-05-17 00:09:31+00:00,2024-04-25 04:07:49+00:00,https://github.com/frappe/erpnext/pull/41139,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2089534756, 'issue_id': 2257755692, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.22.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.22.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 5, 2, 4, 25, 2, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-05-02 04:25:02 UTC): :tada: This PR is included in version 15.22.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.22.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2257741525,pull_request,closed,,perf: stock ageing and batch-wise balance history report,"- Added warehouse type filter for Stock ageing and Batch-wise balance history report
+- Backport https://github.com/frappe/erpnext/pull/39399",rohitwaghchaure,2024-04-23 01:28:23+00:00,[],2024-05-09 00:09:46+00:00,2024-04-23 04:42:20+00:00,https://github.com/frappe/erpnext/pull/41138,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074272241, 'issue_id': 2257741525, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 12, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 07:33:12 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2256239439,pull_request,closed,,fix: Missing args while fetching items from delivery note in Installation Note,"### Route
+
+```
+
+Form/Installation Note/new-installation-note-nwjwszzkqn
+
+```
+
+### Traceback
+
+```
+Traceback (most recent call last):
+
+File ""apps/frappe/frappe/[app.py](http://app.py/)"", line 95, in application
+
+response = frappe.api.handle()
+
+File ""apps/frappe/frappe/[api.py](http://api.py/)"", line 55, in handle
+
+return frappe.handler.handle()
+
+File ""apps/frappe/frappe/[handler.py](http://handler.py/)"", line 48, in handle
+
+data = execute_cmd(cmd)
+
+File ""apps/frappe/frappe/[handler.py](http://handler.py/)"", line 86, in execute_cmd
+
+return [frappe.call](http://frappe.call/)(method, **frappe.form_dict)
+
+File ""apps/frappe/frappe/__init__.py"", line 1611, in call
+
+return fn(*args, **newargs)
+
+File ""apps/frappe/frappe/model/[mapper.py](http://mapper.py/)"", line 53, in map_docs
+
+target_doc = method(*_args)
+
+TypeError: make_installation_note() takes from 1 to 2 positional arguments but 3 were given
+
+```
+",nabinhait,2024-04-22 11:00:56+00:00,[],2024-05-09 00:09:39+00:00,2024-04-23 04:54:01+00:00,https://github.com/frappe/erpnext/pull/41136,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2256104091,pull_request,closed,,feat: Available batches as on specific date report,"
+<img width=""1440"" alt=""image"" src=""https://github.com/frappe/erpnext/assets/8780500/f152b604-560e-4748-8a8d-e43e3d225af7"">
+
+Much faster as compare to Batch-wise balance history report. ",rohitwaghchaure,2024-04-22 09:56:40+00:00,[],2024-05-09 00:10:02+00:00,2024-04-23 16:47:08+00:00,https://github.com/frappe/erpnext/pull/41135,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2255663177,pull_request,closed,,fix: Payment entry against employee (backport #41104),<hr>This is an automatic backport of pull request #41104 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-22 06:09:06+00:00,['deepeshgarg007'],2024-05-09 00:09:27+00:00,2024-04-23 06:34:13+00:00,https://github.com/frappe/erpnext/pull/41134,"[('released', None)]","[{'comment_id': 2074662126, 'issue_id': 2255663177, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 57, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:48:57 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2255661752,pull_request,closed,,fix: Payment entry against employee (backport #41104),<hr>This is an automatic backport of pull request #41104 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-22 06:08:03+00:00,['deepeshgarg007'],2024-06-11 00:09:35+00:00,2024-05-26 07:39:48+00:00,https://github.com/frappe/erpnext/pull/41133,"[('inactive', ''), ('conflicts', None)]","[{'comment_id': 2068561701, 'issue_id': 2255661752, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 93e6c6ccab02f373c1dbf7aac9c95d63b36f93c9 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-41104\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit 93e6c6ccab.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/accounts/doctype/payment_entry/test_payment_entry.py\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/payment_entry/payment_entry.py\n\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 22, 6, 8, 5, tzinfo=datetime.timezone.utc)}, {'comment_id': 2099761916, 'issue_id': 2255661752, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 8, 5, 21, 7, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-22 06:08:05 UTC): Cherry-pick of 93e6c6ccab02f373c1dbf7aac9c95d63b36f93c9 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-41104
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit 93e6c6ccab.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/accounts/doctype/payment_entry/test_payment_entry.py
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/payment_entry/payment_entry.py
+
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+stale[bot] on (2024-05-08 05:21:07 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2255657987,pull_request,closed,,fix: Party type in Payment Order (backport #40797),<hr>This is an automatic backport of pull request #40797 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-22 06:05:22+00:00,['deepeshgarg007'],2024-05-09 00:09:26+00:00,2024-04-23 06:33:48+00:00,https://github.com/frappe/erpnext/pull/41131,"[('released', None)]","[{'comment_id': 2074662210, 'issue_id': 2255657987, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:00 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2255657930,pull_request,closed,,fix: Party type in Payment Order (backport #40797),<hr>This is an automatic backport of pull request #40797 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-22 06:05:19+00:00,['deepeshgarg007'],2024-05-09 00:09:45+00:00,2024-04-23 06:35:25+00:00,https://github.com/frappe/erpnext/pull/41130,"[('released', None)]","[{'comment_id': 2074272340, 'issue_id': 2255657930, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 15, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 07:33:15 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2255112968,pull_request,closed,,feat: provision to add manufacturing date from csv to Batches,"Provision to add a Manufacturing date via CSV file using Serial and Batch Selector Dialog.
+
+
+https://github.com/frappe/erpnext/assets/54097382/d3fe96ef-9a3a-420d-a003-2dd47ce3780c
+
+",DaizyModi,2024-04-21 14:43:16+00:00,[],2024-06-11 00:09:31+00:00,2024-05-26 17:51:36+00:00,https://github.com/frappe/erpnext/pull/41127,"[('needs-tests', 'This PR needs automated unit-tests.'), ('inactive', '')]","[{'comment_id': 2097373273, 'issue_id': 2255112968, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 7, 3, 21, 35, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-07 03:21:35 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2255036218,pull_request,closed,,fix: Multiple partial payment requests against Purchase Invoice (backport #40812),<hr>This is an automatic backport of pull request #40812 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-21 11:50:40+00:00,['deepeshgarg007'],2024-05-09 00:09:44+00:00,2024-04-22 06:06:30+00:00,https://github.com/frappe/erpnext/pull/41126,"[('released', None)]","[{'comment_id': 2074272433, 'issue_id': 2255036218, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 18, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 07:33:18 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2255028271,pull_request,closed,,fix: budget validation for purchase orders (backport #40769),"### Bug
+
+Validation for budget fails even though the actual expense in Purchase Orders is less than the budget amount.
+
+When the `get_amount` function is called for getting the expenses that will occur through Purchase Orders, the actual expense for purchase invoices is added once.
+
+https://github.com/frappe/erpnext/blob/8e522183bc417b52253315cd3784a125eea671d8/erpnext/accounts/doctype/budget/budget.py#L302-L311
+
+However, when validation runs, the actual expense is added again to the total amount to compare against the budget amount.
+
+https://github.com/frappe/erpnext/blob/8e522183bc417b52253315cd3784a125eea671d8/erpnext/accounts/doctype/budget/budget.py#L252-L256
+
+<hr>
+
+### Fix 
+
+- Add expense amount only once to the total expense before validating against the budget amount.
+- Show breakup of expenses booked through Actual Expenses, Material Requests, Unbilled Orders with links to relevant reports.
+
+### Expense Breakup
+
+https://github.com/frappe/erpnext/assets/40693548/23b8a2ef-6b91-4726-903c-3c5bdd7c9058
+
+
+<hr>This is an automatic backport of pull request #40769 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-21 11:28:09+00:00,['GursheenK'],2024-05-09 00:09:25+00:00,2024-04-21 13:27:15+00:00,https://github.com/frappe/erpnext/pull/41124,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074662292, 'issue_id': 2255028271, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 3, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:03 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2255028257,pull_request,closed,,fix: budget validation for purchase orders (backport #40769),"### Bug
+
+Validation for budget fails even though the actual expense in Purchase Orders is less than the budget amount.
+
+When the `get_amount` function is called for getting the expenses that will occur through Purchase Orders, the actual expense for purchase invoices is added once.
+
+https://github.com/frappe/erpnext/blob/8e522183bc417b52253315cd3784a125eea671d8/erpnext/accounts/doctype/budget/budget.py#L302-L311
+
+However, when validation runs, the actual expense is added again to the total amount to compare against the budget amount.
+
+https://github.com/frappe/erpnext/blob/8e522183bc417b52253315cd3784a125eea671d8/erpnext/accounts/doctype/budget/budget.py#L252-L256
+
+<hr>
+
+### Fix 
+
+- Add expense amount only once to the total expense before validating against the budget amount.
+- Show breakup of expenses booked through Actual Expenses, Material Requests, Unbilled Orders with links to relevant reports.
+
+### Expense Breakup
+
+https://github.com/frappe/erpnext/assets/40693548/23b8a2ef-6b91-4726-903c-3c5bdd7c9058
+
+
+<hr>This is an automatic backport of pull request #40769 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-21 11:28:07+00:00,['GursheenK'],2024-05-09 00:09:43+00:00,2024-04-21 13:27:52+00:00,https://github.com/frappe/erpnext/pull/41123,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074272523, 'issue_id': 2255028257, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 21, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 07:33:21 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2255025795,pull_request,closed,,fix: search not working for so in the Production Plan (backport #36459) (backport #41120),"**Issue**
+<img width=""981"" alt=""Screenshot 2023-08-02 at 12 41 45 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/c96ef817-3715-4d6f-90ab-0dcbfad4d189"">
+
+
+
+**After Fix**
+<img width=""804"" alt=""Screenshot 2023-08-02 at 12 43 24 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/45342ded-6228-4736-b47f-d555ebd11861"">
+<hr>This is an automatic backport of pull request #36459 done by [Mergify](https://mergify.com).<hr>This is an automatic backport of pull request #41120 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-21 11:21:07+00:00,[],2024-05-09 00:09:24+00:00,2024-04-21 11:54:42+00:00,https://github.com/frappe/erpnext/pull/41122,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074662364, 'issue_id': 2255025795, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 6, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:06 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2254988448,pull_request,closed,,chore: update POT file,,frappe-pr-bot,2024-04-21 09:35:21+00:00,[],2024-05-25 00:08:54+00:00,2024-05-10 14:29:21+00:00,https://github.com/frappe/erpnext/pull/41121,"[('inactive', '')]","[{'comment_id': 2097373318, 'issue_id': 2254988448, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 7, 3, 21, 38, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-07 03:21:38 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2254952926,pull_request,closed,,fix: search not working for so in the Production Plan (backport #36459),"**Issue**
+<img width=""981"" alt=""Screenshot 2023-08-02 at 12 41 45 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/c96ef817-3715-4d6f-90ab-0dcbfad4d189"">
+
+
+
+**After Fix**
+<img width=""804"" alt=""Screenshot 2023-08-02 at 12 43 24 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/45342ded-6228-4736-b47f-d555ebd11861"">
+<hr>This is an automatic backport of pull request #36459 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-21 07:56:40+00:00,['rohitwaghchaure'],2024-05-07 00:09:11+00:00,2024-04-21 11:19:58+00:00,https://github.com/frappe/erpnext/pull/41120,"[('backport version-15-hotfix', '')]",[],
+2254697339,pull_request,closed,,Refactor: Party add_indicator_for_multicompany To make Static Text for Labels translatable labels Fields,"
+Just replace Static Label text to translatable Labels, Such as  ""Annual Billing"" ,""Total Unpaid: {0}""
+
+<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",Sendipad,2024-04-20 20:02:07+00:00,[],2024-06-11 00:09:29+00:00,2024-05-26 17:51:38+00:00,https://github.com/frappe/erpnext/pull/41118,"[('inactive', '')]","[{'comment_id': 2095520867, 'issue_id': 2254697339, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 6, 9, 11, 20, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-06 09:11:20 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2254431291,pull_request,closed,,Review changes ,"<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->
+
+> Please provide enough information so that others can review your pull request:
+
+<!-- You can skip this if you're fixing a typo or updating existing documentation -->
+
+> Explain the **details** for making this change. What existing problem does the pull request solve?
+
+<!-- Example: When ""Adding a function to do X"", explain why it is necessary to have a way to do X. -->
+
+> Screenshots/GIFs
+
+<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+",zulfi007,2024-04-20 07:31:39+00:00,[],2024-05-05 00:09:32+00:00,2024-04-20 07:32:18+00:00,https://github.com/frappe/erpnext/pull/41115,"[('needs-tests', 'This PR needs automated unit-tests.')]","[{'comment_id': 2067590485, 'issue_id': 2254431291, 'author': 'mergify[bot]', 'body': 'This pull request has been automatically closed by Mergify.', 'created_at': datetime.datetime(2024, 4, 20, 7, 32, 19, tzinfo=datetime.timezone.utc)}, {'comment_id': 2067590490, 'issue_id': 2254431291, 'author': 'mergify[bot]', 'body': '@zulfi007, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.\nhttps://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch', 'created_at': datetime.datetime(2024, 4, 20, 7, 32, 20, tzinfo=datetime.timezone.utc)}, {'comment_id': 2067591807, 'issue_id': 2254431291, 'author': 'zulfi007', 'body': 'Thanks God. It was mistake', 'created_at': datetime.datetime(2024, 4, 20, 7, 38, 14, tzinfo=datetime.timezone.utc)}]","mergify[bot] on (2024-04-20 07:32:19 UTC): This pull request has been automatically closed by Mergify.
+
+mergify[bot] on (2024-04-20 07:32:20 UTC): @zulfi007, thanks for the contribution, but we do not accept pull requests on a stable branch. Please raise PR on an appropriate hotfix branch.
+https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist#which-branch
+
+zulfi007 (Issue Creator) on (2024-04-20 07:38:14 UTC): Thanks God. It was mistake
+
+"
+2254398668,pull_request,closed,,fix: not able to update default supplier from Supplier Quotation Comparison report (backport #41099),"Getting below error while updating default supplier from Supplier Quotation Comparison report
+
+<img width=""753"" alt=""Screenshot 2024-04-19 at 3 22 28 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/fb735680-5903-49e7-8eda-2a213efb3456"">
+
+
+
+New changes
+
+Added item code in the popup
+
+<img width=""755"" alt=""image"" src=""https://github.com/frappe/erpnext/assets/8780500/795a29ad-a05b-4b49-9587-9e7867116134"">
+<hr>This is an automatic backport of pull request #41099 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-20 05:51:40+00:00,['rohitwaghchaure'],2024-05-09 00:09:22+00:00,2024-04-20 14:17:01+00:00,https://github.com/frappe/erpnext/pull/41114,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074662512, 'issue_id': 2254398668, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 12, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:12 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2254227719,pull_request,closed,,fix: language in sales transactions,"### Before
+
+![before](https://github.com/frappe/erpnext/assets/14891507/fdbbb162-f225-4596-9ae8-270d6a15567f)
+
+Not sure why this was a ""Data"" type field. But since it's read-only, all existing data should be valid language codes that have been fetched from the customer or previous doc. So we can safely change the field type to ""Link"".
+
+I've checked with data going five years back, if any broken links exist by chance.
+
+### After
+
+![after](https://github.com/frappe/erpnext/assets/14891507/a0db9a12-2a61-43ef-88a0-45cb159ab7fc)
+",barredterra,2024-04-19 23:24:56+00:00,[],2024-07-02 00:09:48+00:00,2024-06-12 18:39:49+00:00,https://github.com/frappe/erpnext/pull/41112,[],"[{'comment_id': 2095520979, 'issue_id': 2254227719, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 6, 9, 11, 23, tzinfo=datetime.timezone.utc)}, {'comment_id': 2124070137, 'issue_id': 2254227719, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 22, 7, 31, 30, tzinfo=datetime.timezone.utc)}, {'comment_id': 2162182985, 'issue_id': 2254227719, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 6, 12, 6, 12, 21, tzinfo=datetime.timezone.utc)}, {'comment_id': 2163354466, 'issue_id': 2254227719, 'author': 'barredterra', 'body': '@mergifyio update', 'created_at': datetime.datetime(2024, 6, 12, 15, 40, 29, tzinfo=datetime.timezone.utc)}, {'comment_id': 2163354650, 'issue_id': 2254227719, 'author': 'mergify[bot]', 'body': '> update\n\n#### ✅ Branch has been successfully updated\n\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""update"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 6, 12, 15, 40, 35, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-06 09:11:23 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+stale[bot] on (2024-05-22 07:31:30 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+stale[bot] on (2024-06-12 06:12:21 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+barredterra (Issue Creator) on (2024-06-12 15:40:29 UTC): @mergifyio update
+
+mergify[bot] on (2024-06-12 15:40:35 UTC): #### ✅ Branch has been successfully updated
+
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""update"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+"
+2253549903,pull_request,closed,,feat: stock option to disable item valuation reposting,"When merging items you may get an error complaining that ERPNext can't post item valuation entries for before a closing voucher.
+
+This new option in Stock Settings -> Stock Validations disables posting of such valuations.
+
+It should be used with caution, but for fixing up items can be useful.
+
+![Screen Shot 2024-04-19 at 18 40 48](https://github.com/frappe/erpnext/assets/110036763/d2377922-dac6-4472-80b5-8e94d3e5e43d)
+
+no-docs
+version-14-hotfix
+version-15-hotfix",casesolved-co-uk,2024-04-19 17:43:12+00:00,[],2024-05-26 00:10:02+00:00,2024-05-06 14:15:24+00:00,https://github.com/frappe/erpnext/pull/41109,"[('needs-tests', 'This PR needs automated unit-tests.'), ('inactive', '')]","[{'comment_id': 2095521011, 'issue_id': 2253549903, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 6, 9, 11, 25, tzinfo=datetime.timezone.utc)}, {'comment_id': 2096127219, 'issue_id': 2253549903, 'author': 'casesolved-co-uk', 'body': 'If anyone would like this feature it will be available on our fork:\r\nhttps://github.com/CaseSolvedUK', 'created_at': datetime.datetime(2024, 5, 6, 14, 15, 24, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-06 09:11:25 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+casesolved-co-uk (Issue Creator) on (2024-05-06 14:15:24 UTC): If anyone would like this feature it will be available on our fork:
+https://github.com/CaseSolvedUK
+
+"
+2253401458,pull_request,closed,,fix: balance qty for stock ledger report (backport #41102),"**Before**
+<img width=""395"" alt=""Screenshot 2024-04-19 at 5 31 19 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/20d0a59b-4c85-4a39-8f09-e42788e8050e"">
+
+
+**After**
+
+<img width=""383"" alt=""Screenshot 2024-04-19 at 5 31 04 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/4539bd7e-04f1-4602-8423-0eab68e5d60f"">
+<hr>This is an automatic backport of pull request #41102 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-19 16:22:20+00:00,['rohitwaghchaure'],2024-05-09 00:09:23+00:00,2024-04-20 05:46:07+00:00,https://github.com/frappe/erpnext/pull/41107,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074662431, 'issue_id': 2253401458, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 9, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:09 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2253052242,pull_request,closed,,chore: Remove heatmap from party dashboards,,deepeshgarg007,2024-04-19 13:40:22+00:00,[],2024-05-09 00:09:51+00:00,2024-04-24 06:31:14+00:00,https://github.com/frappe/erpnext/pull/41106,"[('accounts', ''), ('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2252819873,pull_request,closed,,fix: Payment entry against employee,,deepeshgarg007,2024-04-19 12:10:55+00:00,[],2024-05-07 00:08:58+00:00,2024-04-22 06:06:05+00:00,https://github.com/frappe/erpnext/pull/41104,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2252804701,pull_request,closed,,fix: balance qty for stock ledger report,"**Before**
+<img width=""395"" alt=""Screenshot 2024-04-19 at 5 31 19 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/20d0a59b-4c85-4a39-8f09-e42788e8050e"">
+
+
+**After**
+
+<img width=""383"" alt=""Screenshot 2024-04-19 at 5 31 04 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/4539bd7e-04f1-4602-8423-0eab68e5d60f"">
+",rohitwaghchaure,2024-04-19 12:02:16+00:00,[],2024-05-04 00:10:04+00:00,2024-04-19 16:20:14+00:00,https://github.com/frappe/erpnext/pull/41102,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2252604671,pull_request,closed,,fix: Permission for lower deduction certificate (backport #41085),<hr>This is an automatic backport of pull request #41085 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-19 10:12:03+00:00,['deepeshgarg007'],2024-05-09 00:09:35+00:00,2024-04-24 06:30:51+00:00,https://github.com/frappe/erpnext/pull/41101,"[('released', None)]","[{'comment_id': 2066260742, 'issue_id': 2252604671, 'author': 'mergify[bot]', 'body': 'Cherry-pick of f6f118855bb45f54c08229d480a831303746ca70 has failed:\n```\nOn branch mergify/bp/version-15-hotfix/pr-41085\nYour branch is up to date with \'origin/version-15-hotfix\'.\n\nYou are currently cherry-picking commit f6f118855b.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 19, 10, 12, 5, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074661528, 'issue_id': 2252604671, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 33, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-19 10:12:05 UTC): Cherry-pick of f6f118855bb45f54c08229d480a831303746ca70 has failed:
+```
+On branch mergify/bp/version-15-hotfix/pr-41085
+Your branch is up to date with 'origin/version-15-hotfix'.
+
+You are currently cherry-picking commit f6f118855b.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 10:48:33 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2252604533,pull_request,closed,,fix: Permission for lower deduction certificate (backport #41085),<hr>This is an automatic backport of pull request #41085 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-19 10:11:58+00:00,['deepeshgarg007'],2024-05-09 00:09:49+00:00,2024-04-24 06:30:13+00:00,https://github.com/frappe/erpnext/pull/41100,"[('released', None)]","[{'comment_id': 2066260629, 'issue_id': 2252604533, 'author': 'mergify[bot]', 'body': 'Cherry-pick of f6f118855bb45f54c08229d480a831303746ca70 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-41085\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit f6f118855b.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 19, 10, 12, 1, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074271863, 'issue_id': 2252604533, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-19 10:12:01 UTC): Cherry-pick of f6f118855bb45f54c08229d480a831303746ca70 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-41085
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit f6f118855b.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 07:33:00 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2252593346,pull_request,closed,,fix: not able to update default supplier from Supplier Quotation Comparison report,"Getting below error while updating default supplier from Supplier Quotation Comparison report
+
+<img width=""753"" alt=""Screenshot 2024-04-19 at 3 22 28 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/fb735680-5903-49e7-8eda-2a213efb3456"">
+
+
+
+New changes
+
+Added item code in the popup
+
+<img width=""755"" alt=""image"" src=""https://github.com/frappe/erpnext/assets/8780500/795a29ad-a05b-4b49-9587-9e7867116134"">
+",rohitwaghchaure,2024-04-19 10:06:01+00:00,[],2024-05-05 00:09:33+00:00,2024-04-20 05:50:31+00:00,https://github.com/frappe/erpnext/pull/41099,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2252548351,pull_request,closed,,fix: stock reconciliation negative qty validation,"1. Make stock inward entry for batch item with 50 qty
+2. Make another stock inward  entry for batch item with 50 qty 
+3. Make another stock inward  entry for batch item with 100 qty 
+4. Make another stock inward  entry for batch item with 100 qty 
+5. So total qty is 300 with 4 batches
+6. Make Backdated stock reco after the 3rd stock entry and before the 4th stock entry posting time 
+7. In the stock reco make first three batches qty to zero
+8. Try to submit the stock reco
+9. System will throw the negative stock error",rohitwaghchaure,2024-04-19 09:41:56+00:00,[],2024-05-11 00:09:34+00:00,2024-04-23 07:38:41+00:00,https://github.com/frappe/erpnext/pull/41098,"[('stock', None), ('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2252547515,pull_request,closed,,fix: validation for zero qty in SABB (backport #41067),<hr>This is an automatic backport of pull request #41067 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-19 09:41:33+00:00,['rohitwaghchaure'],2024-05-09 00:09:21+00:00,2024-04-19 16:19:55+00:00,https://github.com/frappe/erpnext/pull/41097,"[('released', None)]","[{'comment_id': 2074662563, 'issue_id': 2252547515, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 15, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:15 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2252351922,pull_request,closed,,fix: accounts manager perm for FY (backport #41093),bp for #39426<hr>This is an automatic backport of pull request #41093 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-19 08:05:21+00:00,[],2024-05-04 00:10:08+00:00,2024-04-19 08:38:59+00:00,https://github.com/frappe/erpnext/pull/41095,"[('released', None)]","[{'comment_id': 2066107302, 'issue_id': 2252351922, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.6 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.6)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 19, 8, 40, 19, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-19 08:40:19 UTC): :tada: This PR is included in version 15.20.6 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.6)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2252339684,pull_request,closed,,fix: accounts manager perm for FY (backport #41093),bp for #39426<hr>This is an automatic backport of pull request #41093 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-19 08:00:54+00:00,['GursheenK'],2024-05-09 00:09:42+00:00,2024-04-19 08:38:19+00:00,https://github.com/frappe/erpnext/pull/41094,"[('released', None)]","[{'comment_id': 2066029010, 'issue_id': 2252339684, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 572e844a917067095c2a52688ca0d70d56adca46 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-41093\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit 572e844a91.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/fiscal_year/fiscal_year.json\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 19, 8, 0, 56, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074272624, 'issue_id': 2252339684, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 24, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-19 08:00:56 UTC): Cherry-pick of 572e844a917067095c2a52688ca0d70d56adca46 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-41093
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit 572e844a91.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 07:33:24 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2252287843,pull_request,closed,,fix: accounts manager perm for FY,bp for #39426,GursheenK,2024-04-19 07:36:53+00:00,[],2024-05-09 00:09:20+00:00,2024-04-19 07:58:33+00:00,https://github.com/frappe/erpnext/pull/41093,"[('released', None), ('backport version-14-hotfix', 'backport to version 14')]","[{'comment_id': 2066036742, 'issue_id': 2252287843, 'author': 'GursheenK', 'body': '@mergifyio backport version-15', 'created_at': datetime.datetime(2024, 4, 19, 8, 3, 33, tzinfo=datetime.timezone.utc)}, {'comment_id': 2066037784, 'issue_id': 2252287843, 'author': 'mergify[bot]', 'body': '> backport version-15\n\n#### ✅ Backports have been created\n\n<details>\n\n* [#41095 fix: accounts manager perm for FY (backport #41093)](https://github.com/frappe/erpnext/pull/41095) has been created for branch `version-15`\n\n</details>\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 4, 19, 8, 3, 58, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074662640, 'issue_id': 2252287843, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 18, tzinfo=datetime.timezone.utc)}]","GursheenK (Issue Creator) on (2024-04-19 08:03:33 UTC): @mergifyio backport version-15
+
+mergify[bot] on (2024-04-19 08:03:58 UTC): #### ✅ Backports have been created
+
+<details>
+
+* [#41095 fix: accounts manager perm for FY (backport #41093)](https://github.com/frappe/erpnext/pull/41095) has been created for branch `version-15`
+
+</details>
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+frappe-pr-bot on (2024-04-24 10:49:18 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2252192106,pull_request,closed,,fix: perm in lower deduction certificate,"**Version**: 15 and 14
+
+fixes: #41049
+
+- set the permission in the lower deduction certificate doctype.
+
+
+https://github.com/frappe/erpnext/assets/141945075/71cf9cb4-a905-4d3a-a6e5-a97e052d9c06
+
+",Nihantra-Patel,2024-04-19 06:34:01+00:00,[],2024-05-09 00:09:52+00:00,2024-04-24 06:06:57+00:00,https://github.com/frappe/erpnext/pull/41090,[],"[{'comment_id': 2074123967, 'issue_id': 2252192106, 'author': 'deepeshgarg007', 'body': '@Nihantra-Patel This was fixed via https://github.com/frappe/erpnext/pull/41085', 'created_at': datetime.datetime(2024, 4, 24, 6, 6, 58, tzinfo=datetime.timezone.utc)}]","deepeshgarg007 on (2024-04-24 06:06:58 UTC): @Nihantra-Patel This was fixed via https://github.com/frappe/erpnext/pull/41085
+
+"
+2252157004,pull_request,closed,,refactor: Rename purchase receipt amount field to purchase amount,"Field ""Purchase Receipt Amount"" was getting the amount from purchase receipt amount or purchase invoice amount of the asset and it was misleading. So naming it ""Purchase Amount"" is better approach for better understanding.",khushi8112,2024-04-19 06:05:40+00:00,[],2024-05-31 00:09:13+00:00,2024-05-14 12:46:39+00:00,https://github.com/frappe/erpnext/pull/41089,"[('assets', ''), ('backport version-15-hotfix', '')]","[{'comment_id': 2100539518, 'issue_id': 2252157004, 'author': 'nabinhait', 'body': '- Write PR description explaining why the field is renamed.\r\n- Fix conflict\r\n- Rebase the PR after merging https://github.com/frappe/erpnext/pull/41024', 'created_at': datetime.datetime(2024, 5, 8, 13, 8, 25, tzinfo=datetime.timezone.utc)}]","nabinhait on (2024-05-08 13:08:25 UTC): - Write PR description explaining why the field is renamed.
+- Fix conflict
+- Rebase the PR after merging https://github.com/frappe/erpnext/pull/41024
+
+"
+2250621611,pull_request,closed,,use doctype File directly instead of save_file from file_manager.py,"`save_file` will change the filename and not clean up after itself after a rollback
+
+This is a preparation for another (not yet done) PR to solve https://github.com/frappe/frappe/issues/25178 which will completey remove the `save_file` function from `file_manager.py`.
+
+<!--
+
+Some key notes before you open a PR:
+
+ 1. Select which branch should this PR be merged in?
+ 2. PR name follows [convention](http://karma-runner.github.io/4.0/dev/git-commit-msg.html)
+ 3. All tests pass locally, UI and Unit tests
+ 4. All business logic and validations must be on the server-side
+ 5. Update necessary Documentation
+ 6. Put `closes #XXXX` in your comment to auto-close the issue that your PR fixes
+
+
+Also, if you're new here
+
+- Documentation Guidelines => https://github.com/frappe/erpnext/wiki/Updating-Documentation
+
+- Contribution Guide => https://github.com/frappe/erpnext/blob/develop/.github/CONTRIBUTING.md
+
+- Pull Request Checklist => https://github.com/frappe/erpnext/wiki/Pull-Request-Checklist
+
+-->",Mutantpenguin,2024-04-18 12:52:08+00:00,[],2024-06-11 00:09:25+00:00,2024-05-26 17:51:36+00:00,https://github.com/frappe/erpnext/pull/41087,"[('needs-tests', 'This PR needs automated unit-tests.'), ('inactive', '')]","[{'comment_id': 2095521164, 'issue_id': 2250621611, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 6, 9, 11, 29, tzinfo=datetime.timezone.utc)}, {'comment_id': 2095875565, 'issue_id': 2250621611, 'author': 'Mutantpenguin', 'body': 'No reason from myself to close it.', 'created_at': datetime.datetime(2024, 5, 6, 12, 13, 6, tzinfo=datetime.timezone.utc)}, {'comment_id': 2132835556, 'issue_id': 2250621611, 'author': 'Mutantpenguin', 'body': ""Please reopen again, it's still valid as far as I know."", 'created_at': datetime.datetime(2024, 5, 27, 7, 35, 41, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-06 09:11:29 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+Mutantpenguin (Issue Creator) on (2024-05-06 12:13:06 UTC): No reason from myself to close it.
+
+Mutantpenguin (Issue Creator) on (2024-05-27 07:35:41 UTC): Please reopen again, it's still valid as far as I know.
+
+"
+2250490726,pull_request,closed,,fix: prevent foreign currency  accounts as advance accounts.,Booking advances in separate party account is restricted to company currency accounts.,ruthra-kumar,2024-04-18 11:49:57+00:00,[],2024-05-11 00:09:38+00:00,2024-04-23 01:44:16+00:00,https://github.com/frappe/erpnext/pull/41086,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2250268076,pull_request,closed,,fix: Permission for lower deduction certificate,,deepeshgarg007,2024-04-18 09:56:35+00:00,[],2024-05-04 00:10:06+00:00,2024-04-19 10:09:36+00:00,https://github.com/frappe/erpnext/pull/41085,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2250188257,pull_request,closed,,fix: validation for fraction number in Work Order (backport #41083),"**Issue**
+If qty to manufacture is a fraction number and the production item's UOM is whole number then system should throw the validation 
+
+**Validation**
+
+<img width=""833"" alt=""Screenshot 2024-04-18 at 2 22 28 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/96e5e0bb-c38d-45ec-a1b1-401fcd7905cf"">
+<hr>This is an automatic backport of pull request #41083 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-18 09:15:55+00:00,['rohitwaghchaure'],2024-05-09 00:09:19+00:00,2024-04-18 10:26:07+00:00,https://github.com/frappe/erpnext/pull/41084,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074662719, 'issue_id': 2250188257, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 21, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:21 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2250149451,pull_request,closed,,fix: validation for fraction number in Work Order,"**Issue**
+If qty to manufacture is a fraction number and the production item's UOM is whole number then system should throw the validation 
+
+**Validation**
+
+<img width=""833"" alt=""Screenshot 2024-04-18 at 2 22 28 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/96e5e0bb-c38d-45ec-a1b1-401fcd7905cf"">
+",rohitwaghchaure,2024-04-18 08:56:35+00:00,[],2024-05-04 00:10:10+00:00,2024-04-18 09:14:19+00:00,https://github.com/frappe/erpnext/pull/41083,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2248829797,pull_request,closed,,refactor: some automatic fixes by sourcery,"- [Hoist If from If](https://docs.sourcery.ai/Coding-Assistant/Reference/Rules-and-In-Line-Suggestions/Python/Default-Rules/hoist-if-from-if/)
+- [Hoist Loop from If](https://docs.sourcery.ai/Coding-Assistant/Reference/Rules-and-In-Line-Suggestions/Python/Default-Rules/hoist-loop-from-if/)
+- [Hoist Repeated If Condition](https://docs.sourcery.ai/Coding-Assistant/Reference/Rules-and-In-Line-Suggestions/Python/Default-Rules/hoist-repeated-if-condition/)
+- [Hoist Similar Statements from If](https://docs.sourcery.ai/Coding-Assistant/Reference/Rules-and-In-Line-Suggestions/Python/Default-Rules/hoist-similar-statement-from-if/)
+- [Hoist Statements from If](https://docs.sourcery.ai/Coding-Assistant/Reference/Rules-and-In-Line-Suggestions/Python/Default-Rules/hoist-statement-from-if/)
+
+Review commit by commit. They all should be pure refactors without logic changes. Each commit only contains refactors of the same type.",barredterra,2024-04-17 17:33:07+00:00,[],2024-06-15 00:09:22+00:00,2024-05-31 02:19:50+00:00,https://github.com/frappe/erpnext/pull/41078,"[('accounts', ''), ('stock', None), ('inactive', '')]","[{'comment_id': 2102098642, 'issue_id': 2248829797, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 9, 7, 18, 49, tzinfo=datetime.timezone.utc)}, {'comment_id': 2131186271, 'issue_id': 2248829797, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 25, 10, 11, 35, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-09 07:18:49 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+stale[bot] on (2024-05-25 10:11:35 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2248773075,pull_request,closed,,fix: validate uom is integer for PR item (backport #41074),<hr>This is an automatic backport of pull request #41074 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-17 17:01:32+00:00,['s-aga-r'],2024-05-09 00:09:15+00:00,2024-04-18 02:23:21+00:00,https://github.com/frappe/erpnext/pull/41077,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074663009, 'issue_id': 2248773075, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 33, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:33 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2248772967,pull_request,closed,,fix: validate uom is integer for PR item (backport #41074),<hr>This is an automatic backport of pull request #41074 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-17 17:01:28+00:00,['s-aga-r'],2024-05-09 00:09:40+00:00,2024-04-18 02:23:33+00:00,https://github.com/frappe/erpnext/pull/41076,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2061778393, 'issue_id': 2248772967, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 9a290fdfc969b1b5652d8c68ae6c146d1b21a79a has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-41074\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit 9a290fdfc9.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/stock/doctype/purchase_receipt/purchase_receipt.py\n\tmodified:   erpnext/utilities/transaction_base.py\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/controllers/subcontracting_controller.py\n\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 17, 17, 1, 31, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074272807, 'issue_id': 2248772967, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 30, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-17 17:01:31 UTC): Cherry-pick of 9a290fdfc969b1b5652d8c68ae6c146d1b21a79a has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-41074
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit 9a290fdfc9.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/stock/doctype/purchase_receipt/purchase_receipt.py
+	modified:   erpnext/utilities/transaction_base.py
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/controllers/subcontracting_controller.py
+
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 07:33:30 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2248710355,pull_request,closed,,fix: search for item price in stock UOM,"Add UOM to filters when looking for existing **Item Price**.
+
+Prices are always UOM-specific. It doesn't make sense to update an existing **Item Price** for ""Liters"" with a new price for ""Milliliters"".
+
+Item prices are created in Stock UOM, hence we should also retrieve them in Stock UOM.",barredterra,2024-04-17 16:23:42+00:00,[],2024-05-18 00:09:10+00:00,2024-05-03 04:36:52+00:00,https://github.com/frappe/erpnext/pull/41075,"[('stock', None), ('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]","[{'comment_id': 2061807446, 'issue_id': 2248710355, 'author': 'barredterra', 'body': ""The semgrep error is due to historical debt, won't fix it here."", 'created_at': datetime.datetime(2024, 4, 17, 17, 20, 7, tzinfo=datetime.timezone.utc)}, {'comment_id': 2092104444, 'issue_id': 2248710355, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 3, 4, 29, 22, tzinfo=datetime.timezone.utc)}]","barredterra (Issue Creator) on (2024-04-17 17:20:07 UTC): The semgrep error is due to historical debt, won't fix it here.
+
+stale[bot] on (2024-05-03 04:29:22 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2248699953,pull_request,closed,,fix: validate uom is integer for PR item,https://github.com/frappe/erpnext/pull/41061 causing an issue in material transfer qty for batch items.,s-aga-r,2024-04-17 16:18:06+00:00,[],2024-05-04 00:10:11+00:00,2024-04-17 16:59:38+00:00,https://github.com/frappe/erpnext/pull/41074,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2248576866,pull_request,closed,,fix: don't attempt to set gender from salutation (backport #40997),"This code assumed that these salutations and genders exist, which is not guaranteed. If they don't exist, this resets the gender, which is not desired.
+
+A better approach, if needed, would be that every Salutation can be linked to a Gender and we then use ""fetch from"".<hr>This is an automatic backport of pull request #40997 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-17 15:28:19+00:00,[],2024-05-09 00:09:16+00:00,2024-04-17 15:53:43+00:00,https://github.com/frappe/erpnext/pull/41073,"[('released', None)]","[{'comment_id': 2074662935, 'issue_id': 2248576866, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 30, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:30 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2248576801,pull_request,closed,,fix: don't attempt to set gender from salutation (backport #40997),"This code assumed that these salutations and genders exist, which is not guaranteed. If they don't exist, this resets the gender, which is not desired.
+
+A better approach, if needed, would be that every Salutation can be linked to a Gender and we then use ""fetch from"".<hr>This is an automatic backport of pull request #40997 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-17 15:28:16+00:00,[],2024-05-09 00:09:41+00:00,2024-04-17 15:54:04+00:00,https://github.com/frappe/erpnext/pull/41072,"[('released', None)]","[{'comment_id': 2074272714, 'issue_id': 2248576801, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.68.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 7, 33, 27, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 07:33:27 UTC): :tada: This PR is included in version 14.68.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.68.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2248076842,pull_request,closed,,fix: validation for zero qty in SABB,,rohitwaghchaure,2024-04-17 11:37:41+00:00,[],2024-05-04 00:10:07+00:00,2024-04-19 09:40:19+00:00,https://github.com/frappe/erpnext/pull/41067,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2248016336,pull_request,closed,,fix: do not add qty to supplied items (backport #41061),"```
+File ""apps/frappe/frappe/app.py"", line 95, in application
+    response = frappe.api.handle()
+  File ""apps/frappe/frappe/api.py"", line 55, in handle
+    return frappe.handler.handle()
+  File ""apps/frappe/frappe/handler.py"", line 48, in handle
+    data = execute_cmd(cmd)
+  File ""apps/frappe/frappe/handler.py"", line 86, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File ""apps/frappe/frappe/__init__.py"", line 1611, in call
+    return fn(*args, **newargs)
+  File ""apps/frappe/frappe/desk/form/save.py"", line 31, in savedocs
+    doc.save()
+  File ""apps/frappe/frappe/model/document.py"", line 307, in save
+    return self._save(*args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 329, in _save
+    return self.insert()
+  File ""apps/frappe/frappe/model/document.py"", line 262, in insert
+    self.run_before_save_methods()
+  File ""apps/frappe/frappe/model/document.py"", line 1058, in run_before_save_methods
+    self.run_method(""validate"")
+  File ""apps/frappe/frappe/model/document.py"", line 928, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 1280, in composer
+    return composed(self, method, *args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 1262, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File ""apps/frappe/frappe/model/document.py"", line 925, in fn
+    return method_object(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py"", line 129, in validate
+    self.validate_uom_is_integer(""uom"", [""qty"", ""received_qty""])
+  File ""apps/erpnext/erpnext/utilities/transaction_base.py"", line 34, in validate_uom_is_integer
+    validate_uom_is_integer(self, uom_field, qty_fields)
+  File ""apps/erpnext/erpnext/utilities/transaction_base.py"", line 215, in validate_uom_is_integer
+    if abs(cint(qty) - flt(qty, d.precision(f))) > 0.0000001:
+  File ""apps/frappe/frappe/model/base_document.py"", line 1114, in precision
+    if df.fieldtype in (""Currency"", ""Float"", ""Percent""):
+AttributeError: 'NoneType' object has no attribute 'fieldtype'
+```<hr>This is an automatic backport of pull request #41061 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-17 11:05:13+00:00,['s-aga-r'],2024-05-09 00:09:17+00:00,2024-04-17 12:00:44+00:00,https://github.com/frappe/erpnext/pull/41066,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2074662868, 'issue_id': 2248016336, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 27, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-24 10:49:27 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2248016101,pull_request,closed,,fix: do not add qty to supplied items (backport #41061),"```
+File ""apps/frappe/frappe/app.py"", line 95, in application
+    response = frappe.api.handle()
+  File ""apps/frappe/frappe/api.py"", line 55, in handle
+    return frappe.handler.handle()
+  File ""apps/frappe/frappe/handler.py"", line 48, in handle
+    data = execute_cmd(cmd)
+  File ""apps/frappe/frappe/handler.py"", line 86, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File ""apps/frappe/frappe/__init__.py"", line 1611, in call
+    return fn(*args, **newargs)
+  File ""apps/frappe/frappe/desk/form/save.py"", line 31, in savedocs
+    doc.save()
+  File ""apps/frappe/frappe/model/document.py"", line 307, in save
+    return self._save(*args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 329, in _save
+    return self.insert()
+  File ""apps/frappe/frappe/model/document.py"", line 262, in insert
+    self.run_before_save_methods()
+  File ""apps/frappe/frappe/model/document.py"", line 1058, in run_before_save_methods
+    self.run_method(""validate"")
+  File ""apps/frappe/frappe/model/document.py"", line 928, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 1280, in composer
+    return composed(self, method, *args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 1262, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File ""apps/frappe/frappe/model/document.py"", line 925, in fn
+    return method_object(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py"", line 129, in validate
+    self.validate_uom_is_integer(""uom"", [""qty"", ""received_qty""])
+  File ""apps/erpnext/erpnext/utilities/transaction_base.py"", line 34, in validate_uom_is_integer
+    validate_uom_is_integer(self, uom_field, qty_fields)
+  File ""apps/erpnext/erpnext/utilities/transaction_base.py"", line 215, in validate_uom_is_integer
+    if abs(cint(qty) - flt(qty, d.precision(f))) > 0.0000001:
+  File ""apps/frappe/frappe/model/base_document.py"", line 1114, in precision
+    if df.fieldtype in (""Currency"", ""Float"", ""Percent""):
+AttributeError: 'NoneType' object has no attribute 'fieldtype'
+```<hr>This is an automatic backport of pull request #41061 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-17 11:05:05+00:00,['s-aga-r'],2024-05-02 00:09:09+00:00,2024-04-17 17:00:23+00:00,https://github.com/frappe/erpnext/pull/41065,"[('needs-tests', 'This PR needs automated unit-tests.')]","[{'comment_id': 2061001555, 'issue_id': 2248016101, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 8233c392fb93bc0ee816249cb231f6731f2eb615 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-41061\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit 8233c392fb.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/controllers/subcontracting_controller.py\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 17, 11, 5, 7, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-17 11:05:07 UTC): Cherry-pick of 8233c392fb93bc0ee816249cb231f6731f2eb615 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-41061
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit 8233c392fb.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/controllers/subcontracting_controller.py
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+"
+2247931138,pull_request,closed,,fix: do not add qty to supplied items,"```
+File ""apps/frappe/frappe/app.py"", line 95, in application
+    response = frappe.api.handle()
+  File ""apps/frappe/frappe/api.py"", line 55, in handle
+    return frappe.handler.handle()
+  File ""apps/frappe/frappe/handler.py"", line 48, in handle
+    data = execute_cmd(cmd)
+  File ""apps/frappe/frappe/handler.py"", line 86, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File ""apps/frappe/frappe/__init__.py"", line 1611, in call
+    return fn(*args, **newargs)
+  File ""apps/frappe/frappe/desk/form/save.py"", line 31, in savedocs
+    doc.save()
+  File ""apps/frappe/frappe/model/document.py"", line 307, in save
+    return self._save(*args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 329, in _save
+    return self.insert()
+  File ""apps/frappe/frappe/model/document.py"", line 262, in insert
+    self.run_before_save_methods()
+  File ""apps/frappe/frappe/model/document.py"", line 1058, in run_before_save_methods
+    self.run_method(""validate"")
+  File ""apps/frappe/frappe/model/document.py"", line 928, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 1280, in composer
+    return composed(self, method, *args, **kwargs)
+  File ""apps/frappe/frappe/model/document.py"", line 1262, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File ""apps/frappe/frappe/model/document.py"", line 925, in fn
+    return method_object(*args, **kwargs)
+  File ""apps/erpnext/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py"", line 129, in validate
+    self.validate_uom_is_integer(""uom"", [""qty"", ""received_qty""])
+  File ""apps/erpnext/erpnext/utilities/transaction_base.py"", line 34, in validate_uom_is_integer
+    validate_uom_is_integer(self, uom_field, qty_fields)
+  File ""apps/erpnext/erpnext/utilities/transaction_base.py"", line 215, in validate_uom_is_integer
+    if abs(cint(qty) - flt(qty, d.precision(f))) > 0.0000001:
+  File ""apps/frappe/frappe/model/base_document.py"", line 1114, in precision
+    if df.fieldtype in (""Currency"", ""Float"", ""Percent""):
+AttributeError: 'NoneType' object has no attribute 'fieldtype'
+```",s-aga-r,2024-04-17 10:19:03+00:00,[],2024-05-02 00:09:11+00:00,2024-04-17 11:03:39+00:00,https://github.com/frappe/erpnext/pull/41061,"[('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2247924682,pull_request,closed,,feat(bank_reconciliation_tool.py): Add bank account name to payment entry dict,"In the bank reconciliation tool, the bank account name is now being retrieved and added to the payment entry dictionary. This was done by calling frappe.get_value for the ""Bank Account"" Doctype to get its name and then adding it to the payment entry dictionary. This will add more clarity to the payment records in the system.
+",yoyowu1000,2024-04-17 10:15:48+00:00,[],2024-05-25 00:09:34+00:00,2024-05-08 05:21:16+00:00,https://github.com/frappe/erpnext/pull/41060,"[('needs-tests', 'This PR needs automated unit-tests.'), ('inactive', '')]","[{'comment_id': 2092104470, 'issue_id': 2247924682, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 3, 4, 29, 24, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-03 04:29:24 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2247761212,pull_request,closed,,fix: duplicate serial and batch bundle in stock entry and stock reco (backport #41053) (backport #41056),System not validate duplicate serial and batch bundle for stock entry and stock reco. This is causing the incorrect batch qty issue.<hr>This is an automatic backport of pull request #41053 done by [Mergify](https://mergify.com).<hr>This is an automatic backport of pull request #41056 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-17 09:00:14+00:00,[],2024-05-02 00:09:12+00:00,2024-04-17 09:24:34+00:00,https://github.com/frappe/erpnext/pull/41058,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060813766, 'issue_id': 2247761212, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.5 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.5)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 9, 26, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 09:26:00 UTC): :tada: This PR is included in version 15.20.5 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.5)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2247742697,pull_request,closed,,fix: TypeError,"Hello @deepeshgarg007 ,
+getting this error while click on Auto Reconcile
+
+![image](https://github.com/frappe/erpnext/assets/32939507/c52bcf0a-c0fb-453a-896c-47af79fa6970)
+",rehanrehman389,2024-04-17 08:51:22+00:00,[],2024-05-25 00:09:36+00:00,2024-05-08 05:21:12+00:00,https://github.com/frappe/erpnext/pull/41057,"[('inactive', '')]","[{'comment_id': 2092104496, 'issue_id': 2247742697, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 3, 4, 29, 27, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-03 04:29:27 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2247625702,pull_request,closed,,fix: duplicate serial and batch bundle in stock entry and stock reco (backport #41053),System not validate duplicate serial and batch bundle for stock entry and stock reco. This is causing the incorrect batch qty issue.<hr>This is an automatic backport of pull request #41053 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-17 07:50:12+00:00,['rohitwaghchaure'],2024-05-09 00:09:18+00:00,2024-04-17 08:59:15+00:00,https://github.com/frappe/erpnext/pull/41056,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060639116, 'issue_id': 2247625702, 'author': 'rohitwaghchaure', 'body': '@Mergifyio backport version-15', 'created_at': datetime.datetime(2024, 4, 17, 7, 57, 17, tzinfo=datetime.timezone.utc)}, {'comment_id': 2060639713, 'issue_id': 2247625702, 'author': 'mergify[bot]', 'body': '> backport version-15\n\n#### ✅ Backports have been created\n\n<details>\n\n* [#41058 fix: duplicate serial and batch bundle in stock entry and stock reco (backport #41053) (backport #41056)](https://github.com/frappe/erpnext/pull/41058) has been created for branch `version-15`\n\n</details>\n\n\n<!---\nDO NOT EDIT\n-*- Mergify Payload -*-\n{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}\n-*- Mergify Payload End -*-\n-->', 'created_at': datetime.datetime(2024, 4, 17, 7, 57, 37, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074662787, 'issue_id': 2247625702, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 49, 24, tzinfo=datetime.timezone.utc)}]","rohitwaghchaure (Assginee) on (2024-04-17 07:57:17 UTC): @Mergifyio backport version-15
+
+mergify[bot] (Issue Creator) on (2024-04-17 07:57:37 UTC): #### ✅ Backports have been created
+
+<details>
+
+* [#41058 fix: duplicate serial and batch bundle in stock entry and stock reco (backport #41053) (backport #41056)](https://github.com/frappe/erpnext/pull/41058) has been created for branch `version-15`
+
+</details>
+
+
+<!---
+DO NOT EDIT
+-*- Mergify Payload -*-
+{""command"": ""backport version-15"", ""conclusion"": ""success"", ""action_is_running"": true}
+-*- Mergify Payload End -*-
+-->
+
+frappe-pr-bot on (2024-04-24 10:49:24 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2247620817,pull_request,closed,,feat: New payment term option 'Month(s) after invoice date',"Documentation section Link: https://docs.erpnext.com/docs/user/manual/en/journals-and-payments-payment-terms
+
+This pull request introduces a new option for ""Due Date Based On"" in the Payment Term . The new option, ""Month(s) after invoice date,"" allows users to specify a due date that is calculated based on a certain number of months after the posting date of the invoice or order.
+
+Description of the New Option for ""Due date based on"":
+
+Month(s) after invoice date: Due date should be calculated in months concerning the posting date of the invoice. For example, if 2 is entered on the 15th of March, the due date will be on 15th May.
+",harshkhatri7287,2024-04-17 07:47:28+00:00,[],2024-05-25 00:09:36+00:00,2024-05-08 05:21:15+00:00,https://github.com/frappe/erpnext/pull/41055,"[('accounts', ''), ('needs-tests', 'This PR needs automated unit-tests.'), ('inactive', '')]","[{'comment_id': 2060905265, 'issue_id': 2247620817, 'author': 'harshkhatri7287', 'body': 'Hi @deepeshgarg007, Kindly review this PR.', 'created_at': datetime.datetime(2024, 4, 17, 10, 9, 57, tzinfo=datetime.timezone.utc)}, {'comment_id': 2092104483, 'issue_id': 2247620817, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 3, 4, 29, 25, tzinfo=datetime.timezone.utc)}]","harshkhatri7287 (Issue Creator) on (2024-04-17 10:09:57 UTC): Hi @deepeshgarg007, Kindly review this PR.
+
+stale[bot] on (2024-05-03 04:29:25 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2247557997,pull_request,closed,,fix: duplicate serial and batch bundle in stock entry and stock reco,System not validate duplicate serial and batch bundle for stock entry and stock reco. This is causing the incorrect batch qty issue.,rohitwaghchaure,2024-04-17 07:14:26+00:00,[],2024-05-02 00:09:13+00:00,2024-04-17 07:48:49+00:00,https://github.com/frappe/erpnext/pull/41053,"[('backport version-15-hotfix', '')]",[],
+2247443158,pull_request,closed,,fix: Allow updating cost center and project for repostable doctypes (backport #40962),<hr>This is an automatic backport of pull request #40962 done by [Mergify](https://mergify.com).,mergify[bot],2024-04-17 05:55:06+00:00,['deepeshgarg007'],2024-05-09 00:09:34+00:00,2024-04-24 06:30:28+00:00,https://github.com/frappe/erpnext/pull/41048,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060433487, 'issue_id': 2247443158, 'author': 'mergify[bot]', 'body': 'Cherry-pick of c3845ac0f1f726ae8f5d9f20211b6f50955e997e has failed:\n```\nOn branch mergify/bp/version-15-hotfix/pr-40962\nYour branch is up to date with \'origin/version-15-hotfix\'.\n\nYou are currently cherry-picking commit c3845ac0f1.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/accounts/doctype/accounting_dimension/accounting_dimension.js\n\tmodified:   erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py\n\tmodified:   erpnext/accounts/doctype/sales_invoice/sales_invoice.py\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/accounts/doctype/payment_entry/payment_entry.json\n\tboth modified:   erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json\n\tboth modified:   erpnext/accounts/doctype/sales_invoice/sales_invoice.json\n\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 17, 5, 55, 8, tzinfo=datetime.timezone.utc)}, {'comment_id': 2074661598, 'issue_id': 2247443158, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.21.0 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 24, 10, 48, 36, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-17 05:55:08 UTC): Cherry-pick of c3845ac0f1f726ae8f5d9f20211b6f50955e997e has failed:
+```
+On branch mergify/bp/version-15-hotfix/pr-40962
+Your branch is up to date with 'origin/version-15-hotfix'.
+
+You are currently cherry-picking commit c3845ac0f1.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/accounts/doctype/accounting_dimension/accounting_dimension.js
+	modified:   erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py
+	modified:   erpnext/accounts/doctype/sales_invoice/sales_invoice.py
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/accounts/doctype/payment_entry/payment_entry.json
+	both modified:   erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+	both modified:   erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-24 10:48:36 UTC): :tada: This PR is included in version 15.21.0 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.21.0)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2247393477,pull_request,closed,,fix: possible wildcard issue on variable name,"`_warehouse` throws undefined error on v14 and v15. Fixing this by using normal variable name. 
+This change is already added in original PR's [v14](https://github.com/frappe/erpnext/pull/40854) and [v15](https://github.com/frappe/erpnext/pull/40789) backports",ruthra-kumar,2024-04-17 05:18:45+00:00,[],2024-05-11 00:09:37+00:00,2024-04-17 05:34:32+00:00,https://github.com/frappe/erpnext/pull/41047,"[('needs-tests', 'This PR needs automated unit-tests.')]",[],
+2246691948,pull_request,closed,,fix: not able to submit subcontracting receipt (backport #41041),"If ""Auto Create Purchase Receipt"" has enabled in the Buying Settings then user not able to submit the Subcontracting Receipt and getting below error 
+
+<img width=""776"" alt=""Screenshot 2024-04-16 at 6 17 15 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/0244e76a-ffa7-4b8f-8217-5776a356ddd6"">
+<hr>This is an automatic backport of pull request #41041 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 18:53:39+00:00,['rohitwaghchaure'],2024-05-02 00:09:29+00:00,2024-04-17 01:07:39+00:00,https://github.com/frappe/erpnext/pull/41045,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060455241, 'issue_id': 2246691948, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, 36, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 06:13:36 UTC): :tada: This PR is included in version 15.20.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245979828,pull_request,closed,,fix: not able to submit subcontracting receipt,"If ""Auto Create Purchase Receipt"" has enabled in the Buying Settings then user not able to submit the Subcontracting Receipt and getting below error 
+
+<img width=""776"" alt=""Screenshot 2024-04-16 at 6 17 15 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/0244e76a-ffa7-4b8f-8217-5776a356ddd6"">
+",rohitwaghchaure,2024-04-16 12:53:34+00:00,[],2024-05-01 00:09:38+00:00,2024-04-16 18:52:10+00:00,https://github.com/frappe/erpnext/pull/41041,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2245941867,pull_request,closed,,fix: address filter and quotation to for prospect,"**Version 15**
+
+fixes: #41015
+
+**Before:** 
+
+- When choosing ""quotation_to"" as a customer, the customer displays correctly. Similarly, when selecting ""quotation_to"" as the lead, the lead displays correctly. However, when ""quotation_to"" is set as a prospect, the lead list is shown instead. Moreover, when initially selecting ""quotation_to"" as a customer and then changing it to prospect, it displays properly.
+
+- In the case where ""quotation_to"" is set as a prospect, the address does not appear, and the address filter does not correspond to the prospect; instead, it shows the lead address.
+
+
+https://github.com/frappe/erpnext/assets/141945075/f94d506f-dea3-481b-a9d1-a77f4e9864d9
+
+<br>
+
+**After:**
+
+- fix the issue, so please check the video.
+
+
+https://github.com/frappe/erpnext/assets/141945075/b0796331-48e2-430e-ae9a-fe379faa11de
+
+",Nihantra-Patel,2024-04-16 12:38:50+00:00,['ruthra-kumar'],2024-05-25 00:09:01+00:00,2024-05-09 06:44:41+00:00,https://github.com/frappe/erpnext/pull/41040,"[('accounts', ''), ('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]","[{'comment_id': 2085640091, 'issue_id': 2245941867, 'author': 'casesolved-co-uk', 'body': '@Nihantra-Patel nice work', 'created_at': datetime.datetime(2024, 4, 30, 15, 19, 57, tzinfo=datetime.timezone.utc)}]","casesolved-co-uk on (2024-04-30 15:19:57 UTC): @Nihantra-Patel nice work
+
+"
+2245841735,pull_request,closed,,fix: Delayed Order Report not working (backport #41037),"<img width=""857"" alt=""Screenshot 2024-04-16 at 4 55 11 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/3925afb5-daf9-43b7-b1c7-c948d0c9c9f7"">
+<hr>This is an automatic backport of pull request #41037 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 11:47:21+00:00,['rohitwaghchaure'],2024-05-02 00:09:26+00:00,2024-04-16 12:54:38+00:00,https://github.com/frappe/erpnext/pull/41039,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060455406, 'issue_id': 2245841735, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, 45, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 06:13:45 UTC): :tada: This PR is included in version 15.20.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245841678,pull_request,closed,,fix: Delayed Order Report not working (backport #41037),"<img width=""857"" alt=""Screenshot 2024-04-16 at 4 55 11 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/3925afb5-daf9-43b7-b1c7-c948d0c9c9f7"">
+<hr>This is an automatic backport of pull request #41037 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 11:47:19+00:00,['rohitwaghchaure'],2024-05-02 00:09:40+00:00,2024-04-16 12:54:46+00:00,https://github.com/frappe/erpnext/pull/41038,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060454554, 'issue_id': 2245841678, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.67.2 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 12, 51, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 06:12:51 UTC): :tada: This PR is included in version 14.67.2 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245799899,pull_request,closed,,fix: Delayed Order Report not working,"<img width=""857"" alt=""Screenshot 2024-04-16 at 4 55 11 PM"" src=""https://github.com/frappe/erpnext/assets/8780500/3925afb5-daf9-43b7-b1c7-c948d0c9c9f7"">
+",rohitwaghchaure,2024-04-16 11:25:37+00:00,[],2024-05-01 00:09:40+00:00,2024-04-16 11:44:59+00:00,https://github.com/frappe/erpnext/pull/41037,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2245757484,pull_request,closed,,fix: get address if multiple companies (backport #40373),"Version 14 and 15,
+
+fixes: #34837
+
+- Sales Invoice has a code that the Sales Order doesn't.
+
+**Before:**
+- When there are multiple companies, the company address loads correctly initially. However, if you change the company, the address doesn't update. 
+
+**After:**
+- So, we added code that sets the default address for the company when the user changes it. This ensures that the correct company address is displayed.
+
+Thank You!<hr>This is an automatic backport of pull request #40373 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 11:02:11+00:00,['Nihantra-Patel'],2024-05-02 00:09:28+00:00,2024-04-16 11:09:39+00:00,https://github.com/frappe/erpnext/pull/41035,"[('released', None)]","[{'comment_id': 2060455290, 'issue_id': 2245757484, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, 39, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 06:13:39 UTC): :tada: This PR is included in version 15.20.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245757379,pull_request,closed,,fix: get address if multiple companies (backport #40373),"Version 14 and 15,
+
+fixes: #34837
+
+- Sales Invoice has a code that the Sales Order doesn't.
+
+**Before:**
+- When there are multiple companies, the company address loads correctly initially. However, if you change the company, the address doesn't update. 
+
+**After:**
+- So, we added code that sets the default address for the company when the user changes it. This ensures that the correct company address is displayed.
+
+Thank You!<hr>This is an automatic backport of pull request #40373 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 11:02:07+00:00,['Nihantra-Patel'],2024-05-02 00:09:39+00:00,2024-04-16 11:11:27+00:00,https://github.com/frappe/erpnext/pull/41034,"[('released', None)]","[{'comment_id': 2058821001, 'issue_id': 2245757379, 'author': 'mergify[bot]', 'body': 'Cherry-pick of c6cf1bec76581bbe653b191e983de1692254ef48 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-40373\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit c6cf1bec76.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/selling/doctype/sales_order/sales_order.js\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 16, 11, 2, 9, tzinfo=datetime.timezone.utc)}, {'comment_id': 2060454602, 'issue_id': 2245757379, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.67.2 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 12, 54, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-16 11:02:09 UTC): Cherry-pick of c6cf1bec76581bbe653b191e983de1692254ef48 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-40373
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit c6cf1bec76.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/selling/doctype/sales_order/sales_order.js
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-17 06:12:54 UTC): :tada: This PR is included in version 14.67.2 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245587744,pull_request,closed,,chore: release v14,Automated weekly release.,frappe-pr-bot,2024-04-16 09:34:09+00:00,[],2024-05-02 00:09:42+00:00,2024-04-17 06:11:15+00:00,https://github.com/frappe/erpnext/pull/41032,"[('accounts', ''), ('stock', None), ('CRM', None), ('selling', None), ('buying', None), ('assets', ''), ('ecommerce', ''), ('projects', 'projects module related issue / PR'), ('released', None)]","[{'comment_id': 2060454449, 'issue_id': 2245587744, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.67.2 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 12, 45, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot (Issue Creator) on (2024-04-17 06:12:45 UTC): :tada: This PR is included in version 14.67.2 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245587677,pull_request,closed,,chore: release v15,Automated weekly release.,frappe-pr-bot,2024-04-16 09:34:07+00:00,[],2024-05-02 00:09:31+00:00,2024-04-17 06:11:42+00:00,https://github.com/frappe/erpnext/pull/41031,"[('accounts', ''), ('stock', None), ('selling', None), ('released', None)]","[{'comment_id': 2060455155, 'issue_id': 2245587677, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, 30, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot (Issue Creator) on (2024-04-17 06:13:30 UTC): :tada: This PR is included in version 15.20.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245452595,pull_request,closed,,fix: expense account set as COGS for stock entry Material Issue (backport #41026),"**Issue**
+
+System picks the expense account as ""COGS"" for stock entry type ""Material Issue""<hr>This is an automatic backport of pull request #41026 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 08:29:31+00:00,['rohitwaghchaure'],2024-05-02 00:09:27+00:00,2024-04-16 08:52:43+00:00,https://github.com/frappe/erpnext/pull/41029,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060455353, 'issue_id': 2245452595, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, 42, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 06:13:42 UTC): :tada: This PR is included in version 15.20.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245452216,pull_request,closed,,fix: expense account set as COGS for stock entry Material Issue (backport #41026),"**Issue**
+
+System picks the expense account as ""COGS"" for stock entry type ""Material Issue""<hr>This is an automatic backport of pull request #41026 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 08:29:22+00:00,['rohitwaghchaure'],2024-05-02 00:09:36+00:00,2024-04-16 08:52:53+00:00,https://github.com/frappe/erpnext/pull/41028,"[('needs-tests', 'This PR needs automated unit-tests.'), ('released', None)]","[{'comment_id': 2060454736, 'issue_id': 2245452216, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.67.2 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, 3, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 06:13:03 UTC): :tada: This PR is included in version 14.67.2 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245388321,pull_request,closed,,fix: barcode not fetched on selection of item (backport #40814),"On selection of the item in the stock entry, system not fetch the barcode <hr>This is an automatic backport of pull request #40814 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 08:00:36+00:00,['rohitwaghchaure'],2024-05-02 00:09:37+00:00,2024-04-16 08:52:32+00:00,https://github.com/frappe/erpnext/pull/41027,"[('stock', None), ('released', None)]","[{'comment_id': 2058476195, 'issue_id': 2245388321, 'author': 'mergify[bot]', 'body': 'Cherry-pick of b0730293e2b9aa89ed5904256d7846cef45cb4fe has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-40814\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit b0730293e2.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nChanges to be committed:\n\tmodified:   erpnext/stock/doctype/item/test_item.py\n\tmodified:   erpnext/stock/doctype/stock_entry/stock_entry.py\n\tmodified:   erpnext/stock/doctype/stock_entry/test_stock_entry.py\n\tmodified:   erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/stock/get_item_details.py\n\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 16, 8, 0, 38, tzinfo=datetime.timezone.utc)}, {'comment_id': 2060454681, 'issue_id': 2245388321, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.67.2 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-16 08:00:38 UTC): Cherry-pick of b0730293e2b9aa89ed5904256d7846cef45cb4fe has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-40814
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit b0730293e2.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Changes to be committed:
+	modified:   erpnext/stock/doctype/item/test_item.py
+	modified:   erpnext/stock/doctype/stock_entry/stock_entry.py
+	modified:   erpnext/stock/doctype/stock_entry/test_stock_entry.py
+	modified:   erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/stock/get_item_details.py
+
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-17 06:13:00 UTC): :tada: This PR is included in version 14.67.2 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245375174,pull_request,closed,,fix: expense account set as COGS for stock entry Material Issue,"**Issue**
+
+System picks the expense account as ""COGS"" for stock entry type ""Material Issue""",rohitwaghchaure,2024-04-16 07:53:39+00:00,[],2024-05-01 00:09:43+00:00,2024-04-16 08:25:35+00:00,https://github.com/frappe/erpnext/pull/41026,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-14-hotfix', 'backport to version 14'), ('backport version-15-hotfix', '')]",[],
+2245261155,pull_request,closed,,fix: remove validate_name_in_customer function,"**Problem:**
+When we create a customer group the function ""validate_name_with_customer"" is called which checks whether the name of customer group exists in ""Customer"" DocType.
+For e.g.
+If we create a customer group called ""XYZ"",  in the on_update method in customer_group.py file, the code will check whether a customer with a name of ""XYZ"" is already created or not. If it is created it throws an error ""A customer with the same name already exists"".
+
+
+
+**Solution:**
+Remove validate_name_with_customer from ""customer_group.py"" file.",RitvikSardana,2024-04-16 06:55:11+00:00,[],2024-11-19 14:21:33+00:00,2024-04-16 07:14:47+00:00,https://github.com/frappe/erpnext/pull/41025,"[('needs-tests', 'This PR needs automated unit-tests.'), ('backport version-15-hotfix', '')]",[],
+2245141297,pull_request,closed,,fix: expense account should be fetched from related asset category,"<!-- Add images/recordings to better visualize the change: expected/current behviour -->
+
+There was an issue with fixed asset item, when we are making a “Material request”, “Purchase order” and ""Purchase Receipt"" transaction where application sets the expenses account by default in the item child table but it should fetch the correct account from the related Asset Category.
+
+<img width=""1065"" alt=""Screenshot 2024-04-16 at 11 07 33 AM"" src=""https://github.com/frappe/erpnext/assets/142375893/f58ae634-1b3d-4d7c-9040-6b0272f8bd94"">
+<img width=""1134"" alt=""Screenshot 2024-04-16 at 11 08 38 AM"" src=""https://github.com/frappe/erpnext/assets/142375893/a56fd171-7d0b-4e54-a102-846b529d262b"">
+Before expense account was not fetched based on asset category.
+<img width=""1129"" alt=""Screenshot 2024-04-16 at 11 10 00 AM"" src=""https://github.com/frappe/erpnext/assets/142375893/6cb119db-abde-4cf1-86b1-f86e6b501ea8"">
+
+After the fix:-
+<img width=""1129"" alt=""Screenshot 2024-04-16 at 11 09 28 AM"" src=""https://github.com/frappe/erpnext/assets/142375893/9f792c50-0c57-4c8a-951d-7c04257aa9ac"">
+
+no-docs",khushi8112,2024-04-16 05:45:55+00:00,[],2024-05-25 00:09:31+00:00,2024-05-08 20:00:45+00:00,https://github.com/frappe/erpnext/pull/41024,"[('assets', ''), ('backport version-15-hotfix', '')]","[{'comment_id': 2092104507, 'issue_id': 2245141297, 'author': 'stale[bot]', 'body': ""This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing."", 'created_at': datetime.datetime(2024, 5, 3, 4, 29, 28, tzinfo=datetime.timezone.utc)}]","stale[bot] on (2024-05-03 04:29:28 UTC): This pull request has been automatically marked as inactive because it has not had recent activity. It will be closed within 3 days if no further activity occurs, but it only takes a comment to keep a contribution alive :) Also, even if it is closed, you can always reopen the PR when you're ready. Thank you for contributing.
+
+"
+2245123878,pull_request,closed,,fix: incorrect exc gain/loss for PE against JE for payable accounts (backport #41020),"1. Make a Journal that Credits a Payable account with Exc rate 81.
+2. Make a Payment Entry with Exc rate 85
+
+Upon reconciliation, exchange gain/loss should be Crediting the Payable account
+- [x] Add test cases<hr>This is an automatic backport of pull request #41020 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 05:30:01+00:00,['ruthra-kumar'],2024-05-02 00:09:25+00:00,2024-04-16 05:52:27+00:00,https://github.com/frappe/erpnext/pull/41023,"[('accounts', ''), ('released', None)]","[{'comment_id': 2060455456, 'issue_id': 2245123878, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 15.20.4 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 13, 48, tzinfo=datetime.timezone.utc)}]","frappe-pr-bot on (2024-04-17 06:13:48 UTC): :tada: This PR is included in version 15.20.4 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v15.20.4)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
+2245123813,pull_request,closed,,fix: incorrect exc gain/loss for PE against JE for payable accounts (backport #41020),"1. Make a Journal that Credits a Payable account with Exc rate 81.
+2. Make a Payment Entry with Exc rate 85
+
+Upon reconciliation, exchange gain/loss should be Crediting the Payable account
+- [x] Add test cases<hr>This is an automatic backport of pull request #41020 done by [Mergify](https://mergify.com).",mergify[bot],2024-04-16 05:29:58+00:00,['ruthra-kumar'],2024-05-02 00:09:38+00:00,2024-04-16 06:01:41+00:00,https://github.com/frappe/erpnext/pull/41022,"[('accounts', ''), ('released', None)]","[{'comment_id': 2058259637, 'issue_id': 2245123813, 'author': 'mergify[bot]', 'body': 'Cherry-pick of 81b574053ffc15c4337fbe497c53d8696d26f878 has failed:\n```\nOn branch mergify/bp/version-14-hotfix/pr-41020\nYour branch is up to date with \'origin/version-14-hotfix\'.\n\nYou are currently cherry-picking commit 81b574053f.\n  (fix conflicts and run ""git cherry-pick --continue"")\n  (use ""git cherry-pick --skip"" to skip this patch)\n  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)\n\nUnmerged paths:\n  (use ""git add <file>..."" to mark resolution)\n\tboth modified:   erpnext/controllers/accounts_controller.py\n\nno changes added to commit (use ""git add"" and/or ""git commit -a"")\n```\n\n\nTo fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally', 'created_at': datetime.datetime(2024, 4, 16, 5, 30, tzinfo=datetime.timezone.utc)}, {'comment_id': 2060454640, 'issue_id': 2245123813, 'author': 'frappe-pr-bot', 'body': ':tada: This PR is included in version 14.67.2 :tada:\n\nThe release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)\n\nYour **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:', 'created_at': datetime.datetime(2024, 4, 17, 6, 12, 57, tzinfo=datetime.timezone.utc)}]","mergify[bot] (Issue Creator) on (2024-04-16 05:30:00 UTC): Cherry-pick of 81b574053ffc15c4337fbe497c53d8696d26f878 has failed:
+```
+On branch mergify/bp/version-14-hotfix/pr-41020
+Your branch is up to date with 'origin/version-14-hotfix'.
+
+You are currently cherry-picking commit 81b574053f.
+  (fix conflicts and run ""git cherry-pick --continue"")
+  (use ""git cherry-pick --skip"" to skip this patch)
+  (use ""git cherry-pick --abort"" to cancel the cherry-pick operation)
+
+Unmerged paths:
+  (use ""git add <file>..."" to mark resolution)
+	both modified:   erpnext/controllers/accounts_controller.py
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+```
+
+
+To fix up this pull request, you can check it out locally. See documentation: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally
+
+frappe-pr-bot on (2024-04-17 06:12:57 UTC): :tada: This PR is included in version 14.67.2 :tada:
+
+The release is available on [GitHub release](https://github.com/frappe/erpnext/releases/tag/v14.67.2)
+
+Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot :package::rocket:
+
+"
