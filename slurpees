@@ -1,0 +1,21 @@
+cd /data2/github-slurp
+source .venv/bin/activate
+chmod +x gitslurp.py
+python3 gitslurp.py --issues=15000 --repo='pytorch/pytorch' \
+> /tmp/ditslurp.logger 2>&1
+python3 gitslurp.py --issues=15000 --repo='tensorflow/tensorflow' \
+>> /tmp/ditslurp.logger 2>&1
+python3 gitslurp.py --issues=5000  --repo='odoo/odoo' \
+>> /tmp/ditslurp.logger 2>&1
+python3 gitslurp.py --issues=15000 --repo='kubernetes/kubernetes' \
+>> /tmp/ditslurp.logger 2>&1
+python3 gitslurp.py --issues=15000 --repo='metabase/metabase' \
+>> /tmp/ditslurp.logger 2>&1
+python3 gitslurp.py --issues=5000  --repo='apache/airflow' \
+>> /tmp/ditslurp.logger 2>&1
+python3 gitslurp.py --issues=5000  --repo='frappe/erpnext' \
+>> /tmp/ditslurp.logger 2>&1
+python3 gitslurp.py --issues=5000  --repo='OWASP/Nettacker' \
+>> /tmp/ditslurp.logger 2>&1
+
+echo done
