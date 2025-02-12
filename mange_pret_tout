@@ -5,7 +5,7 @@ mange() {
   local namespace="$1"
   local repo="$2"
   local rows="$3"
-  local method="${4:-csv}"
+  local method="${4:-parquet}"
 
   echo "namespace ..: $namespace"
   echo "repo name ..: $repo"
@@ -32,16 +32,16 @@ cd /data2/github-slurp
 source .venv/bin/activate
 cd /data2/github-slurp/helpers
 
-#mange "frappe" "erpnext" 18000 "zip"
-#mange "tensorflow" "tensorflow" 18000 "zip"
-#mange "odoo" "odoo" 18000 "zip"
-#mange "OWASP" "Nettacker" 18000 "zip"
-#mange "kubernetes" "kubernetes" 18000 "zip"
-#mange "metabase" "metabase" 18000 "zip"
-mange "apache" "airflow" 18000 "zip"
-#mange "pytorch" "pytorch" 18000 "zip"
+#mange "frappe" "erpnext" 18000
+#mange "tensorflow" "tensorflow" 18000
+#mange "odoo" "odoo" 18000
+#mange "OWASP" "Nettacker" 18000
+#mange "kubernetes" "kubernetes" 18000
+#mange "metabase" "metabase" 18000
+mange "apache" "airflow" 18000
+#mange "pytorch" "pytorch" 18000
 
 cd /data2/mvdata
 git add .
-git commit -am 'data'
+git commit -am 'data encode parquet'
 git push
