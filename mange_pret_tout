@@ -32,13 +32,13 @@ cd /data2/github-slurp
 source .venv/bin/activate
 cd /data2/github-slurp/helpers
 
-#mange "frappe" "erpnext" 1800
-#mange "tensorflow" "tensorflow" 1800
-#mange "odoo" "odoo" 1800
-#mange "metabase" "metabase" 1800
-#mange "apache" "airflow" 1800
+mange "frappe" "erpnext" 1800
+mange "tensorflow" "tensorflow" 1800
+mange "odoo" "odoo" 1800
+mange "metabase" "metabase" 1800
+mange "apache" "airflow" 1800
 #mange "pytorch" "pytorch" 1800
-#mange "kubernetes" "kubernetes" 1800
+mange "kubernetes" "kubernetes" 1800
 mange "OWASP" "Nettacker" 1800
 
 cd /data2/mvdata
