@@ -12,7 +12,7 @@ mange() {
   echo "row count ..: $rows"
   echo "method .....: $method"
 
-#  rm -fr "/data2/mvdata/data/${namespace}_${repo}"
+  rm -fr "/data2/mvdata/data/${namespace}_${repo}"
 
   python3 mange_csv.py \
   --output="/data2/mvdata/data/${namespace}_${repo}" \
