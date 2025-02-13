@@ -36,8 +36,8 @@ cd /data2/github-slurp/helpers
 #mange "tensorflow" "tensorflow" 1800 "feather"
 #mange "odoo" "odoo" 1800 "feather"
 #mange "metabase" "metabase" 1800 "feather"
-mange "apache" "airflow" 1800 "feather"
-#mange "pytorch" "pytorch" 1800 "feather"
+#mange "apache" "airflow" 1800 "feather"
+mange "pytorch" "pytorch" 1800 "feather"
 #mange "kubernetes" "kubernetes" 1800 "feather"
 #mange "OWASP" "Nettacker" 1800 "feather"
 
