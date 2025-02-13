@@ -42,8 +42,9 @@ mange "kubernetes" "kubernetes" 1800
 mange "OWASP" "Nettacker" 1800
 
 cd /data2/mvdata
-git lfs uninstall
-touch **/*
+#git lfs uninstall
+#rm .gitattributes
+#
 git add .
 git commit -am 'data encode parquet'
 git push
