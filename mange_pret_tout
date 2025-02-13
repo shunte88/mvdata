@@ -32,19 +32,20 @@ cd /data2/github-slurp
 source .venv/bin/activate
 cd /data2/github-slurp/helpers
 
-mange "frappe" "erpnext" 1800
-mange "tensorflow" "tensorflow" 1800
-mange "odoo" "odoo" 1800
-mange "metabase" "metabase" 1800
-mange "apache" "airflow" 1800
-mange "pytorch" "pytorch" 1800
-mange "kubernetes" "kubernetes" 1800
-mange "OWASP" "Nettacker" 1800
+mange "frappe" "erpnext" 1800 "feather"
+
+#mange "tensorflow" "tensorflow" 1800 "feather"
+#mange "odoo" "odoo" 1800 "feather"
+#mange "metabase" "metabase" 1800 "feather"
+#mange "apache" "airflow" 1800 "feather"
+#mange "pytorch" "pytorch" 1800 "feather"
+#mange "kubernetes" "kubernetes" 1800 "feather"
+#mange "OWASP" "Nettacker" 1800 "feather"
 
 cd /data2/mvdata
 #git lfs uninstall
 #rm .gitattributes
 #
 git add .
-git commit -am 'data encode parquet'
+git commit -am 'data encode feather'
 git push
