@@ -33,9 +33,8 @@ source .venv/bin/activate
 cd /data2/github-slurp/helpers
 
 #mange "frappe" "erpnext" 1800 "feather"
-
-mange "tensorflow" "tensorflow" 1800 "feather"
-#mange "odoo" "odoo" 1800 "feather"
+#mange "tensorflow" "tensorflow" 1800 "feather"
+mange "odoo" "odoo" 1800 "feather"
 #mange "metabase" "metabase" 1800 "feather"
 #mange "apache" "airflow" 1800 "feather"
 #mange "pytorch" "pytorch" 1800 "feather"
