@@ -36,8 +36,8 @@ cd /data2/github-slurp/helpers
 #mange "tensorflow" "tensorflow" 18000
 #mange "odoo" "odoo" 18000
 #mange "metabase" "metabase" 18000
-mange "apache" "airflow" 18000
-#mange "pytorch" "pytorch" 18000
+#mange "apache" "airflow" 18000
+mange "pytorch" "pytorch" 18000
 #mange "kubernetes" "kubernetes" 18000
 #mange "OWASP" "Nettacker" 18000
 
