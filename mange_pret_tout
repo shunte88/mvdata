@@ -38,8 +38,8 @@ cd /data2/github-slurp/helpers
 #mange "metabase" "metabase" 1800 "feather"
 #mange "apache" "airflow" 1800 "feather"
 #mange "pytorch" "pytorch" 1800 "feather"
-mange "kubernetes" "kubernetes" 1800 "feather"
-#mange "OWASP" "Nettacker" 1800 "feather"
+#mange "kubernetes" "kubernetes" 1800 "feather"
+mange "OWASP" "Nettacker" 1800 "feather"
 
 cd /data2/mvdata
 #git lfs uninstall
