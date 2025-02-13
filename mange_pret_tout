@@ -42,28 +42,28 @@ cd /data2/github-slurp/helpers
 #mange "kubernetes" "kubernetes" 1800 "feather"
 #mange "OWASP" "Nettacker" 1800 "feather"
 
-#mange "frappe" "erpnext" 1800 "zip"
-#mange "tensorflow" "tensorflow" 1800 "feather"
-#mange "odoo" "odoo" 1800 "feather"
-#mange "metabase" "metabase" 1800 "feather"
-#mange "apache" "airflow" 1800 "feather"
-#mange "pytorch" "pytorch" 1800 "feather"
-#mange "kubernetes" "kubernetes" 1800 "feather"
-#mange "OWASP" "Nettacker" 1800 "feather"
+mange "frappe" "erpnext" 1800 "zip"
+mange "tensorflow" "tensorflow" 1800 "zip"
+mange "odoo" "odoo" 1800 "zip"
+mange "metabase" "metabase" 1800 "zip"
+mange "apache" "airflow" 1800 "zip"
+mange "pytorch" "pytorch" 1800 "zip"
+mange "kubernetes" "kubernetes" 1800 "zip"
+mange "OWASP" "Nettacker" 1800 "zip"
 
-mange "frappe" "erpnext" 1800 "parquet"
-mange "tensorflow" "tensorflow" 1800 "parquet"
-mange "odoo" "odoo" 1800 "parquet"
-mange "metabase" "metabase" 1800 "parquet"
-mange "apache" "airflow" 1800 "parquet"
-mange "pytorch" "pytorch" 1800 "parquet"
-mange "kubernetes" "kubernetes" 1800 "parquet"
-mange "OWASP" "Nettacker" 1800 "parquet"
+#mange "frappe" "erpnext" 1800 "parquet"
+#mange "tensorflow" "tensorflow" 1800 "parquet"
+#mange "odoo" "odoo" 1800 "parquet"
+#mange "metabase" "metabase" 1800 "parquet"
+#mange "apache" "airflow" 1800 "parquet"
+#mange "pytorch" "pytorch" 1800 "parquet"
+#mange "kubernetes" "kubernetes" 1800 "parquet"
+#mange "OWASP" "Nettacker" 1800 "parquet"
 
 cd /data2/mvdata
 #git lfs uninstall
 #rm .gitattributes
 #
 git add .
-git commit -am 'data encode variousr'
+git commit -am 'data encode various'
 git push
