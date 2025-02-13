@@ -12,7 +12,7 @@ mange() {
   echo "row count ..: $rows"
   echo "method .....: $method"
 
-  rm -fr "/data2/mvdata/data/${namespace}_${repo}/*.{method}"
+  rm -fr "/data2/mvdata/data/${namespace}_${repo}"
 
   python3 mange_csv.py \
   --output="/data2/mvdata/data/${namespace}_${repo}" \
@@ -32,14 +32,14 @@ cd /data2/github-slurp
 source .venv/bin/activate
 cd /data2/github-slurp/helpers
 
-mange "frappe" "erpnext" 180000
-mange "tensorflow" "tensorflow" 180000
-mange "odoo" "odoo" 180000
-mange "metabase" "metabase" 180000
-mange "apache" "airflow" 180000
-mange "pytorch" "pytorch" 180000
-mange "kubernetes" "kubernetes" 180000
-mange "OWASP" "Nettacker" 180000
+#mange "frappe" "erpnext" 1800
+#mange "tensorflow" "tensorflow" 1800
+#mange "odoo" "odoo" 1800
+#mange "metabase" "metabase" 1800
+#mange "apache" "airflow" 1800
+#mange "pytorch" "pytorch" 1800
+#mange "kubernetes" "kubernetes" 1800
+mange "OWASP" "Nettacker" 1800
 
 cd /data2/mvdata
 git add .
